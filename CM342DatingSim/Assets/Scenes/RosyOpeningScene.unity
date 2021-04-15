@@ -288,6 +288,12 @@ GameObject:
   - component: {fileID: 297899405}
   - component: {fileID: 297899394}
   - component: {fileID: 297899399}
+  - component: {fileID: 297899408}
+  - component: {fileID: 297899411}
+  - component: {fileID: 297899409}
+  - component: {fileID: 297899410}
+  - component: {fileID: 297899412}
+  - component: {fileID: 297899413}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -324,8 +330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 127.857086
-    y: 61.446556
+    x: 119.63789
+    y: 69.66574
     width: 111.187195
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -370,7 +376,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 297899403}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 297899413}
   variables: []
   description: 
   stepPause: 0
@@ -484,7 +491,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 739484581}
+  character: {fileID: 1047732890}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: d2c81dd94b6cb2643ae99eed7c4af3a6, type: 3}
   offset: 0
@@ -680,8 +687,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -85.89302
-    y: 138.86514
+    x: -92.74235
+    y: 142.97472
     width: 93.8356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -693,6 +700,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 297899398}
   - {fileID: 297899407}
+  - {fileID: 297899408}
   - {fileID: 297899406}
   - {fileID: 297899402}
   - {fileID: 297899397}
@@ -754,9 +762,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: 
+  storyText: 'That''s so rude! My name is Rosy and you''re the one that crash-landed
+    in my front yard. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 739484581}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -781,8 +790,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 20.936611
-    y: 220.7995
+    x: 22.306473
+    y: 226.27893
     width: 117.57989
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -793,6 +802,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 297899401}
+  - {fileID: 297899411}
+  - {fileID: 297899410}
+  - {fileID: 297899412}
+  - {fileID: 297899409}
   suppressAllAutoSelections: 0
 --- !u!114 &297899401
 MonoBehaviour:
@@ -851,8 +864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -249.60793
-    y: 228.21878
+    x: -266.0464
+    y: 211.78044
     width: 137.6712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -865,6 +878,7 @@ MonoBehaviour:
   - {fileID: 297899404}
   - {fileID: 297899405}
   - {fileID: 297899394}
+  - {fileID: 297899413}
   - {fileID: 297899399}
   suppressAllAutoSelections: 0
 --- !u!114 &297899404
@@ -934,7 +948,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -966,6 +980,171 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &297899408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297899380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1047732890}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d2c81dd94b6cb2643ae99eed7c4af3a6, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1690722248}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &297899409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297899380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: Aw thank you! My name is Rosy. You scared the fuzz off me earlier when
+    you crash-landed in my front yard. You were so bright... that I had to... oh
+    filaments! I got distracted again. What's your name?
+  description: 
+  character: {fileID: 739484581}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &297899410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297899380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &297899411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297899380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  storyText: Sorry. I was just a bit shocked. I didn't expect to see such a cute
+    moth girl.
+  description: 
+  character: {fileID: 1539688529}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &297899412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297899380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1047732890}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d2c81dd94b6cb2643ae99eed7c4af3a6, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &297899413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297899380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1047732890}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 1690722248}
+  toPosition: {fileID: 1690722248}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &739484580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,7 +1303,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: d2c81dd94b6cb2643ae99eed7c4af3a6, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1361,7 +1540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Character Name
+  nameText: You
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
