@@ -609,7 +609,6 @@ GameObject:
   - component: {fileID: 991508161}
   - component: {fileID: 991508162}
   - component: {fileID: 991508177}
-  - component: {fileID: 991508176}
   - component: {fileID: 991508175}
   - component: {fileID: 991508174}
   - component: {fileID: 991508173}
@@ -623,6 +622,7 @@ GameObject:
   - component: {fileID: 991508165}
   - component: {fileID: 991508164}
   - component: {fileID: 991508163}
+  - component: {fileID: 991508176}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -705,9 +705,9 @@ MonoBehaviour:
   - {fileID: 991508177}
   - {fileID: 991508095}
   - {fileID: 991508100}
-  - {fileID: 991508176}
-  - {fileID: 991508099}
   - {fileID: 991508175}
+  - {fileID: 991508099}
+  - {fileID: 991508176}
   - {fileID: 991508098}
   - {fileID: 991508107}
   - {fileID: 991508106}
@@ -739,9 +739,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991508159}
+  - {fileID: 991508091}
   selectedCommands:
-  - {fileID: 991508163}
+  - {fileID: 991508176}
   variables: []
   description: 
   stepPause: 0
@@ -787,14 +787,14 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: ae75e2585bb9640c8a10ef14ab87b00e, type: 3}
   offset: 0
-  fromPosition: {fileID: 0}
+  fromPosition: {fileID: 179626711}
   toPosition: {fileID: 2102049416}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 0
+  move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &991508095
@@ -3000,8 +3000,8 @@ MonoBehaviour:
   display: 1
   stage: {fileID: 0}
   character: {fileID: 1199585525}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ae75e2585bb9640c8a10ef14ab87b00e, type: 3}
+  replacedCharacter: {fileID: 1199585525}
+  portrait: {fileID: 21300000, guid: 5664d995d010b412aadb80cac13907ca, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3015,7 +3015,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &991508176
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3025,13 +3025,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 77
+  itemId: 91
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
   character: {fileID: 1199585525}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5664d995d010b412aadb80cac13907ca, type: 3}
+  replacedCharacter: {fileID: 1199585525}
+  portrait: {fileID: 21300000, guid: ae75e2585bb9640c8a10ef14ab87b00e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3060,7 +3060,7 @@ MonoBehaviour:
   display: 1
   stage: {fileID: 0}
   character: {fileID: 1199585525}
-  replacedCharacter: {fileID: 0}
+  replacedCharacter: {fileID: 1199585525}
   portrait: {fileID: 21300000, guid: cb88664ebc70f42a2b5b8820ff591562, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
