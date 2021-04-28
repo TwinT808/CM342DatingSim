@@ -121,6 +121,86 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &24852491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 24852495}
+  - component: {fileID: 24852494}
+  - component: {fileID: 24852493}
+  - component: {fileID: 24852492}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &24852492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24852491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &24852493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24852491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &24852494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24852491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &24852495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24852491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120487781
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +593,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 568334422}
   selectedCommands: []
   variables: []
   description: 
@@ -542,11 +623,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403.79456
     y: 259.9589
-    width: 70.89549
+    width: 110.89549
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 48
   blockName: DontShare
   description: 
   eventHandler: {fileID: 0}
@@ -571,7 +652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588
     y: 20
-    width: 68.50743
+    width: 108.50743
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -715,11 +796,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.4931
     y: 259.52042
-    width: 60
+    width: 83.432816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 47
   blockName: Share
   description: 
   eventHandler: {fileID: 0}
@@ -793,11 +874,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 235
     y: 194
-    width: 85.22385
+    width: 125.22385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 46
   blockName: ChoiceShare
   description: 
   eventHandler: {fileID: 0}
@@ -871,7 +952,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 641
     y: 90
-    width: 84.029816
+    width: 124.029816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1098,13 +1179,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 245
-    y: 115
-    width: 60
+    x: 259.92535
+    y: 116.49254
+    width: 76.26865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 45
   blockName: Start
   description: 
   eventHandler: {fileID: 568334420}
@@ -1158,13 +1239,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 69.39856
-    y: 349.01242
-    width: 89.99996
+    x: 60.44333
+    y: 346.02737
+    width: 129.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 50
   blockName: TalkEveryone
   description: 
   eventHandler: {fileID: 0}
@@ -1313,11 +1394,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 556.7673
     y: 347.39697
-    width: 60
+    width: 92.985054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 51
   blockName: NoTalk
   description: 
   eventHandler: {fileID: 0}
@@ -1391,11 +1472,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403.46585
     y: 347.5341
-    width: 78.05967
+    width: 118.05967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 49
   blockName: ChoiceTalk
   description: 
   eventHandler: {fileID: 0}
@@ -1417,13 +1498,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 60.079468
-    y: 453.84457
-    width: 107.9104
+    x: 51.12424
+    y: 450.85953
+    width: 147.9104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 52
   blockName: ChoiceCharacter
   description: 
   eventHandler: {fileID: 0}
@@ -1576,11 +1657,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 438.14938
     y: 554.32776
-    width: 60
+    width: 81.04476
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 56
   blockName: Isaac
   description: 
   eventHandler: {fileID: 0}
@@ -1630,11 +1711,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 249.49277
     y: 552.8352
-    width: 60
+    width: 66.71641
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 55
   blockName: Iris
   description: 
   eventHandler: {fileID: 0}
@@ -1682,13 +1763,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -70.5071
-    y: 555.8203
-    width: 60
+    x: -86.925026
+    y: 552.8352
+    width: 91.79102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 54
   blockName: Natalie
   description: 
   eventHandler: {fileID: 0}
@@ -1736,13 +1817,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -230.80566
-    y: 552.8355
-    width: 60
+    x: -247.22359
+    y: 549.8504
+    width: 95.37311
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 53
   blockName: Chanon
   description: 
   eventHandler: {fileID: 0}
