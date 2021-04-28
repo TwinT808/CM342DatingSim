@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 2073603237}
   - component: {fileID: 2073603246}
   - component: {fileID: 2073603247}
+  - component: {fileID: 2073603248}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -682,6 +683,7 @@ MonoBehaviour:
   - {fileID: 2073603247}
   variables:
   - {fileID: 2073603246}
+  - {fileID: 2073603248}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -736,4 +738,19 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   key: '{$Route}'
-  variable: {fileID: 2073603246}
+  variable: {fileID: 2073603248}
+--- !u!114 &2073603248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073603236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: RouteBool
+  value: 1
