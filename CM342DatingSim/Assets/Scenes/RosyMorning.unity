@@ -916,7 +916,6 @@ GameObject:
   - component: {fileID: 1368373340}
   - component: {fileID: 1368373342}
   - component: {fileID: 1368373341}
-  - component: {fileID: 1368373339}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -949,8 +948,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1368373278}
-  selectedCommands: []
+  - {fileID: 1368373281}
+  selectedCommands:
+  - {fileID: 1368373340}
   variables: []
   description: 
   stepPause: 0
@@ -1380,7 +1380,6 @@ MonoBehaviour:
   - {fileID: 1368373331}
   - {fileID: 1368373291}
   - {fileID: 1368373340}
-  - {fileID: 1368373339}
   suppressAllAutoSelections: 0
 --- !u!114 &1368373282
 MonoBehaviour:
@@ -2869,25 +2868,6 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
---- !u!114 &1368373339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368373264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 85
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: channonIntroScene
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!114 &1368373340
 MonoBehaviour:
   m_ObjectHideFlags: 0
