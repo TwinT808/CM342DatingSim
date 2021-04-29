@@ -304,6 +304,7 @@ GameObject:
   - component: {fileID: 474739305}
   - component: {fileID: 474739304}
   - component: {fileID: 474739339}
+  - component: {fileID: 474739340}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -342,7 +343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -277.40204
     y: 16.360817
-    width: 112.8866
+    width: 110.20618
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -351,6 +352,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 474739297}
   commandList:
+  - {fileID: 474739340}
   - {fileID: 474739301}
   - {fileID: 474739302}
   - {fileID: 474739303}
@@ -392,7 +394,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 474739298}
   selectedCommands:
-  - {fileID: 474739339}
+  - {fileID: 474739340}
   variables: []
   description: 
   stepPause: 0
@@ -817,7 +819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 34.32474
     y: 50.968994
-    width: 124.2268
+    width: 120.10309
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1211,7 +1213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -123.407196
     y: 46.84529
-    width: 104.639175
+    width: 102.7835
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1296,7 +1298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -128.56186
     y: -18.103123
-    width: 105.670105
+    width: 103.608246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1513,6 +1515,26 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &474739340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &768862651
 GameObject:
   m_ObjectHideFlags: 1
