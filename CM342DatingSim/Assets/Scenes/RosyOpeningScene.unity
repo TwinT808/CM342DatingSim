@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &34138001
 CanvasRenderer:
@@ -265,7 +265,6 @@ GameObject:
   - component: {fileID: 297899383}
   - component: {fileID: 297899382}
   - component: {fileID: 297899381}
-  - component: {fileID: 297899387}
   - component: {fileID: 297899386}
   - component: {fileID: 297899385}
   - component: {fileID: 297899388}
@@ -359,6 +358,7 @@ GameObject:
   - component: {fileID: 297899475}
   - component: {fileID: 297899474}
   - component: {fileID: 297899478}
+  - component: {fileID: 297899387}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -395,9 +395,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 119.63789
+    x: 121.06647
     y: 69.66574
-    width: 112.85712
+    width: 70.89549
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -406,7 +406,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 297899381}
   commandList:
-  - {fileID: 297899387}
   - {fileID: 297899386}
   - {fileID: 297899385}
   - {fileID: 297899390}
@@ -428,19 +427,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 368.21017, y: 13.943419}
+  scrollPos: {x: 471.17227, y: 81.57988}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 297899396}
+  selectedCommands:
+  - {fileID: 297899408}
   variables: []
   description: 
   stepPause: 0
@@ -529,15 +530,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 297899380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 115
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1.5
-  durationOLD: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &297899388
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -556,7 +559,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1047732890}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  portrait: {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1690722248}
@@ -655,7 +658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 393.04156
     y: 71.033905
-    width: 125.42854
+    width: 86.41788
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -759,7 +762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -114.039444
     y: 68.38136
-    width: 93.42856
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -861,8 +864,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 22.306473
-    y: 229.40393
-    width: 118.5714
+    y: 227.91139
+    width: 79.2537
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -945,7 +948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -302.9685
     y: 222.43085
-    width: 136.85712
+    width: 99.5522
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1095,18 +1098,18 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1047732890}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  portrait: {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1690722248}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &297899409
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1194,14 +1197,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  display: 3
+  display: 1
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 1047732890}
-  portrait: {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  portrait: {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1690722248}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -1228,7 +1231,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4ef2309b8e96be94fbd781ab6b92ded8, type: 3}
+  portrait: {fileID: 21300000, guid: dd8e09439cededf4885e5a925df22ec0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1690722248}
@@ -1281,7 +1284,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 537.2591
     y: 233.54654
-    width: 183.71423
+    width: 144.92531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1345,7 +1348,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 247.3847
     y: 229.49097
-    width: 116.28569
+    width: 75.67161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2013,7 +2016,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d9f6a21676a6c9c479735d54ab22edc4, type: 3}
+  portrait: {fileID: 21300000, guid: 9d0ab0ad61dc00b4292a515a18336979, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1690722248}
@@ -2039,22 +2042,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  display: 3
+  display: 1
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 1047732890}
-  portrait: {fileID: 21300000, guid: d9f6a21676a6c9c479735d54ab22edc4, type: 3}
+  portrait: {fileID: 21300000, guid: 9d0ab0ad61dc00b4292a515a18336979, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1690722248}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &297899443
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2591,18 +2594,18 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1047732890}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  portrait: {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &297899463
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2621,7 +2624,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d01983a2ab3a3224f95b3625fcf824fc, type: 3}
+  portrait: {fileID: 21300000, guid: 2112fc908f5d0fb4d9593e0eff0742b2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2651,7 +2654,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 033b1c28b33dd594985edca5e2fcc43e, type: 3}
+  portrait: {fileID: 21300000, guid: 907460ce6f7b1e440a6537600c934b5a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2681,7 +2684,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d9f6a21676a6c9c479735d54ab22edc4, type: 3}
+  portrait: {fileID: 21300000, guid: 9d0ab0ad61dc00b4292a515a18336979, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2711,7 +2714,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d9f6a21676a6c9c479735d54ab22edc4, type: 3}
+  portrait: {fileID: 21300000, guid: 9d0ab0ad61dc00b4292a515a18336979, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2741,7 +2744,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  portrait: {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2771,7 +2774,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d01983a2ab3a3224f95b3625fcf824fc, type: 3}
+  portrait: {fileID: 21300000, guid: 2112fc908f5d0fb4d9593e0eff0742b2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2801,7 +2804,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 033b1c28b33dd594985edca5e2fcc43e, type: 3}
+  portrait: {fileID: 21300000, guid: 907460ce6f7b1e440a6537600c934b5a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2831,7 +2834,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 033b1c28b33dd594985edca5e2fcc43e, type: 3}
+  portrait: {fileID: 21300000, guid: 907460ce6f7b1e440a6537600c934b5a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2861,7 +2864,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 739484581}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  portrait: {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2906,9 +2909,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 126.89938
+    x: 128.32796
     y: 447.67154
-    width: 111.714264
+    width: 73.283554
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2918,6 +2921,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 297899478}
+  - {fileID: 297899387}
   - {fileID: 297899472}
   suppressAllAutoSelections: 0
 --- !u!114 &297899474
@@ -3064,13 +3068,13 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0.97981787, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 4ef2309b8e96be94fbd781ab6b92ded8, type: 3}
-  - {fileID: 21300000, guid: 7bd4753fe8c6e8940b84ea3750b0f1cb, type: 3}
-  - {fileID: 21300000, guid: d9f6a21676a6c9c479735d54ab22edc4, type: 3}
-  - {fileID: 21300000, guid: 033b1c28b33dd594985edca5e2fcc43e, type: 3}
-  - {fileID: 21300000, guid: d01983a2ab3a3224f95b3625fcf824fc, type: 3}
-  - {fileID: 21300000, guid: 0994d88744e9b634f8f8d53bd9a2d734, type: 3}
-  - {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  - {fileID: 21300000, guid: dd8e09439cededf4885e5a925df22ec0, type: 3}
+  - {fileID: 21300000, guid: 8e5997a40d07c02489007aa2bd93fd34, type: 3}
+  - {fileID: 21300000, guid: 9d0ab0ad61dc00b4292a515a18336979, type: 3}
+  - {fileID: 21300000, guid: 907460ce6f7b1e440a6537600c934b5a, type: 3}
+  - {fileID: 21300000, guid: 2112fc908f5d0fb4d9593e0eff0742b2, type: 3}
+  - {fileID: 21300000, guid: 4c2c7287e9ed451489db6605095d1c9f, type: 3}
+  - {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -3122,8 +3126,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 1300, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &890381772
 MonoBehaviour:
@@ -3195,13 +3199,13 @@ MonoBehaviour:
   nameColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 4ef2309b8e96be94fbd781ab6b92ded8, type: 3}
-  - {fileID: 21300000, guid: 7bd4753fe8c6e8940b84ea3750b0f1cb, type: 3}
-  - {fileID: 21300000, guid: d9f6a21676a6c9c479735d54ab22edc4, type: 3}
-  - {fileID: 21300000, guid: 033b1c28b33dd594985edca5e2fcc43e, type: 3}
-  - {fileID: 21300000, guid: d01983a2ab3a3224f95b3625fcf824fc, type: 3}
-  - {fileID: 21300000, guid: 0994d88744e9b634f8f8d53bd9a2d734, type: 3}
-  - {fileID: 21300000, guid: 7664f62e76293ae4dab6dbf9407b729b, type: 3}
+  - {fileID: 21300000, guid: dd8e09439cededf4885e5a925df22ec0, type: 3}
+  - {fileID: 21300000, guid: 8e5997a40d07c02489007aa2bd93fd34, type: 3}
+  - {fileID: 21300000, guid: 9d0ab0ad61dc00b4292a515a18336979, type: 3}
+  - {fileID: 21300000, guid: 907460ce6f7b1e440a6537600c934b5a, type: 3}
+  - {fileID: 21300000, guid: 2112fc908f5d0fb4d9593e0eff0742b2, type: 3}
+  - {fileID: 21300000, guid: 4c2c7287e9ed451489db6605095d1c9f, type: 3}
+  - {fileID: 21300000, guid: d72d810416615fa499b9c8f569960969, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -3253,8 +3257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 460.43, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1496424877
 MonoBehaviour:
@@ -3493,8 +3497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -460.43, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1690722249
 MonoBehaviour:
@@ -3855,8 +3859,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -1300, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2131373844
 MonoBehaviour:
