@@ -457,10 +457,8 @@ GameObject:
   - component: {fileID: 981974314}
   - component: {fileID: 981974313}
   - component: {fileID: 981974303}
-  - component: {fileID: 981974312}
   - component: {fileID: 981974311}
   - component: {fileID: 981974310}
-  - component: {fileID: 981974309}
   - component: {fileID: 981974308}
   - component: {fileID: 981974307}
   - component: {fileID: 981974306}
@@ -485,6 +483,9 @@ GameObject:
   - component: {fileID: 981974326}
   - component: {fileID: 981974328}
   - component: {fileID: 981974333}
+  - component: {fileID: 981974336}
+  - component: {fileID: 981974335}
+  - component: {fileID: 981974334}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -505,21 +506,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 557.1209, y: -72.57022}
+  scrollPos: {x: 469.20087, y: 166.36484}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 981974320}
-  selectedCommands:
-  - {fileID: 981974333}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -562,7 +561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70
     y: 58
-    width: 76.352936
+    width: 77.34177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -825,7 +824,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -110.399994
     y: 133.35294
-    width: 80.11764
+    width: 81.392395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -965,7 +964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 250.6
     y: 132
-    width: 71.64706
+    width: 72.27847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -979,33 +978,6 @@ MonoBehaviour:
   - {fileID: 981974315}
   - {fileID: 981974316}
   suppressAllAutoSelections: 0
---- !u!114 &981974309
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981974290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &981974310
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1056,33 +1028,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &981974312
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981974290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 302.6
-    y: 30
-    width: 106.47058
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 34
-  blockName: TempTalk
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 981974309}
-  suppressAllAutoSelections: 0
 --- !u!114 &981974313
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1099,7 +1044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 49.600006
     y: 132
-    width: 118.705864
+    width: 121.89871
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1230,7 +1175,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -126.87056
     y: 236.70576
-    width: 116.82352
+    width: 119.8734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1283,7 +1228,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -278.34085
     y: 235.99997
-    width: 78.23529
+    width: 79.36708
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1297,6 +1242,9 @@ MonoBehaviour:
   - {fileID: 981974326}
   - {fileID: 981974327}
   - {fileID: 981974333}
+  - {fileID: 981974336}
+  - {fileID: 981974335}
+  - {fileID: 981974334}
   suppressAllAutoSelections: 0
 --- !u!114 &981974321
 MonoBehaviour:
@@ -1366,7 +1314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 57.011814
     y: 238.17635
-    width: 103.64705
+    width: 105.69619
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1432,7 +1380,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &981974326
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1463,7 +1411,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974327
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1490,7 +1438,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974328
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1517,7 +1465,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974329
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1544,7 +1492,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974330
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1571,7 +1519,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974331
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1598,7 +1546,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974332
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1626,7 +1574,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &981974333
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1638,9 +1586,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: 
+  storyText: Oh and if you like that I haveafewtomesIreallylikethinkyouwillenjoyorifyou'reintohistoryofmathorevenhistoryofhistoryIcanrecommendanautobiographyandanotherone-
   description: 
   character: {fileID: 2115823981}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &981974334
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: Psst, what took you so long? I managed to sneak some books from Isaac's
+    stock. Whatever you did, thanks. I could use a snack after a long day. Let's
+    go before he notices.
+  description: 
+  character: {fileID: 1912788421}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &981974335
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: Oh..it seems I went off on a tangent, ahaha, sorry about that. Anyway,
+    I'll let you go, Ishould probably close up for the day. Stop by anytime for a
+    chat.
+  description: 
+  character: {fileID: 2115823981}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &981974336
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: After what seemed like hours, Isaac finally loses steam.
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
