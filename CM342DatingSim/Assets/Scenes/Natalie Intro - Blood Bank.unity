@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 221934216}
   - component: {fileID: 221934215}
   - component: {fileID: 221934101}
+  - component: {fileID: 221934104}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -435,6 +436,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 221934096}
   - {fileID: 221934095}
+  - {fileID: 221934104}
   - {fileID: 221934094}
   - {fileID: 221934102}
   - {fileID: 221934103}
@@ -474,7 +476,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 221934098}
   selectedCommands:
-  - {fileID: 221934102}
+  - {fileID: 221934104}
   variables: []
   description: 
   stepPause: 0
@@ -584,6 +586,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &221934104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221934093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 59504179b65d12a48890fe934e9d670d, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!114 &221934106
 MonoBehaviour:
   m_ObjectHideFlags: 2

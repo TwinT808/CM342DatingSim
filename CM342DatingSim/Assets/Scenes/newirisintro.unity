@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 474739350}
   - component: {fileID: 474739349}
   - component: {fileID: 474739348}
+  - component: {fileID: 474739353}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -480,7 +481,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325.85547
     y: 20.484528
-    width: 112.8866
+    width: 112.37113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -491,6 +492,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 474739340}
   - {fileID: 474739301}
+  - {fileID: 474739353}
   - {fileID: 474739302}
   - {fileID: 474739303}
   - {fileID: 474739339}
@@ -529,9 +531,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 474739332}
+  - {fileID: 474739298}
   selectedCommands:
-  - {fileID: 474739318}
+  - {fileID: 474739353}
   variables:
   - {fileID: 474739342}
   description: 
@@ -1354,7 +1356,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -120.31441
     y: 64.371086
-    width: 104.639175
+    width: 104.12371
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1440,7 +1442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -121.34535
     y: -28.4124
-    width: 105.670105
+    width: 105.15463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2231,6 +2233,24 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
+--- !u!114 &474739353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: e7c64676062579342a87653f5064b634, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &768862651
 GameObject:
   m_ObjectHideFlags: 1

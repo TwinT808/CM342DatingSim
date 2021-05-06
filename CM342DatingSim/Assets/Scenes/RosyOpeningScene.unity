@@ -593,6 +593,7 @@ GameObject:
   - component: {fileID: 869260375}
   - component: {fileID: 869260374}
   - component: {fileID: 869260373}
+  - component: {fileID: 869260379}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -631,7 +632,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 354
     y: 56
-    width: 77.2
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -640,6 +641,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 869260338}
   commandList:
+  - {fileID: 869260379}
   - {fileID: 869260343}
   - {fileID: 869260342}
   - {fileID: 869260344}
@@ -671,9 +673,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 869260363}
+  - {fileID: 869260339}
   selectedCommands:
-  - {fileID: 869260374}
+  - {fileID: 869260379}
   variables: []
   description: 
   stepPause: 0
@@ -824,7 +826,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 520
     y: 135
-    width: 94
+    width: 93
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -903,7 +905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 184
     y: 136
-    width: 79.6
+    width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -930,7 +932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 331
     y: 135
-    width: 120.4
+    width: 119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1083,11 +1085,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90
     y: 329
-    width: 90.8
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 41
   blockName: Choice
   description: 
   eventHandler: {fileID: 0}
@@ -1138,11 +1140,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 98
     y: 279
-    width: 75.6
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 40
   blockName: Talk
   description: 
   eventHandler: {fileID: 0}
@@ -1219,11 +1221,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 653
     y: 321
-    width: 97.2
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 44
   blockName: Hideous
   description: 
   eventHandler: {fileID: 0}
@@ -1278,11 +1280,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 318
-    width: 77.2
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 43
   blockName: Cute
   description: 
   eventHandler: {fileID: 0}
@@ -1362,11 +1364,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 509
     y: 225
-    width: 118
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 10
+  itemId: 42
   blockName: ChoiceCute
   description: 
   eventHandler: {fileID: 0}
@@ -1683,6 +1685,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 688056107}
+--- !u!114 &869260379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869260337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 49f45b457141cdc47b756fa1bfe49bd7, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1001 &992688675
 PrefabInstance:
   m_ObjectHideFlags: 0

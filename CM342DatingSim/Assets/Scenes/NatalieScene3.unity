@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 528359253}
   - component: {fileID: 528359252}
   - component: {fileID: 528359236}
+  - component: {fileID: 528359242}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -253,7 +254,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -381.81595
     y: 3.1660376
-    width: 78.13187
+    width: 76.92307
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
@@ -262,6 +263,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 528359175}
   commandList:
+  - {fileID: 528359242}
   - {fileID: 528359179}
   - {fileID: 528359182}
   - {fileID: 528359181}
@@ -309,7 +311,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 528359176}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 528359242}
   variables: []
   description: 
   stepPause: 0
@@ -810,7 +813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -234
     y: 125.99988
-    width: 135.27472
+    width: 135.16483
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
@@ -877,7 +880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -233
     y: -86.00012
-    width: 139.67032
+    width: 139.56042
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
@@ -1105,7 +1108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.8021984
     y: 127.99988
-    width: 128.24176
+    width: 126.92307
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
@@ -1278,7 +1281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2
     y: -85.00012
-    width: 118.57143
+    width: 119.78021
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
@@ -2120,6 +2123,24 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &528359242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 59504179b65d12a48890fe934e9d670d, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!114 &528359243
 MonoBehaviour:
   m_ObjectHideFlags: 2
