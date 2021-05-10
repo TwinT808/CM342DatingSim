@@ -255,13 +255,10 @@ GameObject:
   - component: {fileID: 327098503}
   - component: {fileID: 327098502}
   - component: {fileID: 327098501}
-  - component: {fileID: 327098500}
   - component: {fileID: 327098499}
   - component: {fileID: 327098522}
   - component: {fileID: 327098521}
-  - component: {fileID: 327098520}
   - component: {fileID: 327098519}
-  - component: {fileID: 327098518}
   - component: {fileID: 327098517}
   - component: {fileID: 327098516}
   - component: {fileID: 327098513}
@@ -292,7 +289,6 @@ GameObject:
   - component: {fileID: 327098560}
   - component: {fileID: 327098558}
   - component: {fileID: 327098557}
-  - component: {fileID: 327098556}
   - component: {fileID: 327098555}
   - component: {fileID: 327098554}
   - component: {fileID: 327098550}
@@ -303,9 +299,6 @@ GameObject:
   - component: {fileID: 327098565}
   - component: {fileID: 327098564}
   - component: {fileID: 327098568}
-  - component: {fileID: 327098573}
-  - component: {fileID: 327098572}
-  - component: {fileID: 327098571}
   - component: {fileID: 327098570}
   - component: {fileID: 327098569}
   - component: {fileID: 327098574}
@@ -386,6 +379,11 @@ GameObject:
   - component: {fileID: 327098624}
   - component: {fileID: 327098623}
   - component: {fileID: 327098622}
+  - component: {fileID: 327098627}
+  - component: {fileID: 327098500}
+  - component: {fileID: 327098518}
+  - component: {fileID: 327098520}
+  - component: {fileID: 327098556}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -531,7 +529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 182.76593, y: 10.431792}
+  scrollPos: {x: 519.7529, y: -685.4584}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -543,9 +541,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 327098484}
-  selectedCommands:
-  - {fileID: 327098481}
+  - {fileID: 327098537}
+  selectedCommands: []
   variables:
   - {fileID: 327098583}
   - {fileID: 327098582}
@@ -599,7 +596,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098459
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -688,7 +685,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098462
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -797,7 +794,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098466
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -903,7 +900,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098470
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -948,7 +945,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098472
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1056,7 +1053,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098476
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1083,7 +1080,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098477
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1232,10 +1229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Maybe your joke didn't work. You watch as his ears lower and expression
-    turn confused.
+  storyText: Are you really getting stressed over some hardened flour?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 672890660}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1245,7 +1241,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098483
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1303,6 +1299,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 327098482}
+  - {fileID: 327098627}
   - {fileID: 327098561}
   - {fileID: 327098481}
   - {fileID: 327098478}
@@ -1729,17 +1726,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 327098450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 58
+  itemId: 206
   indentLevel: 0
-  duration: 1.5
-  targetAlpha: 1
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
+  storyText: You both look into the oven and watch the dough rise into soft fluffy
+    buns.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098501
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1755,7 +1760,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -179.37486
-    y: 884.9575
+    y: 883.58765
     width: 99.31505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1765,20 +1770,16 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 327098522}
-  - {fileID: 327098572}
-  - {fileID: 327098500}
-  - {fileID: 327098573}
-  - {fileID: 327098518}
   - {fileID: 327098556}
+  - {fileID: 327098522}
   - {fileID: 327098521}
+  - {fileID: 327098500}
   - {fileID: 327098570}
-  - {fileID: 327098571}
-  - {fileID: 327098520}
   - {fileID: 327098519}
   - {fileID: 327098569}
   - {fileID: 327098517}
   - {fileID: 327098516}
+  - {fileID: 327098518}
   - {fileID: 327098613}
   suppressAllAutoSelections: 0
 --- !u!114 &327098502
@@ -1833,7 +1834,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098504
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1848,8 +1849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -183.14476
-    y: 803.83105
+    x: -184.51459
+    y: 805.2009
     width: 106.98628
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1915,7 +1916,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1997,7 +1998,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2088,7 +2089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 32.99254
+    x: 31.622677
     y: 975.7752
     width: 80.68492
     height: 40
@@ -2099,6 +2100,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 327098520}
   - {fileID: 327098555}
   - {fileID: 327098546}
   - {fileID: 327098545}
@@ -2172,8 +2174,7 @@ MonoBehaviour:
   itemId: 66
   indentLevel: 0
   storyText: You both touch tips of the bread and take a bite. The bun is soft and
-    melts in your mouth like cotton candy. You taste the sweet filling that lays
-    in the center of the bread. It's sweet but not too sweet.
+    melts in your mouth like cotton candy.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2185,7 +2186,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098517
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2212,7 +2213,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098518
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2222,17 +2223,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 327098450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 64
+  itemId: 207
   indentLevel: 0
-  duration: 1.5
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
+  storyText: You taste the sweet filling that lays in the center of the bread. It's
+    sweet but not too sweet.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098519
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2259,7 +2268,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098520
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2272,13 +2281,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 62
+  itemId: 208
   indentLevel: 0
-  storyText: He pulls one of the buns from the pan, the steam still rising from the
-    freshly cooked bread. The mouth-watering smell wafting through the air and causing
-    you to drool a bit.
+  storyText: Wow, this is absolutely amazing. I think you did a great job.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 672890660}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2288,7 +2295,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098521
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2304,8 +2311,7 @@ MonoBehaviour:
   itemId: 61
   indentLevel: 0
   storyText: You watch as he passionately combines the ingredients and kneads the
-    dough. He asks for your help on several parts and you're happy to oblige. You
-    both look into the oven and watch the dough rise into soft fluffy buns.
+    dough. He asks for your help on several parts and you're happy to oblige.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2317,7 +2323,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098522
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2344,7 +2350,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098523
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2460,7 +2466,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098528
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2487,7 +2493,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098529
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2600,7 +2606,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098533
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2684,7 +2690,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098536
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2711,7 +2717,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098537
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2726,8 +2732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -436.16074
-    y: 1072.208
+    x: -438.90048
+    y: 1070.8381
     width: 127.80819
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2809,7 +2815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 79
   indentLevel: 0
-  storyText: Hmmm I hear you. How can I improve it?
+  storyText: Hmmm, I hear you. How can I improve it?
   description: 
   character: {fileID: 1054424053}
   portrait: {fileID: 0}
@@ -2821,7 +2827,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098541
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2848,7 +2854,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098542
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2876,7 +2882,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098543
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2891,7 +2897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 6.3986607
+    x: 5.028798
     y: 1072.3269
     width: 132.19174
     height: 40
@@ -2986,7 +2992,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098547
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3001,8 +3007,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -411.20703
-    y: 976.361
+    x: -412.5769
+    y: 972.2514
     width: 73.01369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3035,7 +3041,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ced88a36ceab24edba6c75fea1a8727b, type: 3}
+  portrait: {fileID: 21300000, guid: cada5e67b0d1b374b8a555f641150fa4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3065,7 +3071,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7a0c0e6299d0a4c3698d760445f7f07c, type: 3}
+  portrait: {fileID: 21300000, guid: 4ccd6bc56142b20498ef2715f75bddcc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3095,7 +3101,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ab2dc29e8389a4895aa3fba661ad2aeb, type: 3}
+  portrait: {fileID: 21300000, guid: 13d4cc8e6b55ac949b5efa66580a5c31, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3171,7 +3177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: nonsense, anyone can bake. I'll help you through it.
+  storyText: Nonsense, anyone can bake. I'll help you through it.
   description: 
   character: {fileID: 1054424053}
   portrait: {fileID: 0}
@@ -3183,7 +3189,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098554
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3202,7 +3208,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4e3b8063344c9479582de5c8c9d8e959, type: 3}
+  portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3232,7 +3238,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f8536bbe78ec24683a8cd8c4aab15745, type: 3}
+  portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3246,7 +3252,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &327098556
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3256,24 +3262,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 104
+  itemId: 209
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4e3b8063344c9479582de5c8c9d8e959, type: 3}
+  portrait: {fileID: 21300000, guid: 253770232a0ad2743962919fe3cedfc4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 517879664}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &327098557
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3292,7 +3298,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4e3b8063344c9479582de5c8c9d8e959, type: 3}
+  portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3322,7 +3328,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f8536bbe78ec24683a8cd8c4aab15745, type: 3}
+  portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3361,7 +3367,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098560
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3380,7 +3386,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 7a0c0e6299d0a4c3698d760445f7f07c, type: 3}
+  portrait: {fileID: 21300000, guid: 4ccd6bc56142b20498ef2715f75bddcc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3590,7 +3596,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f8536bbe78ec24683a8cd8c4aab15745, type: 3}
+  portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3601,7 +3607,7 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &327098570
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3616,7 +3622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: Some time passes...
+  storyText: He pulls one of the buns from the pan, the steam still rising from the
+    freshly cooked bread. The mouth-watering smell wafting through the air and causing
+    you to drool a bit.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3628,73 +3636,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &327098571
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327098450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 120
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  durationOLD: 0
---- !u!114 &327098572
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327098450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 119
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1054424053}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 850512044}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &327098573
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327098450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 118
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  durationOLD: 0
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098574
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4317,7 +4259,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098590
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4464,7 +4406,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098596
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4516,7 +4458,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098598
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4635,7 +4577,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098603
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4678,7 +4620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 203.4704
+    x: 204.84026
     y: 519.98096
     width: 98.21916
     height: 40
@@ -4711,7 +4653,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1054424053}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4e3b8063344c9479582de5c8c9d8e959, type: 3}
+  portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4749,7 +4691,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098607
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4777,7 +4719,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098608
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4804,7 +4746,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098609
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4832,7 +4774,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098610
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4847,7 +4789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 183
   indentLevel: 0
-  storyText: I'm not sure... I don't handle chocolate that well.
+  storyText: I'm not sure...I don't handle chocolate that well.
   description: 
   character: {fileID: 1054424053}
   portrait: {fileID: 0}
@@ -4859,7 +4801,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098611
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4887,7 +4829,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2107679310}
 --- !u!114 &327098612
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4902,7 +4844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  text: Wow this is absolutely amazing. I think you did a great job
+  text: Wow...
   description: 
   targetBlock: {fileID: 327098513}
   hideIfVisited: 0
@@ -5330,7 +5272,7 @@ MonoBehaviour:
   itemId: 195
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 327098582}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -5361,7 +5303,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 0
+        integerVal: 1
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -5417,7 +5359,7 @@ MonoBehaviour:
       vector4Data:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 0
+  setOperator: 2
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -6115,6 +6057,34 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &327098627
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  indentLevel: 0
+  storyText: Maybe your joke didn't work. You watch as his ears lower and expression
+    turn confused.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1508655554}
 --- !u!1 &517879663
 GameObject:
   m_ObjectHideFlags: 0
