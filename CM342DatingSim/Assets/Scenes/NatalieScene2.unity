@@ -214,14 +214,10 @@ GameObject:
   - component: {fileID: 300904919}
   - component: {fileID: 300904924}
   - component: {fileID: 300904923}
-  - component: {fileID: 300904922}
   - component: {fileID: 300904921}
-  - component: {fileID: 300904925}
   - component: {fileID: 300904920}
   - component: {fileID: 300904930}
-  - component: {fileID: 300904928}
   - component: {fileID: 300904929}
-  - component: {fileID: 300904926}
   - component: {fileID: 300904927}
   - component: {fileID: 300904932}
   - component: {fileID: 300904931}
@@ -229,10 +225,8 @@ GameObject:
   - component: {fileID: 300904938}
   - component: {fileID: 300904937}
   - component: {fileID: 300904935}
-  - component: {fileID: 300904936}
   - component: {fileID: 300904934}
   - component: {fileID: 300904933}
-  - component: {fileID: 300904972}
   - component: {fileID: 300904971}
   - component: {fileID: 300904970}
   - component: {fileID: 300904969}
@@ -244,11 +238,9 @@ GameObject:
   - component: {fileID: 300904964}
   - component: {fileID: 300904963}
   - component: {fileID: 300904962}
-  - component: {fileID: 300904961}
   - component: {fileID: 300904960}
   - component: {fileID: 300904959}
   - component: {fileID: 300904958}
-  - component: {fileID: 300904957}
   - component: {fileID: 300904956}
   - component: {fileID: 300904955}
   - component: {fileID: 300904954}
@@ -260,19 +252,16 @@ GameObject:
   - component: {fileID: 300904948}
   - component: {fileID: 300904947}
   - component: {fileID: 300904946}
-  - component: {fileID: 300904945}
   - component: {fileID: 300904944}
   - component: {fileID: 300904943}
   - component: {fileID: 300904942}
   - component: {fileID: 300904940}
   - component: {fileID: 300904976}
-  - component: {fileID: 300904978}
   - component: {fileID: 300904975}
   - component: {fileID: 300904974}
   - component: {fileID: 300904979}
   - component: {fileID: 300904977}
   - component: {fileID: 300904983}
-  - component: {fileID: 300904982}
   - component: {fileID: 300904981}
   - component: {fileID: 300904980}
   - component: {fileID: 300904987}
@@ -297,6 +286,12 @@ GameObject:
   - component: {fileID: 300904996}
   - component: {fileID: 300904995}
   - component: {fileID: 300905004}
+  - component: {fileID: 300904925}
+  - component: {fileID: 300904922}
+  - component: {fileID: 300904928}
+  - component: {fileID: 300904945}
+  - component: {fileID: 300904936}
+  - component: {fileID: 300904926}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -317,11 +312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 267.17783, y: 100.98973}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -329,10 +324,11 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 300904941}
-  selectedCommands:
-  - {fileID: 300904940}
-  variables: []
+  - {fileID: 300904927}
+  selectedCommands: []
+  variables:
+  - {fileID: 300904925}
+  - {fileID: 300904922}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -357,9 +353,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 70
-    y: 173
-    width: 77.2
+    x: -34
+    y: 174
+    width: 77.39725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -371,18 +367,15 @@ MonoBehaviour:
   - {fileID: 300904915}
   - {fileID: 300905004}
   - {fileID: 300904917}
-  - {fileID: 300904925}
   - {fileID: 300904916}
   - {fileID: 300904919}
   - {fileID: 300904924}
   - {fileID: 300904923}
-  - {fileID: 300904922}
   - {fileID: 300904918}
   - {fileID: 300904921}
   - {fileID: 300904920}
   - {fileID: 300904989}
   - {fileID: 300904930}
-  - {fileID: 300904928}
   - {fileID: 300904926}
   suppressAllAutoSelections: 0
 --- !u!114 &300904913
@@ -616,15 +609,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 300904910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
+  scope: 2
+  key: NatalieRoute
+  value: 0
 --- !u!114 &300904923
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -688,27 +678,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 300904910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1412548841}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  scope: 2
+  key: NatalieAffection
+  value: 0
 --- !u!114 &300904926
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -718,22 +693,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 300904910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 95
   indentLevel: 0
-  text: There's literally no one here... do you even have customers?
-  description: 
-  targetBlock: {fileID: 300904927}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 300904928}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &300904927
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -748,9 +719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 416
-    y: 323
-    width: 126
+    x: 95.027374
+    y: 290.65765
+    width: 121.23285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -772,23 +743,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 300904910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  text: 'You mentioned some things about your business... and I was worried so I
-    came to check up on you. '
+  nodeRect:
+    serializedVersion: 2
+    x: 94.630135
+    y: 174.36986
+    width: 121.23285
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 92
+  blockName: ChoiceWorry
   description: 
-  targetBlock: {fileID: 300904929}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 300904945}
+  - {fileID: 300904936}
+  suppressAllAutoSelections: 0
 --- !u!114 &300904929
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -803,9 +776,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 270
-    y: 74
-    width: 154.8
+    x: 80.547966
+    y: 43.643814
+    width: 149.72598
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -822,12 +795,10 @@ MonoBehaviour:
   - {fileID: 300904938}
   - {fileID: 300904992}
   - {fileID: 300904937}
-  - {fileID: 300904936}
   - {fileID: 300904935}
   - {fileID: 300904991}
   - {fileID: 300904934}
   - {fileID: 300904933}
-  - {fileID: 300904972}
   - {fileID: 300904971}
   - {fileID: 300904990}
   - {fileID: 300904970}
@@ -1012,15 +983,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 300904910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 23
+  itemId: 94
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
+  text: There's literally no one here... do you even have customers?
+  description: 
+  targetBlock: {fileID: 300904927}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &300904937
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1146,9 +1124,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 488
-    y: 31
-    width: 192.4
+    x: 312.17807
+    y: -5.3561363
+    width: 183.69858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1160,13 +1138,11 @@ MonoBehaviour:
   - {fileID: 300905003}
   - {fileID: 300904963}
   - {fileID: 300904962}
-  - {fileID: 300904961}
   - {fileID: 300904960}
   - {fileID: 300905002}
   - {fileID: 300904959}
   - {fileID: 300904958}
   - {fileID: 300905001}
-  - {fileID: 300904957}
   - {fileID: 300905000}
   - {fileID: 300904956}
   - {fileID: 300904999}
@@ -1181,7 +1157,6 @@ MonoBehaviour:
   - {fileID: 300904948}
   - {fileID: 300904947}
   - {fileID: 300904946}
-  - {fileID: 300904945}
   - {fileID: 300904944}
   - {fileID: 300904997}
   - {fileID: 300904943}
@@ -1278,15 +1253,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 300904910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 54
+  itemId: 93
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
+  text: 'You mentioned some things about your business... and I was worried so I
+    came to check up on you. '
+  description: 
+  targetBlock: {fileID: 300904929}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &300904946
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1587,24 +1570,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &300904957
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300904910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!114 &300904958
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1688,24 +1653,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &300904961
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300904910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!114 &300904962
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1833,9 +1780,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 523
-    y: 121
-    width: 122.8
+    x: 341.178
+    y: 81.643776
+    width: 120.13696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1845,14 +1792,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 300904983}
-  - {fileID: 300904978}
   - {fileID: 300904977}
   - {fileID: 300904976}
   - {fileID: 300904975}
   - {fileID: 300904996}
   - {fileID: 300904974}
   - {fileID: 300904979}
-  - {fileID: 300904982}
   - {fileID: 300904981}
   - {fileID: 300904980}
   - {fileID: 300904987}
@@ -1995,27 +1940,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &300904972
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300904910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 26
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!114 &300904973
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2045,7 +1972,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904974
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2072,7 +1999,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904975
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2099,7 +2026,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904976
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2126,7 +2053,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904977
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2154,27 +2081,9 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &300904978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300904910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 61
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!114 &300904979
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2204,7 +2113,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904980
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2231,7 +2140,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904981
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2259,27 +2168,9 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &300904982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300904910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 67
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!114 &300904983
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2309,7 +2200,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904984
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2339,7 +2230,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904985
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2366,7 +2257,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904986
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2394,7 +2285,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904987
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2421,7 +2312,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &300904988
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2451,7 +2342,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904989
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2481,7 +2372,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904990
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2511,7 +2402,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904991
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2541,7 +2432,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904992
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2571,7 +2462,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904993
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2601,7 +2492,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904994
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2631,7 +2522,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904995
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2661,7 +2552,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904996
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2691,7 +2582,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904997
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2721,7 +2612,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904998
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2751,7 +2642,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300904999
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2781,7 +2672,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300905000
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2811,7 +2702,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300905001
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2841,7 +2732,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300905002
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2871,7 +2762,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300905003
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2901,7 +2792,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &300905004
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3262,7 +3153,7 @@ Transform:
   m_Children:
   - {fileID: 1711363277}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1412548840
 GameObject:
@@ -3296,8 +3187,7 @@ MonoBehaviour:
   nameText: MC
   nameColor: {r: 0, g: 0.5930419, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: 84cdbfde1b7d4c24ab7071894480d5db, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -3313,7 +3203,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1640275470
 GameObject:
