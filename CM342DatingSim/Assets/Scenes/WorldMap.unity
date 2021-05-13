@@ -481,9 +481,6 @@ GameObject:
   - component: {fileID: 1730182090}
   - component: {fileID: 1730182142}
   - component: {fileID: 1730182143}
-  - component: {fileID: 1730182156}
-  - component: {fileID: 1730182155}
-  - component: {fileID: 1730182154}
   - component: {fileID: 1730182153}
   - component: {fileID: 1730182152}
   - component: {fileID: 1730182151}
@@ -608,10 +605,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1730182193}
-  selectedCommands:
-  - {fileID: 1730182191}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1730182132}
   - {fileID: 1730182131}
@@ -5381,73 +5376,6 @@ MonoBehaviour:
   - {fileID: 1730182152}
   - {fileID: 1730182151}
   suppressAllAutoSelections: 0
---- !u!114 &1730182154
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730182079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 97
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: 
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1730182155
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730182079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 96
-  indentLevel: 0
-  duration: 2
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
---- !u!114 &1730182156
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730182079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 195.20291
-    y: -6.6781006
-    width: 74.72725
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 95
-  blockName: Link
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1730182155}
-  - {fileID: 1730182154}
-  suppressAllAutoSelections: 0
 --- !u!114 &1730182157
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7106,7 +7034,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 95
+  itemId: 162
   blockName: IrisFlier
   description: 
   eventHandler: {fileID: 0}
@@ -7116,7 +7044,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1730182194
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7137,7 +7065,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1730182195
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
