@@ -135,9 +135,7 @@ GameObject:
   - component: {fileID: 297922218}
   - component: {fileID: 297922223}
   - component: {fileID: 297922222}
-  - component: {fileID: 297922225}
   - component: {fileID: 297922224}
-  - component: {fileID: 297922226}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -176,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 77
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -186,8 +184,6 @@ MonoBehaviour:
   eventHandler: {fileID: 297922218}
   commandList:
   - {fileID: 297922222}
-  - {fileID: 297922225}
-  - {fileID: 297922226}
   - {fileID: 297922223}
   suppressAllAutoSelections: 0
 --- !u!114 &297922220
@@ -217,7 +213,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 297922219}
   selectedCommands:
-  - {fileID: 297922226}
+  - {fileID: 297922223}
   variables:
   - {fileID: 297922224}
   description: 
@@ -306,51 +302,6 @@ MonoBehaviour:
   scope: 2
   key: IsaacAffection
   value: 0
---- !u!114 &297922225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297922217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: '{$IsaacAffection}'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &297922226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297922217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: d5c89685cbc442b428f94c2195744034, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!1 &1219648388
 GameObject:
   m_ObjectHideFlags: 1
