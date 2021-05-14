@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Isaac
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  nameColor: {r: 0, g: 0.6522326, b: 0.7075472, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 6f4ae01471889ec409b6bd78961de58d, type: 3}
@@ -969,7 +969,6 @@ GameObject:
   - component: {fileID: 898754906}
   - component: {fileID: 898754912}
   - component: {fileID: 898754916}
-  - component: {fileID: 898754915}
   - component: {fileID: 898754914}
   - component: {fileID: 898754913}
   - component: {fileID: 898754817}
@@ -1002,6 +1001,10 @@ GameObject:
   - component: {fileID: 898754941}
   - component: {fileID: 898754940}
   - component: {fileID: 898754939}
+  - component: {fileID: 898754943}
+  - component: {fileID: 898754942}
+  - component: {fileID: 898754944}
+  - component: {fileID: 898754915}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1071,7 +1074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 645.03546, y: -380.54797}
+  scrollPos: {x: 432.49707, y: -86.9697}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1083,9 +1086,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 898754879}
+  - {fileID: 898754820}
   selectedCommands:
-  - {fileID: 898754906}
+  - {fileID: 898754944}
   variables:
   - {fileID: 898754925}
   - {fileID: 898754936}
@@ -1663,7 +1666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 276.15207
+    x: 277.68112
     y: 580.24164
     width: 73.24162
     height: 40
@@ -1675,10 +1678,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 898754819}
+  - {fileID: 898754944}
+  - {fileID: 898754943}
   - {fileID: 898754883}
+  - {fileID: 898754942}
+  - {fileID: 898754915}
   - {fileID: 898754880}
   - {fileID: 898754881}
-  - {fileID: 898754915}
   - {fileID: 898754882}
   - {fileID: 898754884}
   - {fileID: 898754913}
@@ -4260,7 +4266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 138
+  itemId: 172
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
@@ -4272,7 +4278,7 @@ MonoBehaviour:
   toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
-  fadeDuration: 0.5
+  fadeDuration: 2
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -5624,6 +5630,84 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
+--- !u!114 &898754942
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898754796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 170
+  indentLevel: 0
+  spriteRenderer: {fileID: 1540745863}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &898754943
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898754796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  indentLevel: 0
+  spriteRenderer: {fileID: 1540745863}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &898754944
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898754796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 206841027}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1055666458
 GameObject:
   m_ObjectHideFlags: 0
