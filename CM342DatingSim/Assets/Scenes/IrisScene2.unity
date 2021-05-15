@@ -293,7 +293,7 @@ Transform:
   m_Children:
   - {fileID: 192732054}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &411993303
 GameObject:
@@ -328,7 +328,13 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: 8dbd4cca1724735429a1c4bc8fea46e8, type: 3}
+  - {fileID: 21300000, guid: b693bc47a48971043bc1d8357fad8d4a, type: 3}
+  - {fileID: 21300000, guid: 89a090a0a80dbfc4fac900608795caf3, type: 3}
+  - {fileID: 21300000, guid: d0bec3302a9f8e848ab2888305335aea, type: 3}
+  - {fileID: 21300000, guid: 8df6f72414ce8ec40ac21be05aaec857, type: 3}
   - {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
+  - {fileID: 21300000, guid: eb09bc3f99e4b8446ac37543ae9d6c61, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -344,7 +350,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444659918
 GameObject:
@@ -380,8 +386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -1800, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &444659920
 MonoBehaviour:
@@ -462,7 +468,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &851026513
 GameObject:
@@ -589,6 +595,8 @@ GameObject:
   - component: {fileID: 851026620}
   - component: {fileID: 851026619}
   - component: {fileID: 851026630}
+  - component: {fileID: 851026632}
+  - component: {fileID: 851026631}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -643,7 +651,7 @@ MonoBehaviour:
     in anything today? We've got a sale on eye lash extensions.
   description: 
   character: {fileID: 411993304}
-  portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -671,7 +679,7 @@ MonoBehaviour:
     this gets ugly again?
   description: 
   character: {fileID: 1672491818}
-  portrait: {fileID: 21300000, guid: 4f4c41dc69a8241fda4f0ea0dabe001d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -695,8 +703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 208
-    y: 177
+    x: 185.21518
+    y: 170.67088
     width: 75.31645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -706,8 +714,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 851026615}
   - {fileID: 851026516}
+  - {fileID: 851026615}
+  - {fileID: 851026631}
   - {fileID: 851026537}
   suppressAllAutoSelections: 0
 --- !u!114 &851026518
@@ -724,8 +733,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 179
-    y: 18
+    x: 156.21518
+    y: 19.265823
     width: 125.94935
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -735,6 +744,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 851026632}
   - {fileID: 851026617}
   - {fileID: 851026515}
   - {fileID: 851026538}
@@ -876,7 +886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1312.6288, y: 144.63551}
+  scrollPos: {x: -163.26186, y: 237.04062}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 371
@@ -887,7 +897,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 851026535}
   selectedCommands: []
   variables:
   - {fileID: 851026618}
@@ -914,7 +925,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &851026526
 MonoBehaviour:
@@ -1011,7 +1022,7 @@ MonoBehaviour:
   storyText: That is a hard question to answer...
   description: 
   character: {fileID: 411993304}
-  portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1060,7 +1071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  text: 'Ask about shop '
+  text: 'Ask About The Shop '
   description: 
   targetBlock: {fileID: 851026535}
   hideIfVisited: 0
@@ -1088,7 +1099,7 @@ MonoBehaviour:
   storyText: Is everything okay with business? It's really empty in here.
   description: 
   character: {fileID: 1672491818}
-  portrait: {fileID: 21300000, guid: 4f4c41dc69a8241fda4f0ea0dabe001d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1140,7 +1151,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 505.14685
-    y: 149.64706
+    y: 150.91289
     width: 169.49364
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1199,7 +1210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: The shop draws your attention again, its completely empty for a sale
+  storyText: The shop draws your attention again. It's completely empty for a sale
     to be going on.
   description: 
   character: {fileID: 0}
@@ -3123,7 +3134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  text: Come on, I'm not going to be judgey or anything. It looks like you have a
+  text: Come on, I'm not going to be judgy or anything. It looks like you have a
     problem and I wanna help.
   description: 
   targetBlock: {fileID: 851026526}
@@ -3153,7 +3164,7 @@ MonoBehaviour:
     is salty.
   description: 
   character: {fileID: 411993304}
-  portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3281,16 +3292,16 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 411993304}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
   offset: 0
-  fromPosition: {fileID: 1342966575}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 1105358768}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &851026616
@@ -3328,14 +3339,14 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
   offset: 0
-  fromPosition: {fileID: 1342966575}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 1105358768}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &851026618
@@ -4642,6 +4653,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
+--- !u!114 &851026631
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851026513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 116
+  indentLevel: 0
+  storyText: Oh god, not you again. What do you want? You don't look like you're
+    working right now, so are you here for the sale?
+  description: 
+  character: {fileID: 411993304}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &851026632
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851026513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 115
+  indentLevel: 0
+  storyText: Hey, Iris. Looks like I showed up at the right time.
+  description: 
+  character: {fileID: 1672491818}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1105358767
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,8 +4742,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 460.43, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1105358769
 MonoBehaviour:
@@ -4750,8 +4816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1111780572
 CanvasRenderer:
@@ -4824,8 +4890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 1800, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1342966576
 MonoBehaviour:
@@ -4942,7 +5008,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1530596161
 GameObject:
@@ -4978,8 +5044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: -460.43, y: -1800}
+  m_SizeDelta: {x: 1800, y: 1800}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1530596163
 MonoBehaviour:
@@ -5133,8 +5199,7 @@ MonoBehaviour:
   nameText: MC
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: 4f4c41dc69a8241fda4f0ea0dabe001d, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -5150,7 +5215,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1801178147
 GameObject:
@@ -5231,5 +5296,5 @@ Transform:
   m_LocalScale: {x: 0.42597708, y: 0.40866908, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
