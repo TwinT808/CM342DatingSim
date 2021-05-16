@@ -597,6 +597,9 @@ GameObject:
   - component: {fileID: 851026630}
   - component: {fileID: 851026632}
   - component: {fileID: 851026631}
+  - component: {fileID: 851026635}
+  - component: {fileID: 851026634}
+  - component: {fileID: 851026633}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -886,7 +889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -163.26186, y: 237.04062}
+  scrollPos: {x: -1725.2869, y: 134.50893}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 371
@@ -898,11 +901,14 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 851026535}
+  - {fileID: 851026541}
   selectedCommands: []
   variables:
   - {fileID: 851026618}
   - {fileID: 851026616}
+  - {fileID: 851026635}
+  - {fileID: 851026634}
+  - {fileID: 851026633}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1780,7 +1786,7 @@ MonoBehaviour:
     then once they meet you they'll realize you're a good person.
   description: 
   character: {fileID: 1672491818}
-  portrait: {fileID: 21300000, guid: 4f4c41dc69a8241fda4f0ea0dabe001d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4708,6 +4714,51 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &851026633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851026513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: IrisNegative1
+  value: 0
+--- !u!114 &851026634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851026513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: IrisNeutral1
+  value: 0
+--- !u!114 &851026635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851026513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: IrisPositive1
+  value: 0
 --- !u!1 &1105358767
 GameObject:
   m_ObjectHideFlags: 0
