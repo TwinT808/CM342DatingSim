@@ -388,6 +388,8 @@ GameObject:
   - component: {fileID: 300905013}
   - component: {fileID: 300905014}
   - component: {fileID: 300905015}
+  - component: {fileID: 300905017}
+  - component: {fileID: 300905016}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -420,8 +422,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 300904941}
-  selectedCommands: []
+  - {fileID: 300904966}
+  selectedCommands:
+  - {fileID: 300905010}
   variables:
   - {fileID: 300904925}
   - {fileID: 300904922}
@@ -819,7 +822,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 96.39724
-    y: 290.65765
+    y: 292.0862
     width: 124.28568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -837,6 +840,7 @@ MonoBehaviour:
   - {fileID: 300905005}
   - {fileID: 300905014}
   - {fileID: 300904982}
+  - {fileID: 300905017}
   - {fileID: 300904972}
   suppressAllAutoSelections: 0
 --- !u!114 &300904928
@@ -1963,6 +1967,7 @@ MonoBehaviour:
   - {fileID: 300905011}
   - {fileID: 300905015}
   - {fileID: 300905010}
+  - {fileID: 300905016}
   - {fileID: 300905001}
   suppressAllAutoSelections: 0
 --- !u!114 &300904967
@@ -4148,6 +4153,34 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &300905016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300904910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+--- !u!114 &300905017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300904910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
 --- !u!1 &749972922
 GameObject:
   m_ObjectHideFlags: 0
