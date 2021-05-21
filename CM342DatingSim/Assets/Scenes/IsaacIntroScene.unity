@@ -1051,6 +1051,9 @@ GameObject:
   - component: {fileID: 981974375}
   - component: {fileID: 981974374}
   - component: {fileID: 981974373}
+  - component: {fileID: 981974378}
+  - component: {fileID: 981974376}
+  - component: {fileID: 981974377}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1084,7 +1087,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 981974320}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 981974354}
   variables:
   - {fileID: 981974361}
   - {fileID: 981974372}
@@ -1558,10 +1562,11 @@ MonoBehaviour:
   - {fileID: 981974351}
   - {fileID: 981974315}
   - {fileID: 981974316}
+  - {fileID: 981974358}
   - {fileID: 981974364}
   - {fileID: 981974375}
   - {fileID: 981974368}
-  - {fileID: 981974358}
+  - {fileID: 981974378}
   - {fileID: 981974355}
   suppressAllAutoSelections: 0
 --- !u!114 &981974309
@@ -1898,10 +1903,11 @@ MonoBehaviour:
   - {fileID: 981974334}
   - {fileID: 981974340}
   - {fileID: 981974341}
+  - {fileID: 981974360}
   - {fileID: 981974362}
   - {fileID: 981974367}
   - {fileID: 981974373}
-  - {fileID: 981974360}
+  - {fileID: 981974377}
   - {fileID: 981974357}
   suppressAllAutoSelections: 0
 --- !u!114 &981974321
@@ -1970,7 +1976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 58.231327
+    x: 59.45084
     y: 235.73732
     width: 103.65853
     height: 40
@@ -1990,10 +1996,11 @@ MonoBehaviour:
   - {fileID: 981974332}
   - {fileID: 981974345}
   - {fileID: 981974330}
+  - {fileID: 981974359}
   - {fileID: 981974363}
   - {fileID: 981974366}
   - {fileID: 981974374}
-  - {fileID: 981974359}
+  - {fileID: 981974376}
   - {fileID: 981974356}
   suppressAllAutoSelections: 0
 --- !u!114 &981974324
@@ -2524,7 +2531,7 @@ MonoBehaviour:
   fadeDuration: 0.5
   moveDuration: 2
   shiftOffset: {x: 0, y: 0}
-  move: 0
+  move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 1
 --- !u!114 &981974343
@@ -2871,7 +2878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: -and there's this fasicinating twelve part series about banshees and
+  storyText: -and there's this fascinating twelve part series about banshees and
     succubi that I've just got in-
   description: 
   character: {fileID: 2115823981}
@@ -4477,6 +4484,48 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &981974376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 0
+--- !u!114 &981974377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 0
+--- !u!114 &981974378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 0
 --- !u!1 &993830964
 GameObject:
   m_ObjectHideFlags: 0
