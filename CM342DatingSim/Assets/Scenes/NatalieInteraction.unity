@@ -909,6 +909,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1922623147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922623151}
+  - component: {fileID: 1922623150}
+  - component: {fileID: 1922623149}
+  - component: {fileID: 1922623148}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1922623148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922623147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &1922623149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922623147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1922623150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922623147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1922623151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922623147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938858545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1107,6 @@ GameObject:
   - component: {fileID: 2100976060}
   - component: {fileID: 2100976059}
   - component: {fileID: 2100976058}
-  - component: {fileID: 2100976057}
   - component: {fileID: 2100976072}
   - component: {fileID: 2100976071}
   - component: {fileID: 2100976070}
@@ -1076,17 +1155,14 @@ GameObject:
   - component: {fileID: 2100976165}
   - component: {fileID: 2100976164}
   - component: {fileID: 2100976163}
-  - component: {fileID: 2100976162}
   - component: {fileID: 2100976161}
   - component: {fileID: 2100976160}
   - component: {fileID: 2100976159}
   - component: {fileID: 2100976158}
-  - component: {fileID: 2100976157}
   - component: {fileID: 2100976156}
   - component: {fileID: 2100976155}
   - component: {fileID: 2100976154}
   - component: {fileID: 2100976153}
-  - component: {fileID: 2100976152}
   - component: {fileID: 2100976151}
   - component: {fileID: 2100976150}
   - component: {fileID: 2100976149}
@@ -1139,6 +1215,10 @@ GameObject:
   - component: {fileID: 2100976102}
   - component: {fileID: 2100976101}
   - component: {fileID: 2100976100}
+  - component: {fileID: 2100976057}
+  - component: {fileID: 2100976162}
+  - component: {fileID: 2100976157}
+  - component: {fileID: 2100976152}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1202,7 +1282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1550.4216, y: -212.55807}
+  scrollPos: {x: 1603.8693, y: -359.1096}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1214,8 +1294,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2100976117}
-  selectedCommands: []
+  - {fileID: 2100976156}
+  selectedCommands:
+  - {fileID: 2100976152}
   variables:
   - {fileID: 2100976043}
   - {fileID: 2100976042}
@@ -2650,23 +2731,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2100976023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -448.30505
-    y: 473.60126
-    width: 70.68964
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 39
-  blockName: Gift
+  itemId: 274
+  indentLevel: 0
+  storyText: Do you even know me?
   description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
+  character: {fileID: 131433143}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2100976058
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3069,7 +3151,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Giva Natalie A Gift
   description: 
-  targetBlock: {fileID: 2100976057}
+  targetBlock: {fileID: 2100976117}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -5052,7 +5134,7 @@ MonoBehaviour:
   itemId: 266
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976156}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5099,14 +5181,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -541.9934
-    y: 699.0803
-    width: 125.862015
+    x: -591.99347
+    y: 816.3217
+    width: 84.482735
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 260
-  blockName: Hate2 (Copy)
+  blockName: Hate2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5128,7 +5210,7 @@ MonoBehaviour:
   itemId: 263
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976156}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5175,14 +5257,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -642.5387
-    y: 699.8237
-    width: 124.482704
+    x: -692.53876
+    y: 817.0651
+    width: 83.103424
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 259
-  blockName: Hate1 (Copy)
+  blockName: Hate1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5201,10 +5283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 260
+  itemId: 273
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976161}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5222,7 +5304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 259
+  itemId: 272
   indentLevel: 0
   storyText: You give Isaac a globe.
   description: 
@@ -5251,14 +5333,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -545.9114
-    y: 524.9907
-    width: 135.51718
+    x: -595.91144
+    y: 643.95624
+    width: 94.1379
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 258
-  blockName: Dislike2 (Copy)
+  blockName: Dislike2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5280,7 +5362,7 @@ MonoBehaviour:
   itemId: 229
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976161}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5327,14 +5409,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -653.0449
-    y: 525.83765
-    width: 134.13788
+    x: -703.045
+    y: 643.07904
+    width: 92.75859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 257
-  blockName: Dislike1 (Copy)
+  blockName: Dislike1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5356,7 +5438,7 @@ MonoBehaviour:
   itemId: 226
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976139}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5376,7 +5458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 225
   indentLevel: 0
-  variable: {fileID: 0}
+  variable: {fileID: 2100976037}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -5397,7 +5479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 224
   indentLevel: 0
-  variable: {fileID: 0}
+  variable: {fileID: 2100976038}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -5418,7 +5500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 223
   indentLevel: 0
-  variable: {fileID: 0}
+  variable: {fileID: 2100976039}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -5439,7 +5521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 222
   indentLevel: 0
-  variable: {fileID: 0}
+  variable: {fileID: 2100976040}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -5460,14 +5542,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -902.48474
-    y: 350.995
-    width: 176.89645
+    x: -952.4848
+    y: 468.23648
+    width: 135.51718
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 193
-  blockName: GiftRandomizer (Copy)
+  blockName: GiftRandomizer
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5507,7 +5589,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 8
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976102}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -5534,7 +5616,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976037}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -5775,7 +5857,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 7
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976105}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -5802,7 +5884,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976037}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -6057,7 +6139,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 6
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976108}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6084,7 +6166,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976038}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -6325,7 +6407,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 5
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976111}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6352,7 +6434,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976038}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -6607,7 +6689,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 4
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976142}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6634,7 +6716,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976039}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -6875,7 +6957,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 3
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976145}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6902,7 +6984,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976039}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -7157,7 +7239,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 2
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976148}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7184,7 +7266,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976040}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -7425,7 +7507,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 1
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976151}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7452,7 +7534,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 0}
+      variable: {fileID: 2100976040}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -7706,14 +7788,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -878.5504
-    y: 444.83176
-    width: 131.37926
+    x: -928.5505
+    y: 562.0732
+    width: 89.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 192
-  blockName: Shuffle (Copy)
+  blockName: Shuffle
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7754,7 +7836,7 @@ MonoBehaviour:
   itemId: 198
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976166}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -7801,14 +7883,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1088.9094
-    y: 700.068
-    width: 121.72409
+    x: -1137.1848
+    y: 817.3094
+    width: 80.3448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 188
-  blockName: Like2 (Copy)
+  blockName: Like2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7830,7 +7912,7 @@ MonoBehaviour:
   itemId: 195
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976166}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -7877,14 +7959,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1183.2804
-    y: 699.0558
-    width: 120.34478
+    x: -1236.7283
+    y: 816.2972
+    width: 78.9655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 187
-  blockName: Like1 (Copy)
+  blockName: Like1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7903,10 +7985,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 192
+  itemId: 271
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976171}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -7953,14 +8035,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1087.273
-    y: 519.3032
-    width: 125.862015
+    x: -1137.2725
+    y: 639.99286
+    width: 84.482735
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 186
-  blockName: Love2 (Copy)
+  blockName: Love2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7982,7 +8064,7 @@ MonoBehaviour:
   itemId: 189
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976171}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8000,7 +8082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 188
+  itemId: 270
   indentLevel: 0
   storyText: You give Isaac a small book.
   description: 
@@ -8029,14 +8111,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1182.9978
-    y: 520.2346
-    width: 124.482704
+    x: -1232.9973
+    y: 637.476
+    width: 83.103424
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 185
-  blockName: Love1 (Copy)
+  blockName: Love1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -8045,7 +8127,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &2100976152
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8055,10 +8137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 186
+  itemId: 277
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976050}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8076,10 +8158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 185
+  itemId: 268
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 2100976042}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -8230,9 +8312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 184
   indentLevel: 0
-  storyText: Wow...I would cuss you out, but the children's books are present.
+  storyText: ...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 131433143}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8259,9 +8341,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 131433143}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 36ebb38f6a58d1c43ae9df8095a1ec5a, type: 3}
+  portrait: {fileID: 21300000, guid: 9e20d6875e19b8940a9b4f074a8f7894, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -8287,25 +8369,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -601.14
-    y: 771.22546
-    width: 139.65512
+    x: -651.1401
+    y: 888.46686
+    width: 98.27583
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 178
-  blockName: GiftHate (Copy)
+  blockName: GiftHate
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2100976155}
   - {fileID: 2100976154}
+  - {fileID: 2100976057}
   - {fileID: 2100976153}
   - {fileID: 2100976152}
   suppressAllAutoSelections: 0
 --- !u!114 &2100976157
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8315,10 +8398,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 181
+  itemId: 276
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976050}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8339,7 +8422,7 @@ MonoBehaviour:
   itemId: 180
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 2100976042}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -8490,7 +8573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 179
   indentLevel: 0
-  storyText: Um...thanks for trying to be nice...but no.
+  storyText: Um, thankyou...but no thank you.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8515,13 +8598,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 178
+  itemId: 267
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 131433143}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 36ebb38f6a58d1c43ae9df8095a1ec5a, type: 3}
+  portrait: {fileID: 21300000, guid: c0892f4ef9a66d24ab641566435eb54d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -8547,25 +8630,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -609.26636
-    y: 594.8916
-    width: 149.31027
+    x: -659.2664
+    y: 712.133
+    width: 107.931
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 177
-  blockName: GiftDislike (Copy)
+  blockName: GiftDislike
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2100976160}
   - {fileID: 2100976159}
   - {fileID: 2100976158}
-  - {fileID: 2100976157}
+  - {fileID: 2100976162}
   suppressAllAutoSelections: 0
 --- !u!114 &2100976162
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8575,10 +8658,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 155
+  itemId: 275
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976050}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8599,7 +8682,7 @@ MonoBehaviour:
   itemId: 154
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 2100976042}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -8750,7 +8833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: Oh, thank you, this is quite nice.
+  storyText: Oh, why thank you. This is nice.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8779,9 +8862,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 131433143}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 282c3e31c3eb71c4bb6fef5485215bdd, type: 3}
+  portrait: {fileID: 21300000, guid: c929775910e12154aa3d767279408773, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -8807,21 +8890,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1145.4188
-    y: 773.9286
-    width: 135.51718
+    x: -1195.4185
+    y: 891.17
+    width: 94.1379
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 176
-  blockName: GiftLike (Copy)
+  blockName: GiftLike
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2100976165}
   - {fileID: 2100976164}
   - {fileID: 2100976163}
-  - {fileID: 2100976162}
+  - {fileID: 2100976157}
   suppressAllAutoSelections: 0
 --- !u!114 &2100976167
 MonoBehaviour:
@@ -8838,7 +8921,7 @@ MonoBehaviour:
   itemId: 83
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 2100976050}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8859,7 +8942,7 @@ MonoBehaviour:
   itemId: 82
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 2100976042}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -9010,9 +9093,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: W-Wow! Thank you! I love this stuff!
+  storyText: Oh my! Thank you! This is lovely.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 131433143}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9039,9 +9122,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 131433143}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3005869accd92174b9fbc2f3b5253ae6, type: 3}
+  portrait: {fileID: 21300000, guid: cd487aeb7f4ed544ba33fb45faae1a0f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -9067,14 +9150,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1144.174
-    y: 592.0486
-    width: 139.65512
+    x: -1194.1736
+    y: 707.56586
+    width: 98.27583
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 150
-  blockName: GiftLove (Copy)
+  blockName: GiftLove
   description: 
   eventHandler: {fileID: 0}
   commandList:
