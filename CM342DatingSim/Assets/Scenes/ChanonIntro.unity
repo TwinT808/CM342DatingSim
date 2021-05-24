@@ -370,6 +370,7 @@ Transform:
   - {fileID: 1864316909}
   - {fileID: 1900059897}
   - {fileID: 2108244574}
+  - {fileID: 805258371}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -637,6 +638,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708570987}
   m_CullTransparentMesh: 0
+--- !u!1 &805258370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805258371}
+  - component: {fileID: 805258372}
+  m_Layer: 0
+  m_Name: Pastries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805258371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805258370}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.8867872, y: -1.5476832, z: 75.28137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 230213186}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805258372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805258370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Pastries
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 833171a22e5b9e04f9cd470ce021b292, type: 3}
+  - {fileID: 21300000, guid: 6dc3327455204f84b952824129574fb3, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &858684330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1397,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eeb4349ad2c3c864aba6a21cd8aad9f6, type: 3}
+--- !u!114 &1415413288 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6731250387993410881, guid: eeb4349ad2c3c864aba6a21cd8aad9f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1415413287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1864316907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1420,7 @@ GameObject:
   - component: {fileID: 1864316909}
   - component: {fileID: 1864316908}
   m_Layer: 0
-  m_Name: ??? -Character
+  m_Name: ???
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,7 +1489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: 'Chanon '
-  nameColor: {r: 0.735849, g: 0.29722533, b: 0, a: 1}
+  nameColor: {r: 0.5377358, g: 0.21738257, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 7a0c0e6299d0a4c3698d760445f7f07c, type: 3}
@@ -1796,6 +1861,7 @@ GameObject:
   - component: {fileID: 2038244670}
   - component: {fileID: 2038244669}
   - component: {fileID: 2038244677}
+  - component: {fileID: 2038244678}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1847,8 +1913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Oh... We have a wide selection of pasteries ranging from tarts to focaccias
-    if you're interested
+  storyText: Oh...We have a wide selection of pasteries ranging from tarts to focaccias
+    if you're interested.
   description: 
   character: {fileID: 1900059896}
   portrait: {fileID: 0}
@@ -2059,6 +2125,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2038244611}
   - {fileID: 2038244608}
+  - {fileID: 2038244678}
   - {fileID: 2038244610}
   - {fileID: 2038244609}
   - {fileID: 2038244606}
@@ -2171,7 +2238,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1415413288}
 --- !u!114 &2038244559
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2198,7 +2265,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1415413288}
 --- !u!114 &2038244560
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2252,7 +2319,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1415413288}
 --- !u!114 &2038244562
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2280,7 +2347,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1415413288}
 --- !u!114 &2038244563
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2346,7 +2413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 86.46721, y: 37.055145}
+  scrollPos: {x: 252.06763, y: 170.84053}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 394
@@ -2358,9 +2425,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2038244630}
+  - {fileID: 2038244595}
   selectedCommands:
-  - {fileID: 2038244677}
+  - {fileID: 2038244593}
   variables:
   - {fileID: 2038244649}
   - {fileID: 2038244668}
@@ -2457,8 +2524,8 @@ MonoBehaviour:
   storyText: You try the blueberry tart and the sour flavor coats your mouth causing
     it to pucker up.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 805258372}
+  portrait: {fileID: 21300000, guid: 833171a22e5b9e04f9cd470ce021b292, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2956,7 +3023,7 @@ MonoBehaviour:
   storyText: I understand it's not everyone's taste.... It was really nice meeting
     you. Hope to see you around
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1900059896}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3123,8 +3190,8 @@ MonoBehaviour:
   storyText: He hops over to one of the open cabinets in the store and grabs a bear
     bread to show to you. You can see his tail wagging happily behind him.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 805258372}
+  portrait: {fileID: 21300000, guid: 6dc3327455204f84b952824129574fb3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3231,10 +3298,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: 'Chanon: We have a variety of pastries ranging from tarts to mini foccacias.
-    My favorite has to be the bear bread though.'
+  storyText: We have a variety of pastries ranging from tarts to mini foccacias.
+    My favorite has to be the bear bread though.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1900059896}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3447,8 +3514,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 761.2778
-    y: 110.56085
+    x: 764.4028
+    y: 108.99835
     width: 113.74997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3588,11 +3655,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: 'The man gives you a face of annoyance ad he picks himself and the fallen
-    trays from the ground. ???: Hey, I''m Chanon and this is my bakery. How can I
-    help you?'
+  storyText: Hey, I'm Chanon and this is my bakery. How can I help you?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1900059896}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4384,7 +4449,7 @@ MonoBehaviour:
   itemId: 76
   indentLevel: 0
   storyText: Uh _____? You good there? First you laugh and me and now you're staring.
-    I get that you're new but you are weird
+    I get that you're new but you are weird.
   description: 
   character: {fileID: 1900059896}
   portrait: {fileID: 0}
@@ -6873,6 +6938,34 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &2038244678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038244545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  indentLevel: 0
+  storyText: The man gives you a face of annoyance and he picks himself and the fallen
+    trays from the ground.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2108244572
 GameObject:
   m_ObjectHideFlags: 0
