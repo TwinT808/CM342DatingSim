@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 299744016}
   - component: {fileID: 299744012}
   - component: {fileID: 299743775}
+  - component: {fileID: 299744027}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -915,7 +916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1538.9438, y: -373.89813}
+  scrollPos: {x: -295.26678, y: -318.6349}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -927,9 +928,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 299743940}
-  selectedCommands:
-  - {fileID: 299743968}
+  - {fileID: 299743877}
+  selectedCommands: []
   variables:
   - {fileID: 299743794}
   - {fileID: 299743899}
@@ -5598,6 +5598,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 299744027}
   - {fileID: 299743900}
   suppressAllAutoSelections: 0
 --- !u!114 &299743878
@@ -5918,7 +5919,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 512043451}
 --- !u!114 &299743890
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13426,6 +13427,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 323
   indentLevel: 0
+--- !u!114 &299744027
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 327
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1063176168}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c835f119979d85b48a112eb308d4134c, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 9379158}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &411298489 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3357186112790566949, guid: 45784337a07693a42b60902fb1460deb,
@@ -14390,7 +14421,7 @@ GameObject:
   - component: {fileID: 1845418827}
   - component: {fileID: 1845418826}
   m_Layer: 0
-  m_Name: Books
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14408,7 +14439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Books
+  nameText: 
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -14418,7 +14449,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 06fca3a79e34bbc46ad5fc1745573ebe, type: 3}
   - {fileID: 21300000, guid: 31fefb945d660884789032ddf95c1692, type: 3}
   portraitsFace: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 512043451}
   description: 
 --- !u!4 &1845418827
 Transform:
