@@ -645,6 +645,8 @@ GameObject:
   - component: {fileID: 869260428}
   - component: {fileID: 869260429}
   - component: {fileID: 869260430}
+  - component: {fileID: 869260431}
+  - component: {fileID: 869260432}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -692,6 +694,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 869260338}
   commandList:
+  - {fileID: 869260431}
   - {fileID: 869260379}
   - {fileID: 869260343}
   - {fileID: 869260342}
@@ -725,10 +728,11 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 869260387}
+  - {fileID: 869260361}
   selectedCommands:
-  - {fileID: 869260430}
-  variables: []
+  - {fileID: 869260381}
+  variables:
+  - {fileID: 869260432}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -988,7 +992,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 331
-    y: 135
+    y: 133.73418
     width: 119.8734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1201,7 +1205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: "Actually, I'm not\r sure how I ended up\r here. My name is ______."
+  storyText: "Actually, I'm not\r sure how I ended up\r here. My name is {$PlayerName}."
   description: 
   character: {fileID: 1603554068}
   portrait: {fileID: 0}
@@ -1752,7 +1756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: "My name is _____.\r Not sure how I ended\r up here."
+  storyText: "My name is {$PlayerName}.\r Not sure how I ended\r up here."
   description: 
   character: {fileID: 1603554068}
   portrait: {fileID: 0}
@@ -1824,7 +1828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: "My name is _______.\r Sorry, your face scared me because I didn't\r
+  storyText: "My name is {$PlayerName}.\r Sorry, your face scared me because I didn't\r
     expect it."
   description: 
   character: {fileID: 1603554068}
@@ -2618,8 +2622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: "Nope, this place is\r all mine. My name is ____\r and you're on my\r
-    property."
+  storyText: "Nope, this place is\r all mine. My name is {$PlayerName} and you're
+    on my\r property."
   description: 
   character: {fileID: 1603554068}
   portrait: {fileID: 0}
@@ -3190,6 +3194,41 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 992688676}
+--- !u!114 &869260431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869260337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &869260432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869260337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1001 &992688675
 PrefabInstance:
   m_ObjectHideFlags: 0
