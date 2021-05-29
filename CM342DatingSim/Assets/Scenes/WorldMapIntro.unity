@@ -2852,8 +2852,6 @@ GameObject:
   - component: {fileID: 1501248175}
   - component: {fileID: 1501248174}
   - component: {fileID: 1501248147}
-  - component: {fileID: 1501248146}
-  - component: {fileID: 1501248145}
   - component: {fileID: 1501248138}
   - component: {fileID: 1501248137}
   - component: {fileID: 1501248136}
@@ -2987,54 +2985,6 @@ MonoBehaviour:
   scope: 2
   key: IsaacCheck1
   value: 0
---- !u!114 &1501248145
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501248131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 167
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &1501248146
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501248131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 166
-  indentLevel: 0
-  storyText: Go to the Bookstore?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1501248147
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3061,9 +3011,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1501248132}
   commandList:
   - {fileID: 1501248134}
-  - {fileID: 1501248146}
   - {fileID: 1501248133}
-  - {fileID: 1501248145}
   suppressAllAutoSelections: 0
 --- !u!114 &1501248174
 MonoBehaviour:
@@ -3435,7 +3383,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1501248147}
   selectedCommands: []
   variables:
   - {fileID: 1501248135}
@@ -4203,7 +4152,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1733454484}
+  - {fileID: 1733454409}
   selectedCommands: []
   variables:
   - {fileID: 1733454410}
