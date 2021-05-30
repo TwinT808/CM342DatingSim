@@ -1054,7 +1054,6 @@ GameObject:
   - component: {fileID: 2053673647}
   - component: {fileID: 2053673672}
   - component: {fileID: 2053673673}
-  - component: {fileID: 2053673674}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1174,9 +1173,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2053673656}
+  - {fileID: 2053673662}
   selectedCommands:
-  - {fileID: 2053673658}
+  - {fileID: 2053673647}
   variables:
   - {fileID: 2053673649}
   description: 
@@ -1451,7 +1450,7 @@ MonoBehaviour:
   - {fileID: 485346336}
   interactableState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
 --- !u!114 &2053673659
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1487,7 +1486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Well then, welcome {$PlayerName}.
+  storyText: Well then, welcome, {$PlayerName}.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1555,7 +1554,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 2053673660}
   - {fileID: 2053673669}
-  - {fileID: 2053673674}
   - {fileID: 2053673647}
   - {fileID: 2053673672}
   suppressAllAutoSelections: 0
@@ -1728,7 +1726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: You better get ready...
+  storyText: Get ready...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1825,33 +1823,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 2
   durationOLD: 0
---- !u!114 &2053673674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053673640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  storyText: You feel yourself falling.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 345771337}
 --- !u!1 &2123791233
 GameObject:
   m_ObjectHideFlags: 0
