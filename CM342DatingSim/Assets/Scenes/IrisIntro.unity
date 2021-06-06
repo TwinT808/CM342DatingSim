@@ -450,6 +450,7 @@ GameObject:
   - component: {fileID: 474739360}
   - component: {fileID: 474739356}
   - component: {fileID: 474739347}
+  - component: {fileID: 474739361}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -540,12 +541,13 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 474739315}
   selectedCommands:
-  - {fileID: 474739356}
+  - {fileID: 474739304}
   variables:
   - {fileID: 474739342}
   - {fileID: 474739359}
   - {fileID: 474739358}
   - {fileID: 474739360}
+  - {fileID: 474739361}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -723,8 +725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: ... yeah. Look, I'm on my lunch break and I'd really love to get back
-    to my meal. Can you like, i don't know, leave?
+  storyText: Yeah...Look, I'm on my lunch break and I'd really love to get back to
+    my meal. Can you like, i don't know, leave?
   description: 
   character: {fileID: 124544747}
   portrait: {fileID: 0}
@@ -1229,7 +1231,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   storyText: Oh, that. She dropped all the work on me and went off saying something
-    about "Eyefull Books" and lunch breaks.
+    about "Eyeful Books" and lunch breaks.
   description: 
   character: {fileID: 1320370538}
   portrait: {fileID: 0}
@@ -1311,8 +1313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'I''m [name]. I think we might have gotten off on the wrong foot here.
-    i work with Rosy delivering packages, I swear.
+  storyText: 'I''m {$PlayerName}. I think we might have gotten off on the wrong foot
+    here. i work with Rosy delivering packages, I swear.
 
 '
   description: 
@@ -2642,6 +2644,21 @@ MonoBehaviour:
   scope: 2
   key: IrisIntro
   value: 0
+--- !u!114 &474739361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &768862651
 GameObject:
   m_ObjectHideFlags: 1

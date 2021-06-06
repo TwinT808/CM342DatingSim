@@ -323,6 +323,7 @@ GameObject:
   - component: {fileID: 221934137}
   - component: {fileID: 221934131}
   - component: {fileID: 221934163}
+  - component: {fileID: 221934165}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -484,13 +485,13 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 221934133}
-  selectedCommands:
-  - {fileID: 221934163}
+  - {fileID: 221934135}
+  selectedCommands: []
   variables:
   - {fileID: 221934109}
   - {fileID: 221934161}
   - {fileID: 221934152}
+  - {fileID: 221934165}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1756,7 +1757,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &221934131
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1933,7 +1934,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &221934137
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1974,7 +1975,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &221934139
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2126,7 +2127,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &221934140
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2578,7 +2579,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &221934152
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2806,7 +2807,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &221934161
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2848,7 +2849,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &221934163
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2892,6 +2893,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &221934165
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221934093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!114 &221934166
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2961,7 +2977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: 'Why, thank you. It''s been awhile since anyone else other than  the
+  storyText: 'Why, thank you. It''s been awhile since anyone else other than the
     workers here have truly enjoyed my drinks. '
   description: 
   character: {fileID: 1597651532}
@@ -3233,8 +3249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: 'A pleasure to meet you, [NAME]. You can call me Natalie. Don''t forget
-    to stop by again sometime. '
+  storyText: 'A pleasure to meet you, {$PlayerName}. You can call me Natalie. Don''t
+    forget to stop by again sometime. '
   description: 
   character: {fileID: 1597651532}
   portrait: {fileID: 0}
@@ -3261,7 +3277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: My name's [NAME]
+  storyText: My name's {$PlayerName}.
   description: 
   character: {fileID: 1745009997}
   portrait: {fileID: 0}
@@ -3397,8 +3413,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 0
-  storyText: 'A pleasure to meet you, [NAME]. You can call me Natalie. Don''t forget
-    to stop by again sometime. '
+  storyText: 'A pleasure to meet you, {$PlayerName}. You can call me Natalie. Don''t
+    forget to stop by again sometime. '
   description: 
   character: {fileID: 1597651532}
   portrait: {fileID: 0}
@@ -3425,7 +3441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: My name's [NAME]
+  storyText: My name's {$PlayerName}.
   description: 
   character: {fileID: 1745009997}
   portrait: {fileID: 0}

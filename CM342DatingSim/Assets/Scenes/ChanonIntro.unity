@@ -1488,7 +1488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: 'Chanon '
+  nameText: Chanon
   nameColor: {r: 0.5377358, g: 0.21738257, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1863,6 +1863,8 @@ GameObject:
   - component: {fileID: 2038244654}
   - component: {fileID: 2038244647}
   - component: {fileID: 2038244646}
+  - component: {fileID: 2038244680}
+  - component: {fileID: 2038244681}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2000,8 +2002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  text: No problem, we all have our days. My name is _____. I'm just here to deliver
-    some goods with Rosy and I thought I check out the goods as well.
+  text: No problem, we all have our days. My name is {$PlayerName}. I'm just here
+    to deliver some goods with Rosy and I thought I check out the goods as well.
   description: 
   targetBlock: {fileID: 2038244549}
   hideIfVisited: 0
@@ -2414,7 +2416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -154.1822, y: 50.528046}
+  scrollPos: {x: 122.380165, y: 178.653}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 394
@@ -2426,15 +2428,15 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2038244590}
-  selectedCommands:
-  - {fileID: 2038244646}
+  - {fileID: 2038244624}
+  selectedCommands: []
   variables:
   - {fileID: 2038244649}
   - {fileID: 2038244668}
   - {fileID: 2038244667}
   - {fileID: 2038244666}
   - {fileID: 2038244679}
+  - {fileID: 2038244680}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2773,7 +2775,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 118.31065
-    y: 372.24673
+    y: 370.68423
     width: 69.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2909,7 +2911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: It was really nice meeting you. Hope to see you around.
+  storyText: It was really nice meeting you. Hope to see you around!
   description: 
   character: {fileID: 1900059896}
   portrait: {fileID: 0}
@@ -3192,8 +3194,8 @@ MonoBehaviour:
   storyText: He hops over to one of the open cabinets in the store and grabs a bear
     bread to show to you. You can see his tail wagging happily behind him.
   description: 
-  character: {fileID: 805258372}
-  portrait: {fileID: 21300000, guid: 6dc3327455204f84b952824129574fb3, type: 3}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3328,7 +3330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 926.49274
+    x: 924.93024
     y: 210.84169
     width: 113.74997
     height: 40
@@ -3356,7 +3358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  text: It's a cute place you got here,  what do you recommend?
+  text: It's a cute place you got here. What do you recommend?
   description: 
   targetBlock: {fileID: 2038244598}
   hideIfVisited: 0
@@ -3381,8 +3383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: 'His mood immediatly shifts to something a lot more happier. Chanon:
-    There ya go! Welcome to Wolfe''s Boulangrie!'
+  storyText: His mood immediately shifts to something a lot more happier.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3450,6 +3451,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2038244600}
+  - {fileID: 2038244681}
   - {fileID: 2038244599}
   suppressAllAutoSelections: 0
 --- !u!114 &2038244603
@@ -3575,7 +3577,7 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   text: C'mon dude, it's just a joke, you need to see how ridiculous you look. My
-    name is _____ and I'm new to town.
+    name is {$PlayerName} and I'm new to town.
   description: 
   targetBlock: {fileID: 2038244605}
   hideIfVisited: 0
@@ -4028,7 +4030,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 719.59644
-    y: 402.47357
+    y: 400.91107
     width: 103.74997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4092,7 +4094,7 @@ MonoBehaviour:
   itemId: 90
   indentLevel: 0
   storyText: Hey I think I'm not feeling right now, could you come back at a later
-    time.
+    time?
   description: 
   character: {fileID: 1900059896}
   portrait: {fileID: 0}
@@ -4119,7 +4121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: He starts coughing... putting a hand to his mouth
+  storyText: He starts coughing...putting a hand to his mouth.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4259,7 +4261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: You think I should try it?.. Like, right now?
+  storyText: You think I should try it?...Like, right now?
   description: 
   character: {fileID: 1900059896}
   portrait: {fileID: 0}
@@ -4342,7 +4344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  text: Right... why don't you tell me about some of the things you serve here?
+  text: Right...why don't you tell me about some of the things you serve here?
   description: 
   targetBlock: {fileID: 2038244598}
   hideIfVisited: 0
@@ -4396,7 +4398,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 595.64575
-    y: 211.42876
+    y: 212.99126
     width: 108.74997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4424,8 +4426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  text: oh, sorry I think I got lost in your eyes. Did you know they're the perfect
-    shade of chocolate brown? It's like I can just swim in devour it all
+  text: Oh, sorry I think I got lost in your eyes. Did you know they're the perfect
+    shade of chocolate brown? It's like I can just swim in devour it all.
   description: 
   targetBlock: {fileID: 2038244637}
   hideIfVisited: 0
@@ -4450,8 +4452,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: Uh _____? You good there? First you laugh and me and now you're staring.
-    I get that you're new but you are weird.
+  storyText: Uh {$PlayerName}? You good there? First you laugh and me and now you're
+    staring. I get that you're new but you are weird.
   description: 
   character: {fileID: 1900059896}
   portrait: {fileID: 0}
@@ -6983,6 +6985,48 @@ MonoBehaviour:
   scope: 2
   key: ChanonIntro
   value: 0
+--- !u!114 &2038244680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038244545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
+--- !u!114 &2038244681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038244545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  storyText: There ya go! Welcome to Wolfe's Boulangrie!
+  description: 
+  character: {fileID: 1900059896}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2108244572
 GameObject:
   m_ObjectHideFlags: 0
