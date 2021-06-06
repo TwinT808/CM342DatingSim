@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 294496646}
   - component: {fileID: 294496654}
   - component: {fileID: 294496655}
+  - component: {fileID: 294496656}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -395,12 +396,13 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 294496569}
+  - {fileID: 294496572}
   selectedCommands:
-  - {fileID: 294496570}
+  - {fileID: 294496571}
   variables:
   - {fileID: 294496638}
   - {fileID: 294496637}
+  - {fileID: 294496656}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1379,7 +1381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 193.14293
+    x: 195.18375
     y: 357.0207
     width: 77.75508
     height: 40
@@ -2202,8 +2204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  storyText: "Say...MC? Do you want\r to stay for some coffee\r and just chat for
-    a bit? I\r\nrealized we haven't had much time just one on one with each other."
+  storyText: "Say...{$PlayerName}? Do you want\r to stay for some coffee\r and just
+    chat for a bit? I\r realized we haven't had much time just one on one with each
+    other."
   description: 
   character: {fileID: 1313765976}
   portrait: {fileID: 0}
@@ -2635,7 +2638,7 @@ MonoBehaviour:
   itemId: 86
   indentLevel: 0
   storyText: "Oh...alright, I'll check\r my schedule and let you\r know. Thanks for\r
-    coming by anyway _______,\r have a good evening."
+    coming by anyway {$PlayerName},\r have a good evening."
   description: 
   character: {fileID: 1313765976}
   portrait: {fileID: 0}
@@ -2879,7 +2882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: "Penny for your\r thoughts _______?"
+  storyText: "Penny for your\r thoughts {$PlayerName}?"
   description: 
   character: {fileID: 1313765976}
   portrait: {fileID: 0}
@@ -3393,7 +3396,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "I'm so relieved to hear\r you say that! Granted, I was a bit worried
     I\r come off as pretentious still...but I-I really am\r glad we're friends too\r
-    _______."
+    {$PlayerName}."
   description: 
   character: {fileID: 1313765976}
   portrait: {fileID: 0}
@@ -4137,7 +4140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: (M-MC)!!
+  storyText: '{$PlayerName}!!'
   description: 
   character: {fileID: 1313765976}
   portrait: {fileID: 0}
@@ -6330,6 +6333,21 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &294496656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294496471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &310144078
 GameObject:
   m_ObjectHideFlags: 0

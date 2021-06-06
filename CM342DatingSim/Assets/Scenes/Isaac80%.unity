@@ -842,6 +842,7 @@ GameObject:
   - component: {fileID: 499697953}
   - component: {fileID: 499697954}
   - component: {fileID: 499697911}
+  - component: {fileID: 499697955}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -880,7 +881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330.2316
     y: 150
-    width: 76.22949
+    width: 77.58618
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -913,11 +914,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 241.15283, y: -393.16028}
+  scrollPos: {x: 350.93207, y: -546.80634}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 378
-  zoom: 0.61000043
+  zoom: 0.58000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -925,11 +926,13 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 499697807}
-  selectedCommands: []
+  - {fileID: 499697886}
+  selectedCommands:
+  - {fileID: 499697885}
   variables:
   - {fileID: 499697937}
   - {fileID: 499697938}
+  - {fileID: 499697955}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -968,8 +971,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: Hello ______. And yes sort of, I actually have some work to do outside
-    of the shop today. I'm rather excited about it.
+  storyText: Hello {$PlayerName}. And yes sort of, I actually have some work to do
+    outside of the shop today. I'm rather excited about it.
   description: 
   character: {fileID: 449162640}
   portrait: {fileID: 0}
@@ -1135,7 +1138,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 526.5075
     y: 222.64522
-    width: 123.44257
+    width: 127.24132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1167,7 +1170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.984924
     y: 221.49246
-    width: 95.90161
+    width: 98.275826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1202,7 +1205,7 @@ MonoBehaviour:
   itemId: 21
   indentLevel: 0
   storyText: Oh, well I was actually going to tell about...n-nevermind, have a good
-    day _______.
+    day {$PlayerName}.
   description: 
   character: {fileID: 449162640}
   portrait: {fileID: 0}
@@ -1472,7 +1475,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.00027
     y: 223.14723
-    width: 123.44257
+    width: 127.24132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1631,7 +1634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 716.58234
     y: 329.22815
-    width: 98.52455
+    width: 99.655136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1695,7 +1698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 335.94592
     y: 332.14938
-    width: 119.50815
+    width: 121.72408
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1780,7 +1783,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.64545
     y: 330.8057
-    width: 128.68848
+    width: 131.37924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1938,7 +1941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 531.05994
     y: 438.56677
-    width: 107.70488
+    width: 110.689606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1995,7 +1998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 710.6539
     y: 518.8395
-    width: 102.458984
+    width: 105.17237
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2057,7 +2060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.23746
     y: 520.6894
-    width: 91.967186
+    width: 94.13789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2780,7 +2783,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.2794
     y: 612.3039
-    width: 122.131096
+    width: 124.482704
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2833,9 +2836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 497.2769
+    x: 498.91623
     y: 609.3843
-    width: 84.09834
+    width: 84.48273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2905,7 +2908,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 226.6678
     y: 611.69135
-    width: 84.09834
+    width: 81.72411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3183,8 +3186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: No, because she runs a bar.  Honestly _______, keep up, I thought you
-    knew these things.
+  storyText: No, because she runs a bar. Honestly {$PlayerName}, keep up, I thought
+    you knew these things.
   description: 
   character: {fileID: 449162640}
   portrait: {fileID: 0}
@@ -3695,7 +3698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 700.62897
     y: 611.9818
-    width: 123.44257
+    width: 125.86201
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3840,7 +3843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 779.08264
     y: 706.6303
-    width: 84.09834
+    width: 84.48273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3929,7 +3932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 643.03186
     y: 708.4164
-    width: 111.6393
+    width: 113.44823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4163,7 +4166,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 715.0574
     y: 817.6913
-    width: 84.09834
+    width: 85.862045
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4468,7 +4471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 366.80447
     y: 707.61847
-    width: 73.60654
+    width: 74.82757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4526,7 +4529,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.43263
     y: 707.6187
-    width: 74.918015
+    width: 76.20688
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4606,7 +4609,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215.5754
     y: 708.58453
-    width: 105.081924
+    width: 107.930984
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4807,7 +4810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 219.47935
     y: 819.2468
-    width: 86.72128
+    width: 88.62066
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5084,7 +5087,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 458.8923
     y: 920.9919
-    width: 105.081924
+    width: 106.55168
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5280,7 +5283,7 @@ MonoBehaviour:
   itemId: 177
   indentLevel: 0
   storyText: Maybe this was a bad idea in the end...I'm sorry for wasting your time
-    ______.
+    {$PlayerName}.
   description: 
   character: {fileID: 449162640}
   portrait: {fileID: 0}
@@ -5386,7 +5389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 445.98273
     y: 1014.4124
-    width: 132.6229
+    width: 135.51718
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5441,7 +5444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 260.04803
     y: 1012.72205
-    width: 94.59013
+    width: 96.896515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5510,9 +5513,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 670.62415
-    y: 1014.43677
-    width: 94.59013
+    x: 668.9
+    y: 1016.1609
+    width: 95.51721
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5935,7 +5938,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: He scoffs.
   description: 
-  character: {fileID: 449162640}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6038,7 +6041,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 462.406
     y: 1128.3395
-    width: 101.14751
+    width: 103.79306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6117,7 +6120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 224
   indentLevel: 0
-  storyText: Thank you, ______...
+  storyText: Thank you, {$PlayerName}...
   description: 
   character: {fileID: 449162640}
   portrait: {fileID: 0}
@@ -7612,7 +7615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 528.7287
     y: 519.0839
-    width: 112.950775
+    width: 116.20685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8749,6 +8752,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 292
   indentLevel: 0
+--- !u!114 &499697955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499697698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &732456235
 GameObject:
   m_ObjectHideFlags: 0

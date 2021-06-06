@@ -515,6 +515,7 @@ GameObject:
   - component: {fileID: 299744012}
   - component: {fileID: 299743775}
   - component: {fileID: 299744027}
+  - component: {fileID: 299744028}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -916,7 +917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1354.5208, y: -58.33344}
+  scrollPos: {x: 132.78198, y: -212.68123}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -928,8 +929,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 299744019}
-  selectedCommands: []
+  - {fileID: 299743883}
+  selectedCommands:
+  - {fileID: 299743882}
   variables:
   - {fileID: 299743794}
   - {fileID: 299743899}
@@ -946,6 +948,7 @@ MonoBehaviour:
   - {fileID: 299744022}
   - {fileID: 299744021}
   - {fileID: 299744020}
+  - {fileID: 299744028}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1067,7 +1070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: (MC) welcome! What brings you here today?
+  storyText: '{$PlayerName} welcome! What brings you here today?'
   description: 
   character: {fileID: 1063176168}
   portrait: {fileID: 0}
@@ -13457,6 +13460,21 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &299744028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!114 &411298489 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3357186112790566949, guid: 45784337a07693a42b60902fb1460deb,

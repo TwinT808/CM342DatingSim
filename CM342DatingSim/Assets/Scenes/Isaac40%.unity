@@ -1011,6 +1011,7 @@ GameObject:
   - component: {fileID: 898754946}
   - component: {fileID: 898754945}
   - component: {fileID: 898754797}
+  - component: {fileID: 898754951}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1080,7 +1081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 740.4792, y: 105.438965}
+  scrollPos: {x: 759.4447, y: -222.14726}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1092,14 +1093,16 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 898754798}
-  selectedCommands: []
+  - {fileID: 898754875}
+  selectedCommands:
+  - {fileID: 898754866}
   variables:
   - {fileID: 898754925}
   - {fileID: 898754936}
   - {fileID: 898754950}
   - {fileID: 898754949}
   - {fileID: 898754948}
+  - {fileID: 898754951}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2365,8 +2368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: Oh, (MC). I apologize, I'm a bit preoccupied at the moment. I seem to
-    have misplaced a customer's pre-order...
+  storyText: Oh, {$PlayerName}. I apologize, I'm a bit preoccupied at the moment.
+    I seem to have misplaced a customer's pre-order...
   description: 
   character: {fileID: 206841027}
   portrait: {fileID: 0}
@@ -3112,7 +3115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: Thank you (MC), the customer would've had my head if I didn't find it.
+  storyText: Thank you {$PlayerName}, the customer would've had my head if I didn't
+    find it.
   description: 
   character: {fileID: 206841027}
   portrait: {fileID: 0}
@@ -3140,7 +3144,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -144.47954
-    y: 797.36456
+    y: 795.64044
     width: 102.413795
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3363,7 +3367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: Erm...(MC)? What are you doing here? When did you get here?
+  storyText: Erm...{$PlayerName}? What are you doing here? When did you get here?
   description: 
   character: {fileID: 206841027}
   portrait: {fileID: 0}
@@ -6220,6 +6224,21 @@ MonoBehaviour:
   scope: 2
   key: IsaacPositive1
   value: 0
+--- !u!114 &898754951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898754796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &1055666458
 GameObject:
   m_ObjectHideFlags: 0
