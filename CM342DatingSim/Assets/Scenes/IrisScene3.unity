@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 867502166}
   - component: {fileID: 867502165}
   m_Layer: 0
-  m_Name: MC
+  m_Name: You
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: MC
+  nameText: You
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
@@ -608,7 +608,6 @@ GameObject:
   - component: {fileID: 1220916831}
   - component: {fileID: 1220916830}
   - component: {fileID: 1220916846}
-  - component: {fileID: 1220916845}
   - component: {fileID: 1220916844}
   - component: {fileID: 1220916843}
   - component: {fileID: 1220916842}
@@ -701,6 +700,8 @@ GameObject:
   - component: {fileID: 1220916924}
   - component: {fileID: 1220916921}
   - component: {fileID: 1220916920}
+  - component: {fileID: 1220916928}
+  - component: {fileID: 1220916845}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -749,12 +750,11 @@ MonoBehaviour:
   eventHandler: {fileID: 1220916826}
   commandList:
   - {fileID: 1220916901}
-  - {fileID: 1220916833}
   - {fileID: 1220916900}
+  - {fileID: 1220916833}
   - {fileID: 1220916831}
   - {fileID: 1220916832}
   - {fileID: 1220916830}
-  - {fileID: 1220916845}
   - {fileID: 1220916846}
   - {fileID: 1220916844}
   - {fileID: 1220916843}
@@ -793,6 +793,7 @@ MonoBehaviour:
   - {fileID: 1220916922}
   - {fileID: 1220916921}
   - {fileID: 1220916920}
+  - {fileID: 1220916928}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -832,8 +833,8 @@ MonoBehaviour:
   itemId: 4
   indentLevel: 0
   storyText: You feel a little giddy getting to work with the pretty cyclops. You
-    hold both hands up in thumbs up towards her (not that she could see you them,
-    but the motion helped with the nerves)
+    hold both hands up in thumbs up towards her. Not that she could see you do that,
+    but the motion helped with the nerves.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -890,7 +891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Hullo again, _____. Welcome back to my shop. You ready to get started?
+  storyText: Hello again, {$PlayerName}. Welcome back to my shop. You ready to get
+    started?
   description: 
   character: {fileID: 1283834017}
   portrait: {fileID: 0}
@@ -1263,34 +1265,32 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1220916845
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220916825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
+  itemId: 100
   indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 867502165}
-  replacedCharacter: {fileID: 0}
+  storyText: 'Pictures are taken and a single hug is exchanged, something lingers
+    in that touch, but you don''t kow exactly what yet. '
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 785651520}
-  toPosition: {fileID: 1260007250}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1220916846
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: 'Sh-shut up. I need to focus, you dummie. '
+  storyText: 'S-Shut up. I need to focus, you dummie. '
   description: 
   character: {fileID: 1283834017}
   portrait: {fileID: 0}
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: W- would that be such a bad thing?
+  storyText: W-Would that be such a bad thing?
   description: 
   character: {fileID: 1283834017}
   portrait: {fileID: 0}
@@ -1864,7 +1864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'T-thanks....I , uh, you''ve got a really good facial structure. The
+  storyText: 'T-Thanks....I, uh, you''ve got a really good facial structure. The
     pictures are gonna come out really well. '
   description: 
   character: {fileID: 1283834017}
@@ -2228,7 +2228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: 'Yea, they''re okay. Kind of wondering if this is gonna be enough though. '
+  storyText: 'Yeah, they''re okay. Kind of wondering if this is gonna be enough though. '
   description: 
   character: {fileID: 1283834017}
   portrait: {fileID: 0}
@@ -3296,10 +3296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: 'As the day draws to a close, you look on in awe at the face appearing
-    before you. Each deft swipe of Iris''s hands and tools reveals more of a face
-    you never really knew. Pictures are taken and a single hug is exchanged, something
-    lingers in that touch, but you don''t kow exactly what yet. '
+  storyText: As the day draws to a close, you look on in awe at the face appearing
+    before you. Each deft swipe of Iris's hands and tools reveals more of a face
+    you never really knew.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3338,6 +3337,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1220916912}
+  - {fileID: 1220916845}
   - {fileID: 1220916910}
   - {fileID: 1220916853}
   - {fileID: 1220916924}
@@ -4585,6 +4585,21 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1220916928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220916825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &1260007249
 GameObject:
   m_ObjectHideFlags: 0
