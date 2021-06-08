@@ -1824,6 +1824,7 @@ GameObject:
   - component: {fileID: 2100976332}
   - component: {fileID: 2100976331}
   - component: {fileID: 2100976330}
+  - component: {fileID: 2100976260}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1860,9 +1861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 71.24256
+    x: 70.06609
     y: 90
-    width: 79.230774
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1888,11 +1889,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1062.0477, y: -299.24948}
+  scrollPos: {x: -1287.582, y: -556.3235}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.52
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1900,7 +1901,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2100976313}
+  - {fileID: 2100976252}
   selectedCommands: []
   variables:
   - {fileID: 2100976043}
@@ -1923,6 +1924,7 @@ MonoBehaviour:
   - {fileID: 2100976332}
   - {fileID: 2100976328}
   - {fileID: 2100976327}
+  - {fileID: 2100976260}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2844,7 +2846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 41.1633
     y: 177.0443
-    width: 145.38461
+    width: 139.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3041,7 +3043,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Lovely seeing you tonight (MC). Shall I start you of with the usual?
+  storyText: Lovely seeing you tonight {$PlayerName}. Shall I start you of with the
+    usual?
   description: 
   character: {fileID: 131433143}
   portrait: {fileID: 0}
@@ -3164,9 +3167,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 70.68198
+    x: 69.505516
     y: 473.60135
-    width: 83.84615
+    width: 82.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3198,7 +3201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 59.28955
     y: 377.39874
-    width: 106.92308
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3226,7 +3229,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 235.23914
     y: 264.74057
-    width: 105.38461
+    width: 103.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3253,9 +3256,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 50.762833
+    x: 51.939304
     y: 267.27243
-    width: 120.76923
+    width: 118.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3284,7 +3287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.84952
     y: 266.00616
-    width: 91.53847
+    width: 89.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3430,7 +3433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.96041
     y: 562.2087
-    width: 120.76923
+    width: 118.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3469,7 +3472,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.69452
     y: 763.47437
-    width: 83.84615
+    width: 82.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3497,7 +3500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 252.96028
     y: 701.44867
-    width: 83.84615
+    width: 82.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3526,7 +3529,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.69444
     y: 644.4867
-    width: 83.84615
+    width: 83.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3554,7 +3557,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -106.53331
     y: 762.2086
-    width: 83.84615
+    width: 83.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3583,7 +3586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -106.53334
     y: 701.44916
-    width: 83.84615
+    width: 82.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3612,7 +3615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -106.5332
     y: 641.956
-    width: 82.30769
+    width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3660,7 +3663,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 455.4921
     y: 358.67938
-    width: 88.46154
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5769,7 +5772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 265
   indentLevel: 0
-  storyText: You give Isaac a dirty rag.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5798,7 +5801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -591.99347
     y: 816.3217
-    width: 86.92308
+    width: 84.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5845,7 +5848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 262
   indentLevel: 0
-  storyText: You give Isaac a rock.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5874,7 +5877,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -692.53876
     y: 817.0651
-    width: 85.38461
+    width: 83.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5921,7 +5924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 272
   indentLevel: 0
-  storyText: You give Isaac a globe.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5950,7 +5953,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -595.91144
     y: 643.95624
-    width: 97.69231
+    width: 96.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5997,7 +6000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 228
   indentLevel: 0
-  storyText: You give Isaac an egg.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6025,8 +6028,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -703.045
-    y: 643.07904
-    width: 96.15385
+    y: 644.2555
+    width: 95.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6159,7 +6162,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -952.4848
     y: 468.23648
-    width: 142.3077
+    width: 138.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8404,8 +8407,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -928.5505
-    y: 562.0732
-    width: 93.07692
+    y: 560.8967
+    width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8471,7 +8474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 197
   indentLevel: 0
-  storyText: You give Isaac a teal book marker.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8500,7 +8503,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1137.1848
     y: 817.3094
-    width: 83.84615
+    width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8547,7 +8550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 194
   indentLevel: 0
-  storyText: You give Isaac a book marker.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8576,7 +8579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1236.7283
     y: 816.2972
-    width: 82.30769
+    width: 81.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8623,7 +8626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 191
   indentLevel: 0
-  storyText: You give Isaac a big book.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8652,7 +8655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1137.2725
     y: 639.99286
-    width: 88.46154
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8699,7 +8702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 270
   indentLevel: 0
-  storyText: You give Isaac a small book.
+  storyText: You give Natalie .
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8726,9 +8729,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1232.9973
-    y: 637.476
-    width: 86.92308
+    x: -1234.1738
+    y: 642.1818
+    width: 85.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9117,7 +9120,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -651.1401
     y: 888.46686
-    width: 100.76923
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9378,7 +9381,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -659.2664
     y: 712.133
-    width: 111.53847
+    width: 109.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9638,7 +9641,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1195.4185
     y: 891.17
-    width: 97.69231
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9898,7 +9901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1194.1736
     y: 707.56586
-    width: 102.30769
+    width: 98.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10005,7 +10008,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1924.1078
     y: 584.95306
-    width: 139.23077
+    width: 134.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10085,8 +10088,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1315.0784
-    y: 808.30096
-    width: 111.53847
+    y: 803.30096
+    width: 107.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10156,7 +10159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 793.70245
     y: 802.99884
-    width: 139.23077
+    width: 134.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10335,7 +10338,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.4168
     y: 1012.44196
-    width: 145.38461
+    width: 141.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10388,7 +10391,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 598.45685
     y: 1012.74744
-    width: 80.76923
+    width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10463,7 +10466,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1010.0678
     y: 908.0846
-    width: 174.61539
+    width: 167.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10541,7 +10544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 877.5701
     y: 907.50183
-    width: 96.15385
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10618,7 +10621,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 749.74884
     y: 911.8448
-    width: 91.53847
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10695,7 +10698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 598.2391
     y: 910.97455
-    width: 79.230774
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10773,7 +10776,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1017.5908
     y: 695.60864
-    width: 100.76923
+    width: 99.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10850,7 +10853,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 885.3301
     y: 696.1436
-    width: 102.30769
+    width: 100.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10928,7 +10931,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 723.08563
     y: 695.7293
-    width: 133.07693
+    width: 129.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11006,7 +11009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562.47614
     y: 696.26184
-    width: 123.84615
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11160,7 +11163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.60114
     y: 584.9008
-    width: 143.84616
+    width: 140.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11294,7 +11297,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 818.847
     y: 474.55292
-    width: 88.46154
+    width: 86.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11349,8 +11352,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1728.1266
-    y: 374.71893
-    width: 111.53847
+    y: 373.54245
+    width: 109.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11428,7 +11431,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1723.3048
     y: 585.0783
-    width: 117.69231
+    width: 114.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11535,7 +11538,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1717.2914
     y: 691.683
-    width: 128.46155
+    width: 125.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12658,7 +12661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1324.9694
     y: 712.5018
-    width: 90
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12864,9 +12867,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1738.1797
-    y: 908.48
-    width: 86.92308
+    x: 1736.1797
+    y: 909.48
+    width: 84.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13339,9 +13342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1719.3265
-    y: 809.8035
-    width: 126.92308
+    x: 1717.3265
+    y: 805.8035
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14202,6 +14205,21 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &2100976260
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100976023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!114 &2100976261
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14350,7 +14368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -936.9239
     y: 803.36786
-    width: 91.53847
+    width: 89.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15479,7 +15497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1293.9839
     y: 907.3302
-    width: 156.15384
+    width: 151.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16744,7 +16762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 445
   indentLevel: 0
-  storyText: Hey Rosy? Yeah, (MC) just passed out.
+  storyText: Hey Rosy? Yeah, {$PlayerName} just passed out drunk.
   description: 
   character: {fileID: 131433143}
   portrait: {fileID: 0}
@@ -16920,7 +16938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -424.40652
     y: 740.0843
-    width: 133.07693
+    width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 517981056}
   - component: {fileID: 517981055}
   m_Layer: 0
-  m_Name: Character1 - Natalie
+  m_Name: Natalie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 1660660686}
   - component: {fileID: 1660660685}
   - component: {fileID: 1660660687}
+  - component: {fileID: 1660660688}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -860,11 +861,12 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1660660663}
   selectedCommands:
-  - {fileID: 1660660685}
+  - {fileID: 1660660679}
   variables:
   - {fileID: 1660660684}
   - {fileID: 1660660683}
   - {fileID: 1660660686}
+  - {fileID: 1660660688}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -958,7 +960,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: 'And to think... all this wouldn''t have happened if you didn''t help
-    me. Thank you, _____. It''s been a long night, so you should head out. '
+    me. Thank you, {$PlayerName}. It''s been a long night, so you should head out. '
   description: 
   character: {fileID: 517981055}
   portrait: {fileID: 0}
@@ -1669,6 +1671,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
+--- !u!114 &1660660688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660660660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &1693557444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,7 +1771,7 @@ GameObject:
   - component: {fileID: 1730616605}
   - component: {fileID: 1730616604}
   m_Layer: 0
-  m_Name: Character2 - MC
+  m_Name: You
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1772,7 +1789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: MC
+  nameText: You
   nameColor: {r: 0, g: 0.5974078, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:

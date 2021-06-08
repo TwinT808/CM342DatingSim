@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 300905015}
   - component: {fileID: 300905017}
   - component: {fileID: 300905016}
+  - component: {fileID: 300905018}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -424,12 +425,13 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 300904966}
   selectedCommands:
-  - {fileID: 300905010}
+  - {fileID: 300904985}
   variables:
   - {fileID: 300904925}
   - {fileID: 300904922}
   - {fileID: 300905013}
   - {fileID: 300905012}
+  - {fileID: 300905018}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -637,7 +639,7 @@ MonoBehaviour:
   storyText: You walk up to the bar but Natalie is nowhere to be found. You decide
     to go behind the bar and check up on her.
   description: 
-  character: {fileID: 1412548841}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -689,7 +691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: 'Oh...my...(MC), I didn''t realize you were here. '
+  storyText: 'Oh...my...{$PlayerName}, I didn''t realize you were here. '
   description: 
   character: {fileID: 813052374}
   portrait: {fileID: 0}
@@ -733,7 +735,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You find Natalie lifting some boxes in the back. '
   description: 
-  character: {fileID: 1412548841}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4181,6 +4183,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
+--- !u!114 &300905018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300904910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &749972922
 GameObject:
   m_ObjectHideFlags: 0
