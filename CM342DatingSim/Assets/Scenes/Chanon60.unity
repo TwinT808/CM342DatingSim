@@ -385,6 +385,11 @@ GameObject:
   - component: {fileID: 327098520}
   - component: {fileID: 327098556}
   - component: {fileID: 327098571}
+  - component: {fileID: 327098630}
+  - component: {fileID: 327098629}
+  - component: {fileID: 327098628}
+  - component: {fileID: 327098573}
+  - component: {fileID: 327098572}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -530,7 +535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 752.92096, y: -488.2431}
+  scrollPos: {x: 788.9865, y: -602.99713}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -544,7 +549,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 327098537}
   selectedCommands:
-  - {fileID: 327098535}
+  - {fileID: 327098620}
   variables:
   - {fileID: 327098583}
   - {fileID: 327098582}
@@ -659,6 +664,7 @@ MonoBehaviour:
   - {fileID: 327098622}
   - {fileID: 327098624}
   - {fileID: 327098623}
+  - {fileID: 327098629}
   - {fileID: 327098615}
   suppressAllAutoSelections: 0
 --- !u!114 &327098461
@@ -978,6 +984,7 @@ MonoBehaviour:
   - {fileID: 327098587}
   - {fileID: 327098584}
   - {fileID: 327098586}
+  - {fileID: 327098630}
   - {fileID: 327098616}
   suppressAllAutoSelections: 0
 --- !u!114 &327098473
@@ -2531,6 +2538,7 @@ MonoBehaviour:
   - {fileID: 327098523}
   - {fileID: 327098626}
   - {fileID: 327098625}
+  - {fileID: 327098628}
   - {fileID: 327098614}
   suppressAllAutoSelections: 0
 --- !u!114 &327098530
@@ -2750,6 +2758,7 @@ MonoBehaviour:
   - {fileID: 327098535}
   - {fileID: 327098621}
   - {fileID: 327098620}
+  - {fileID: 327098572}
   - {fileID: 327098524}
   suppressAllAutoSelections: 0
 --- !u!114 &327098538
@@ -2916,6 +2925,7 @@ MonoBehaviour:
   - {fileID: 327098619}
   - {fileID: 327098618}
   - {fileID: 327098617}
+  - {fileID: 327098573}
   - {fileID: 327098585}
   suppressAllAutoSelections: 0
 --- !u!114 &327098544
@@ -3655,6 +3665,34 @@ MonoBehaviour:
   scope: 2
   key: PlayerName
   value: 
+--- !u!114 &327098572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+--- !u!114 &327098573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
 --- !u!114 &327098574
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6103,6 +6141,48 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1508655554}
+--- !u!114 &327098628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 212
+  indentLevel: 0
+--- !u!114 &327098629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 211
+  indentLevel: 0
+--- !u!114 &327098630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 210
+  indentLevel: 0
 --- !u!1 &517879663
 GameObject:
   m_ObjectHideFlags: 0
