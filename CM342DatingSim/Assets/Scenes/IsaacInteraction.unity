@@ -211,8 +211,8 @@ GameObject:
   - component: {fileID: 91506463}
   - component: {fileID: 91506462}
   - component: {fileID: 91506461}
-  - component: {fileID: 91506460}
   - component: {fileID: 91506459}
+  - component: {fileID: 91506460}
   m_Layer: 0
   m_Name: Coloring Book
   m_TagString: Untagged
@@ -251,12 +251,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
+  itemId: 105
   indentLevel: 0
-  storyText: Picture Book
+  storyText: '"Comes with a free pack of crayons, no not the good kind, the ones
+    that are faded wax. The kids won''t know the difference!"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1845418826}
+  portrait: {fileID: 21300000, guid: d1f477a26019ae443aa7705ce33ffdcf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -493,7 +494,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 91506466}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 91506459}
   variables: []
   description: 
   stepPause: 0
@@ -1253,7 +1255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -125.13322, y: -365.78226}
+  scrollPos: {x: -342.94138, y: -304.13837}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1265,8 +1267,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 299743776}
-  selectedCommands: []
+  - {fileID: 299743861}
+  selectedCommands:
+  - {fileID: 299743868}
   variables:
   - {fileID: 299743794}
   - {fileID: 299743899}
@@ -15349,8 +15352,8 @@ GameObject:
   - component: {fileID: 1417503412}
   - component: {fileID: 1417503411}
   - component: {fileID: 1417503410}
-  - component: {fileID: 1417503409}
   - component: {fileID: 1417503408}
+  - component: {fileID: 1417503409}
   m_Layer: 0
   m_Name: CookBook
   m_TagString: Untagged
@@ -15379,7 +15382,7 @@ MonoBehaviour:
   messageOLD: 
 --- !u!114 &1417503409
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15389,12 +15392,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
+  itemId: 107
   indentLevel: 0
-  storyText: Picture Book
+  storyText: '"Cooking with Gorgon Rayleen, renowned for her cutthroat cooking methods
+    and screaming about the location of the barberque sauce." -by Hellfire Kitchens'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1845418826}
+  portrait: {fileID: 21300000, guid: 5512c75ee7f81f74893e6a119aa46f11, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15632,7 +15636,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1417503415}
   selectedCommands:
-  - {fileID: 1417503410}
+  - {fileID: 1417503409}
   variables: []
   description: 
   stepPause: 0
@@ -16283,7 +16287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 658362967}
+  selectedFlowchart: {fileID: 1417503416}
 --- !u!4 &1700533279
 Transform:
   m_ObjectHideFlags: 1
