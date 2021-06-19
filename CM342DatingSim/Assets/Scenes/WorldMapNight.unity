@@ -1003,9 +1003,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 33961619}
-  selectedCommands:
-  - {fileID: 33961617}
+  - {fileID: 33961616}
+  selectedCommands: []
   variables:
   - {fileID: 33961609}
   - {fileID: 33961608}
@@ -5201,8 +5200,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 205261048}
-  selectedCommands:
-  - {fileID: 205261039}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6734,7 +6732,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 555345782}
+  - {fileID: 555345787}
   selectedCommands: []
   variables: []
   description: 
@@ -7212,7 +7210,6 @@ GameObject:
   - component: {fileID: 699090214}
   - component: {fileID: 699090213}
   - component: {fileID: 699090212}
-  - component: {fileID: 699090211}
   - component: {fileID: 699090210}
   - component: {fileID: 699090207}
   - component: {fileID: 699090206}
@@ -7275,6 +7272,7 @@ GameObject:
   - component: {fileID: 699090194}
   - component: {fileID: 699090192}
   - component: {fileID: 699090191}
+  - component: {fileID: 699090196}
   m_Layer: 0
   m_Name: ChanonShopSelect
   m_TagString: Untagged
@@ -7449,6 +7447,26 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &699090196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699090188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 339
+  indentLevel: 0
+  spriteRenderer: {fileID: 699090213}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!114 &699090201
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7583,7 +7601,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 172.13687
-    y: 70.13698
+    y: 68.76711
     width: 98.21916
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7612,26 +7630,6 @@ MonoBehaviour:
   parentBlock: {fileID: 699090214}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
---- !u!114 &699090211
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 699090188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  spriteRenderer: {fileID: 699090213}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!60 &699090212
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7763,7 +7761,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 699090210}
   commandList:
-  - {fileID: 699090211}
+  - {fileID: 699090196}
   suppressAllAutoSelections: 0
 --- !u!114 &699090215
 MonoBehaviour:
@@ -7790,9 +7788,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 699090207}
+  - {fileID: 699090214}
   selectedCommands:
-  - {fileID: 699090205}
+  - {fileID: 699090196}
   variables:
   - {fileID: 699090223}
   - {fileID: 699090222}
@@ -10628,7 +10626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1730182082}
+  selectedFlowchart: {fileID: 33961627}
 --- !u!4 &725595026
 Transform:
   m_ObjectHideFlags: 1
@@ -13855,9 +13853,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1730182095}
-  selectedCommands:
-  - {fileID: 1730182090}
+  - {fileID: 1730182089}
+  selectedCommands: []
   variables:
   - {fileID: 1730182130}
   - {fileID: 1730182131}
@@ -17067,7 +17064,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1730182155
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17082,7 +17079,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1730182156
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17106,7 +17103,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182157
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17142,8 +17139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 529.55676
-    y: 101.22017
+    x: 523.55676
+    y: 104.22017
     width: 109.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -17165,7 +17162,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1730182159
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17189,7 +17186,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182160
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17213,7 +17210,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182161
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17237,7 +17234,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182162
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17261,7 +17258,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182163
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17285,7 +17282,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182164
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17309,7 +17306,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1730182165
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -18461,9 +18458,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1873194622}
-  selectedCommands:
-  - {fileID: 1873194620}
+  - {fileID: 1873194629}
+  selectedCommands: []
   variables:
   - {fileID: 1873194635}
   - {fileID: 1873194634}
