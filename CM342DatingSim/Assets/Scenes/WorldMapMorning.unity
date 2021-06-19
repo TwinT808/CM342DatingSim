@@ -9387,9 +9387,7 @@ GameObject:
   - component: {fileID: 732811736}
   - component: {fileID: 732811739}
   - component: {fileID: 732811738}
-  - component: {fileID: 732811737}
   - component: {fileID: 732811740}
-  - component: {fileID: 732811743}
   - component: {fileID: 732811742}
   - component: {fileID: 732811741}
   - component: {fileID: 732811725}
@@ -10175,8 +10173,6 @@ MonoBehaviour:
   - {fileID: 732811740}
   - {fileID: 732811736}
   - {fileID: 732811738}
-  - {fileID: 732811737}
-  - {fileID: 732811743}
   - {fileID: 732811744}
   - {fileID: 732811716}
   suppressAllAutoSelections: 0
@@ -10205,8 +10201,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 732811742}
-  selectedCommands: []
+  - {fileID: 732811733}
+  selectedCommands:
+  - {fileID: 732811744}
   variables:
   - {fileID: 732811729}
   - {fileID: 732811730}
@@ -10266,34 +10263,6 @@ MonoBehaviour:
   setColor:
     colorRef: {fileID: 0}
     colorVal: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &732811737
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732811697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 434
-  indentLevel: 0
-  textObject: {fileID: 1074790868}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 
-  description: 
-  clearText: 1
-  waitUntilFinished: 1
-  textColor: 0
-  setAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  setColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &732811738
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10310,7 +10279,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &732811739
 MonoBehaviour:
@@ -10412,27 +10381,6 @@ MonoBehaviour:
   - {fileID: 732811723}
   - {fileID: 732811717}
   suppressAllAutoSelections: 0
---- !u!114 &732811743
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732811697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 436
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1294084644}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &732811744
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11179,7 +11127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 596051121}
+  selectedFlowchart: {fileID: 732811734}
 --- !u!4 &835818166
 Transform:
   m_ObjectHideFlags: 1
@@ -11791,11 +11739,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1294084648}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 357, y: 270}
+  m_AnchoredPosition: {x: -400, y: 285}
   m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1074790870
@@ -11852,7 +11800,7 @@ GameObject:
   - component: {fileID: 1156231129}
   - component: {fileID: 1156231128}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LocationDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12889,8 +12837,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1074790869}
   - {fileID: 1297894378}
+  - {fileID: 1074790869}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12929,11 +12877,11 @@ RectTransform:
   m_LocalScale: {x: 0.31498906, y: 0.13149074, z: 0.7654811}
   m_Children: []
   m_Father: {fileID: 1294084648}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 357, y: 270}
+  m_AnchoredPosition: {x: -400, y: 285}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1297894379

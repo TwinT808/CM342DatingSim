@@ -4305,7 +4305,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1321165632}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6177,11 +6177,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1454752218}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355, y: 270}
+  m_AnchoredPosition: {x: -400, y: 285}
   m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1084628188
@@ -6905,9 +6905,7 @@ GameObject:
   - component: {fileID: 1185060680}
   - component: {fileID: 1185060679}
   - component: {fileID: 1185060678}
-  - component: {fileID: 1185060677}
   - component: {fileID: 1185060676}
-  - component: {fileID: 1185060675}
   - component: {fileID: 1185060674}
   - component: {fileID: 1185060673}
   - component: {fileID: 1185060672}
@@ -7245,27 +7243,6 @@ MonoBehaviour:
   - {fileID: 1185060670}
   - {fileID: 1185060669}
   suppressAllAutoSelections: 0
---- !u!114 &1185060675
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185060666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 436
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1454752217}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1185060676
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7287,34 +7264,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &1185060677
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185060666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 434
-  indentLevel: 0
-  textObject: {fileID: 1057586967}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 
-  description: 
-  clearText: 1
-  waitUntilFinished: 1
-  textColor: 0
-  setAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  setColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1185060678
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7331,7 +7280,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &1185060679
 MonoBehaviour:
@@ -8040,8 +7989,6 @@ MonoBehaviour:
   - {fileID: 1185060676}
   - {fileID: 1185060680}
   - {fileID: 1185060678}
-  - {fileID: 1185060677}
-  - {fileID: 1185060675}
   - {fileID: 1185060667}
   - {fileID: 1185060668}
   suppressAllAutoSelections: 0
@@ -8070,9 +8017,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1185060688}
+  - {fileID: 1185060711}
   selectedCommands:
-  - {fileID: 1185060714}
+  - {fileID: 1185060667}
   variables:
   - {fileID: 1185060707}
   - {fileID: 1185060708}
@@ -8164,7 +8111,7 @@ RectTransform:
   m_LocalScale: {x: 0.40645847, y: 0.19127873, z: 0.7654811}
   m_Children: []
   m_Father: {fileID: 1321165632}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11338,7 +11285,7 @@ GameObject:
   - component: {fileID: 1321165634}
   - component: {fileID: 1321165633}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LocationDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11355,8 +11302,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 313430541}
   - {fileID: 1203833196}
+  - {fileID: 313430541}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12466,8 +12413,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1057586970}
   - {fileID: 1783980233}
+  - {fileID: 1057586970}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13487,11 +13434,11 @@ RectTransform:
   m_LocalScale: {x: 0.31498906, y: 0.13149074, z: 0.7654811}
   m_Children: []
   m_Father: {fileID: 1454752218}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 355, y: 270}
+  m_AnchoredPosition: {x: -400, y: 285}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783980234
