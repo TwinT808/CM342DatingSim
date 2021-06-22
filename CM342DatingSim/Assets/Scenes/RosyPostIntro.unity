@@ -533,6 +533,9 @@ GameObject:
   - component: {fileID: 381008895}
   - component: {fileID: 381008918}
   - component: {fileID: 381008897}
+  - component: {fileID: 381008794}
+  - component: {fileID: 381008856}
+  - component: {fileID: 381008857}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -553,7 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1140.4642, y: -34.43588}
+  scrollPos: {x: 470.15173, y: 57.751583}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -565,7 +568,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 381008790}
+  - {fileID: 381008794}
   selectedCommands: []
   variables:
   - {fileID: 381008866}
@@ -864,6 +867,33 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &381008794
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381008781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 220.56036
+    y: 78.49832
+    width: 107.49997
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 482
+  blockName: NightTime
+  description: 
+  eventHandler: {fileID: 381008857}
+  commandList:
+  - {fileID: 381008856}
+  suppressAllAutoSelections: 0
 --- !u!114 &381008795
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2498,6 +2528,45 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &381008856
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381008781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 164
+  indentLevel: 0
+  spriteRenderer: {fileID: 531062070}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &381008857
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381008781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 381008794}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!114 &381008859
 MonoBehaviour:
   m_ObjectHideFlags: 2
