@@ -1004,14 +1004,14 @@ GameObject:
   - component: {fileID: 898754942}
   - component: {fileID: 898754944}
   - component: {fileID: 898754915}
-  - component: {fileID: 898754950}
-  - component: {fileID: 898754949}
-  - component: {fileID: 898754948}
   - component: {fileID: 898754947}
   - component: {fileID: 898754946}
   - component: {fileID: 898754945}
   - component: {fileID: 898754797}
   - component: {fileID: 898754951}
+  - component: {fileID: 898754950}
+  - component: {fileID: 898754949}
+  - component: {fileID: 898754948}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1093,14 +1093,15 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 898754875}
-  selectedCommands: []
+  - {fileID: 898754879}
+  selectedCommands:
+  - {fileID: 898754935}
   variables:
   - {fileID: 898754925}
   - {fileID: 898754936}
   - {fileID: 898754950}
-  - {fileID: 898754949}
   - {fileID: 898754948}
+  - {fileID: 898754949}
   - {fileID: 898754951}
   description: 
   stepPause: 0
@@ -5415,7 +5416,7 @@ MonoBehaviour:
   itemId: 155
   indentLevel: 0
   anyVar:
-    variable: {fileID: 898754948}
+    variable: {fileID: 898754949}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -5425,7 +5426,7 @@ MonoBehaviour:
         audioSourceVal: {fileID: 0}
       booleanData:
         booleanRef: {fileID: 0}
-        booleanVal: 0
+        booleanVal: 1
       collectionData:
         collectionRef: {fileID: 0}
         collectionVal: {fileID: 0}
@@ -5502,7 +5503,7 @@ MonoBehaviour:
       vector4Data:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 2
+  setOperator: 0
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -5747,7 +5748,7 @@ MonoBehaviour:
         audioSourceVal: {fileID: 0}
       booleanData:
         booleanRef: {fileID: 0}
-        booleanVal: 0
+        booleanVal: 1
       collectionData:
         collectionRef: {fileID: 0}
         collectionVal: {fileID: 0}
@@ -5824,7 +5825,7 @@ MonoBehaviour:
       vector4Data:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 2
+  setOperator: 0
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -5889,7 +5890,7 @@ MonoBehaviour:
   itemId: 174
   indentLevel: 0
   anyVar:
-    variable: {fileID: 898754949}
+    variable: {fileID: 898754948}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -5899,7 +5900,7 @@ MonoBehaviour:
         audioSourceVal: {fileID: 0}
       booleanData:
         booleanRef: {fileID: 0}
-        booleanVal: 0
+        booleanVal: 1
       collectionData:
         collectionRef: {fileID: 0}
         collectionVal: {fileID: 0}
@@ -5976,7 +5977,7 @@ MonoBehaviour:
       vector4Data:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 2
+  setOperator: 0
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -6187,11 +6188,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 898754796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: IsaacNegative1
+  key: IsaacNeutral1
   value: 0
 --- !u!114 &898754949
 MonoBehaviour:
@@ -6202,11 +6203,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 898754796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: IsaacNeutral1
+  key: IsaacNegative1
   value: 0
 --- !u!114 &898754950
 MonoBehaviour:
@@ -6217,7 +6218,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 898754796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2

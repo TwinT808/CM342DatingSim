@@ -725,17 +725,16 @@ GameObject:
   - component: {fileID: 1660660677}
   - component: {fileID: 1660660676}
   - component: {fileID: 1660660675}
-  - component: {fileID: 1660660678}
   - component: {fileID: 1660660684}
   - component: {fileID: 1660660683}
   - component: {fileID: 1660660682}
   - component: {fileID: 1660660681}
   - component: {fileID: 1660660680}
   - component: {fileID: 1660660679}
-  - component: {fileID: 1660660686}
   - component: {fileID: 1660660685}
   - component: {fileID: 1660660687}
   - component: {fileID: 1660660688}
+  - component: {fileID: 1660660678}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -816,7 +815,6 @@ MonoBehaviour:
   - {fileID: 1660660679}
   - {fileID: 1660660661}
   - {fileID: 1660660673}
-  - {fileID: 1660660678}
   - {fileID: 1660660672}
   - {fileID: 1660660671}
   - {fileID: 1660660670}
@@ -861,11 +859,11 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1660660663}
   selectedCommands:
-  - {fileID: 1660660679}
+  - {fileID: 1660660672}
   variables:
   - {fileID: 1660660684}
   - {fileID: 1660660683}
-  - {fileID: 1660660686}
+  - {fileID: 1660660678}
   - {fileID: 1660660688}
   description: 
   stepPause: 0
@@ -1240,15 +1238,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1660660660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 59504179b65d12a48890fe934e9d670d, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
+  scope: 2
+  key: NataliePositive1
+  value: 0
 --- !u!114 &1660660679
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1492,7 +1487,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1660660685
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1505,7 +1500,7 @@ MonoBehaviour:
   itemId: 19
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1660660686}
+    variable: {fileID: 0}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -1642,24 +1637,9 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1660660686
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660660660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 2
-  key: NataliePositive1
-  value: 0
 --- !u!114 &1660660687
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1673,7 +1653,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1660660688
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
