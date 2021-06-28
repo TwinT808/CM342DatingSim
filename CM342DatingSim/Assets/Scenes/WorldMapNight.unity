@@ -13730,7 +13730,6 @@ GameObject:
   - component: {fileID: 1730182110}
   - component: {fileID: 1730182096}
   - component: {fileID: 1730182095}
-  - component: {fileID: 1730182093}
   - component: {fileID: 1730182090}
   - component: {fileID: 1730182084}
   - component: {fileID: 1730182081}
@@ -13893,9 +13892,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1730182194}
-  selectedCommands:
-  - {fileID: 1730182184}
+  - {fileID: 1730182177}
+  selectedCommands: []
   variables:
   - {fileID: 1730182130}
   - {fileID: 1730182131}
@@ -13958,7 +13956,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1730182085
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14114,36 +14112,9 @@ MonoBehaviour:
   interactableState:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1730182093
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730182079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985454614aca94d16906c0f2bd0b26f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 442
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 148399732}
-  - {fileID: 33961600}
-  - {fileID: 555345779}
-  - {fileID: 1974023453}
-  - {fileID: 50512007}
-  - {fileID: 1873194603}
-  - {fileID: 205261038}
-  - {fileID: 699090188}
-  targetTag: 
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1730182094
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14193,7 +14164,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1730182093}
   - {fileID: 1730182090}
   - {fileID: 1730182084}
   suppressAllAutoSelections: 0
@@ -19362,7 +19332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 331.9823
+    x: 330.9823
     y: 293.22015
     width: 172.4
     height: 40
@@ -19531,8 +19501,8 @@ MonoBehaviour:
   itemId: 518
   indentLevel: 1
   targetObjects:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 205261038}
+  - {fileID: 699090188}
   targetTag: 
   activeState:
     booleanRef: {fileID: 0}
@@ -19809,8 +19779,8 @@ MonoBehaviour:
   itemId: 515
   indentLevel: 1
   targetObjects:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 148399732}
+  - {fileID: 33961600}
   targetTag: 
   activeState:
     booleanRef: {fileID: 0}
@@ -20087,8 +20057,8 @@ MonoBehaviour:
   itemId: 512
   indentLevel: 1
   targetObjects:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 555345779}
+  - {fileID: 1974023453}
   targetTag: 
   activeState:
     booleanRef: {fileID: 0}
@@ -20351,7 +20321,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 346.72696
-    y: 195.22017
+    y: 194.22017
     width: 139.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
