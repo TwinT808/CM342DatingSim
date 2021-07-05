@@ -2216,6 +2216,8 @@ GameObject:
   - component: {fileID: 582446002}
   - component: {fileID: 582445999}
   - component: {fileID: 582445929}
+  - component: {fileID: 582446005}
+  - component: {fileID: 582446004}
   m_Layer: 0
   m_Name: IsaacShopSelect
   m_TagString: Untagged
@@ -2338,7 +2340,7 @@ MonoBehaviour:
   FireOn: 64
 --- !u!114 &582445929
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2660,6 +2662,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 582445930}
   - {fileID: 582445929}
+  - {fileID: 582446005}
   - {fileID: 582446003}
   - {fileID: 582446002}
   - {fileID: 582446001}
@@ -4552,6 +4555,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 582445999}
+  - {fileID: 582446004}
   suppressAllAutoSelections: 0
 --- !u!114 &582445970
 MonoBehaviour:
@@ -4928,9 +4932,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 582445943}
+  - {fileID: 582445969}
   selectedCommands:
-  - {fileID: 582445929}
+  - {fileID: 582445999}
   variables:
   - {fileID: 582445931}
   - {fileID: 582445934}
@@ -6729,6 +6733,44 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &582446004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582445923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 523
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &582446005
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582445923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 521
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &596051054
 GameObject:
   m_ObjectHideFlags: 0
@@ -6825,6 +6867,8 @@ GameObject:
   - component: {fileID: 596051139}
   - component: {fileID: 596051138}
   - component: {fileID: 596051060}
+  - component: {fileID: 596051141}
+  - component: {fileID: 596051140}
   m_Layer: 0
   m_Name: ChanonShopSelect
   m_TagString: Untagged
@@ -7271,8 +7315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 182.6194
-    y: 178.91005
+    x: 185.35913
+    y: 180.2799
     width: 78.49314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7284,6 +7328,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 596051061}
   - {fileID: 596051060}
+  - {fileID: 596051141}
   - {fileID: 596051150}
   - {fileID: 596051139}
   - {fileID: 596051148}
@@ -9766,6 +9811,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 596051138}
+  - {fileID: 596051140}
   suppressAllAutoSelections: 0
 --- !u!114 &596051109
 MonoBehaviour:
@@ -10108,9 +10154,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 596051075}
+  - {fileID: 596051108}
   selectedCommands:
-  - {fileID: 596051060}
+  - {fileID: 596051138}
   variables:
   - {fileID: 596051066}
   - {fileID: 596051065}
@@ -11633,6 +11679,44 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &596051140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596051054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 523
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &596051141
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596051054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 521
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &596051147
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13789,8 +13873,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 732811722}
+  selectedCommands:
+  - {fileID: 732811700}
   variables:
   - {fileID: 732811729}
   - {fileID: 732811730}
@@ -16902,7 +16988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 732811734}
+  selectedFlowchart: {fileID: 1984835253}
 --- !u!4 &835818166
 Transform:
   m_ObjectHideFlags: 1
@@ -17364,6 +17450,8 @@ GameObject:
   - component: {fileID: 958981433}
   - component: {fileID: 958981437}
   - component: {fileID: 958981434}
+  - component: {fileID: 958981445}
+  - component: {fileID: 958981439}
   m_Layer: 0
   m_Name: PostOfficeSelect
   m_TagString: Untagged
@@ -17485,6 +17573,25 @@ MonoBehaviour:
   scope: 2
   key: IsaacNegativeGreet
   value: 0
+--- !u!114 &958981439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958981432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 522
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &958981440
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17560,6 +17667,25 @@ MonoBehaviour:
   scope: 2
   key: Morning
   value: 0
+--- !u!114 &958981445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958981432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 521
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &958981454
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17888,6 +18014,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 958981460}
   - {fileID: 958981434}
+  - {fileID: 958981445}
   - {fileID: 958981472}
   - {fileID: 958981471}
   suppressAllAutoSelections: 0
@@ -17984,6 +18111,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 958981437}
+  - {fileID: 958981439}
   suppressAllAutoSelections: 0
 --- !u!114 &958981499
 MonoBehaviour:
@@ -18286,9 +18414,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 958981473}
+  - {fileID: 958981498}
   selectedCommands:
-  - {fileID: 958981472}
+  - {fileID: 958981439}
   variables:
   - {fileID: 958981461}
   - {fileID: 958981464}
@@ -21908,6 +22036,8 @@ GameObject:
   - component: {fileID: 1984835209}
   - component: {fileID: 1984835259}
   - component: {fileID: 1984835235}
+  - component: {fileID: 1984835261}
+  - component: {fileID: 1984835260}
   m_Layer: 0
   m_Name: IrisShopSelect
   m_TagString: Untagged
@@ -24761,7 +24891,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1984835235
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24812,6 +24942,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1984835259}
+  - {fileID: 1984835260}
   suppressAllAutoSelections: 0
 --- !u!114 &1984835237
 MonoBehaviour:
@@ -25041,6 +25172,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1984835238}
   - {fileID: 1984835235}
+  - {fileID: 1984835261}
   - {fileID: 1984835280}
   - {fileID: 1984835209}
   - {fileID: 1984835237}
@@ -25275,9 +25407,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1984835247}
+  - {fileID: 1984835236}
   selectedCommands:
-  - {fileID: 1984835235}
+  - {fileID: 1984835259}
   variables:
   - {fileID: 1984835208}
   - {fileID: 1984835207}
@@ -25992,6 +26124,44 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1984835260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984835184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 538
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1984835261
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984835184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0d0ed4a2ca94c81a230a0ecce6e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 537
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 1775118448}
+  interactableState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1984835263
 MonoBehaviour:
   m_ObjectHideFlags: 2
