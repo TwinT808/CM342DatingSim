@@ -1128,6 +1128,8 @@ GameObject:
   - component: {fileID: 1660660693}
   - component: {fileID: 1660660692}
   - component: {fileID: 1660660691}
+  - component: {fileID: 1660660674}
+  - component: {fileID: 1660660675}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1220,9 +1222,11 @@ MonoBehaviour:
   - {fileID: 1660660689}
   - {fileID: 1660660668}
   - {fileID: 1660660691}
+  - {fileID: 1660660674}
   - {fileID: 1660660694}
-  - {fileID: 1660660695}
   - {fileID: 1660660667}
+  - {fileID: 1660660695}
+  - {fileID: 1660660675}
   - {fileID: 1660660676}
   - {fileID: 1660660666}
   - {fileID: 1660660681}
@@ -1258,7 +1262,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1660660663}
   selectedCommands:
-  - {fileID: 1660660666}
+  - {fileID: 1660660675}
   variables:
   - {fileID: 1660660684}
   - {fileID: 1660660683}
@@ -1302,7 +1306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Oh, definitely. And the next time you come....the drinks are on me!
+  storyText: Oh, definitely. And the next time you come...the drinks are on me!
   description: 
   character: {fileID: 517981055}
   portrait: {fileID: 0}
@@ -1329,7 +1333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: Okay. Will you be alright?
+  storyText: Well, I'm glad I could help.
   description: 
   character: {fileID: 1730616604}
   portrait: {fileID: 0}
@@ -1507,6 +1511,61 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
+--- !u!114 &1660660674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660660660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  storyText: We actually got some good feedback! Now I understand where I need to
+    start changing things.
+  description: 
+  character: {fileID: 517981055}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1660660675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660660660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  storyText: Oh, okay. Are you sure? Will you be alright?
+  description: 
+  character: {fileID: 1730616604}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1660660676
 MonoBehaviour:
   m_ObjectHideFlags: 2
