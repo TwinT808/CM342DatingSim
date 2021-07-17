@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 528359258}
   - component: {fileID: 528359263}
   - component: {fileID: 528359262}
+  - component: {fileID: 528359264}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -346,10 +347,12 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 528359176}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 528359233}
   variables:
   - {fileID: 528359252}
   - {fileID: 528359232}
+  - {fileID: 528359264}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -372,7 +375,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &528359179
 MonoBehaviour:
@@ -415,7 +418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: _ _ _ _ _!  Over here!
+  storyText: '{$PlayerName}! Over here!'
   description: 
   character: {fileID: 1848990991}
   portrait: {fileID: 0}
@@ -2008,18 +2011,18 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3558f92ef92854f1399513e55e59d2d7, type: 3}
+  portrait: {fileID: 0}
   offset: 0
-  fromPosition: {fileID: 617087090}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 596504387}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &528359234
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2576,7 +2579,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &528359254
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2603,7 +2606,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &528359255
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2632,7 +2635,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &528359256
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2784,7 +2787,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &528359257
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2936,7 +2939,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &528359258
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2955,7 +2958,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &528359259
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2975,7 +2978,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &528359260
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2994,7 +2997,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &528359261
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3014,7 +3017,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &528359262
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3166,7 +3169,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &528359263
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3316,6 +3319,21 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &528359264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: PlayerName
+  value: 
 --- !u!1 &596504386
 GameObject:
   m_ObjectHideFlags: 0
@@ -3871,7 +3889,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1084554710
 GameObject:
@@ -3884,7 +3902,7 @@ GameObject:
   - component: {fileID: 1084554712}
   - component: {fileID: 1084554711}
   m_Layer: 0
-  m_Name: BG_Natalie_bar
+  m_Name: Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4410,14 +4428,14 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 3558f92ef92854f1399513e55e59d2d7, type: 3}
-  - {fileID: 21300000, guid: 89e7d5b6d06b6452698d495842f715d3, type: 3}
-  - {fileID: 21300000, guid: 09a644a36bedc4ec7acc8608c9d73151, type: 3}
-  - {fileID: 21300000, guid: ed71575f6bc064e8da618bb205ad1eea, type: 3}
-  - {fileID: 21300000, guid: 250e2f0517e1642ff92d7529994d5dd9, type: 3}
-  - {fileID: 21300000, guid: 0c606d7cbff18429e9038e94767f6dc0, type: 3}
-  - {fileID: 21300000, guid: 34e97c25ed0cc4df880b7c27ebf9161a, type: 3}
-  - {fileID: 21300000, guid: 364f62fc8134641f0bdbda247f4f4eec, type: 3}
+  - {fileID: 21300000, guid: 9e20d6875e19b8940a9b4f074a8f7894, type: 3}
+  - {fileID: 21300000, guid: c0892f4ef9a66d24ab641566435eb54d, type: 3}
+  - {fileID: 21300000, guid: 3b87523d6260f424d92215d1e898fdb5, type: 3}
+  - {fileID: 21300000, guid: cd487aeb7f4ed544ba33fb45faae1a0f, type: 3}
+  - {fileID: 21300000, guid: c929775910e12154aa3d767279408773, type: 3}
+  - {fileID: 21300000, guid: ccb21414b17458641ba33cea6bfbdae7, type: 3}
+  - {fileID: 21300000, guid: c4c9eb8297804564c82e1c2e0e82c858, type: 3}
+  - {fileID: 21300000, guid: acab2e5f1e5825244a0608955e44ca9e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1348623082}
   description: 
@@ -4433,7 +4451,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1998327376
 GameObject:
