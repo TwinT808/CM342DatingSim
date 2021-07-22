@@ -1228,6 +1228,7 @@ GameObject:
   - component: {fileID: 1368373345}
   - component: {fileID: 1368373344}
   - component: {fileID: 1368373343}
+  - component: {fileID: 1368373346}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1248,7 +1249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 506.5946, y: -107.94653}
+  scrollPos: {x: 337.5946, y: 103.05347}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1259,9 +1260,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1368373266}
   selectedCommands:
-  - {fileID: 1368373290}
+  - {fileID: 1368373346}
   variables: []
   description: 
   stepPause: 0
@@ -1303,6 +1305,7 @@ MonoBehaviour:
   - {fileID: 1368373274}
   - {fileID: 1368373273}
   - {fileID: 1368373272}
+  - {fileID: 1368373346}
   - {fileID: 1368373283}
   - {fileID: 1368373282}
   - {fileID: 1368373271}
@@ -1434,7 +1437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Huh. I really can't see myself. Well, whatever.
+  storyText: Huh. I really can't see myself.
   description: 
   character: {fileID: 857669987}
   portrait: {fileID: 0}
@@ -3303,6 +3306,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
+--- !u!114 &1368373346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368373264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  storyText: Well, whatever.
+  description: 
+  character: {fileID: 857669987}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1433596346}
 --- !u!114 &1433596346 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6160412369045995962, guid: 24d26851d3c7ada4d9548ccca226a9eb,
