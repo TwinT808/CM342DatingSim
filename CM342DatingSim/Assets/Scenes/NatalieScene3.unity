@@ -184,8 +184,6 @@ GameObject:
   - component: {fileID: 528359197}
   - component: {fileID: 528359196}
   - component: {fileID: 528359195}
-  - component: {fileID: 528359194}
-  - component: {fileID: 528359193}
   - component: {fileID: 528359220}
   - component: {fileID: 528359216}
   - component: {fileID: 528359212}
@@ -211,7 +209,6 @@ GameObject:
   - component: {fileID: 528359202}
   - component: {fileID: 528359201}
   - component: {fileID: 528359233}
-  - component: {fileID: 528359234}
   - component: {fileID: 528359235}
   - component: {fileID: 528359239}
   - component: {fileID: 528359238}
@@ -252,6 +249,20 @@ GameObject:
   - component: {fileID: 528359263}
   - component: {fileID: 528359262}
   - component: {fileID: 528359264}
+  - component: {fileID: 528359270}
+  - component: {fileID: 528359269}
+  - component: {fileID: 528359268}
+  - component: {fileID: 528359267}
+  - component: {fileID: 528359266}
+  - component: {fileID: 528359265}
+  - component: {fileID: 528359234}
+  - component: {fileID: 528359194}
+  - component: {fileID: 528359193}
+  - component: {fileID: 528359271}
+  - component: {fileID: 528359273}
+  - component: {fileID: 528359272}
+  - component: {fileID: 528359275}
+  - component: {fileID: 528359274}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -288,8 +299,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -381.81595
-    y: 3.1660376
+    x: -425.7184
+    y: 22.678234
     width: 76.34146
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
@@ -304,21 +315,24 @@ MonoBehaviour:
   - {fileID: 528359179}
   - {fileID: 528359182}
   - {fileID: 528359181}
+  - {fileID: 528359270}
   - {fileID: 528359233}
   - {fileID: 528359180}
   - {fileID: 528359191}
   - {fileID: 528359192}
   - {fileID: 528359190}
+  - {fileID: 528359269}
+  - {fileID: 528359268}
   - {fileID: 528359189}
   - {fileID: 528359188}
   - {fileID: 528359187}
   - {fileID: 528359186}
   - {fileID: 528359235}
-  - {fileID: 528359234}
+  - {fileID: 528359267}
   - {fileID: 528359185}
   - {fileID: 528359184}
+  - {fileID: 528359266}
   - {fileID: 528359183}
-  - {fileID: 528359194}
   - {fileID: 528359193}
   suppressAllAutoSelections: 0
 --- !u!114 &528359177
@@ -346,9 +360,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 528359176}
+  - {fileID: 528359196}
   selectedCommands:
-  - {fileID: 528359233}
+  - {fileID: 528359274}
   variables:
   - {fileID: 528359252}
   - {fileID: 528359232}
@@ -391,7 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: You head to Blood bank out of curiosity to check up on Natalie.
+  storyText: You head to Blood bank to check up on Natalie.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -403,7 +417,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 628650918}
 --- !u!114 &528359180
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -458,7 +472,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 628650918}
 --- !u!114 &528359182
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -485,7 +499,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 628650918}
 --- !u!114 &528359183
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -663,7 +677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: ' Fortunately I was able to hire some workers on the spot.'
+  storyText: Fortunately I was able to hire some workers on the spot.
   description: 
   character: {fileID: 1848990991}
   portrait: {fileID: 0}
@@ -690,9 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: It's all thanks to you!  Ever since we gave out those free samples and
-    cleared up that nonsense about this being an ACTUAL Blood Bank...its been busy
-    like crazy.
+  storyText: It's all thanks to you!
   description: 
   character: {fileID: 1848990991}
   portrait: {fileID: 0}
@@ -731,7 +743,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 628650918}
 --- !u!114 &528359192
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -768,22 +780,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 528359174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 20
+  itemId: 133
   indentLevel: 0
-  text: There's no need for a surprise. I want a Bloody Mary.
-  description: 
-  targetBlock: {fileID: 528359196}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 528359265}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &528359194
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -796,11 +804,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 132
   indentLevel: 0
-  text: Alright.
+  text: There's no need, I want a Bloody Mary.
   description: 
-  targetBlock: {fileID: 528359198}
+  targetBlock: {fileID: 528359196}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -852,18 +860,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: -234
     y: 125.99988
-    width: 132.92682
+    width: 129.99998
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
   itemId: 22
-  blockName: Reject Surprise
+  blockName: RejectSurprise
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 528359275}
   - {fileID: 528359250}
   - {fileID: 528359195}
   - {fileID: 528359249}
+  - {fileID: 528359274}
   - {fileID: 528359216}
   - {fileID: 528359248}
   - {fileID: 528359247}
@@ -910,22 +920,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -233
+    x: -234.21951
     y: -87.09902
-    width: 136.82925
+    width: 133.90242
     height: 40
   tint: {r: 0.5424528, g: 1, b: 0.9953773, a: 1}
   useCustomTint: 0
   itemId: 21
-  blockName: Accept Surprise
+  blockName: AcceptSurprise
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 528359197}
   - {fileID: 528359231}
+  - {fileID: 528359271}
+  - {fileID: 528359197}
   - {fileID: 528359241}
+  - {fileID: 528359273}
   - {fileID: 528359220}
   - {fileID: 528359240}
+  - {fileID: 528359272}
   - {fileID: 528359251}
   - {fileID: 528359199}
   suppressAllAutoSelections: 0
@@ -1540,7 +1553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'Its been a few minutes since Natalie has served you. '
+  storyText: Natalie comes back with her surprise drink.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2011,7 +2024,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cd487aeb7f4ed544ba33fb45faae1a0f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 596504387}
@@ -2032,24 +2045,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 528359174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 71
+  itemId: 131
   indentLevel: 0
-  storyText: I'm glad too!
+  text: Alright.
   description: 
-  character: {fileID: 1848990991}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 528359198}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &528359235
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2068,7 +2079,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 364f62fc8134641f0bdbda247f4f4eec, type: 3}
+  portrait: {fileID: 21300000, guid: cd487aeb7f4ed544ba33fb45faae1a0f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 596504387}
@@ -2079,7 +2090,7 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &528359236
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2218,7 +2229,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3558f92ef92854f1399513e55e59d2d7, type: 3}
+  portrait: {fileID: 21300000, guid: cd487aeb7f4ed544ba33fb45faae1a0f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 596504387}
@@ -2227,9 +2238,9 @@ MonoBehaviour:
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &528359241
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2244,22 +2255,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3558f92ef92854f1399513e55e59d2d7, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 617087090}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &528359242
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2469,20 +2480,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ed71575f6bc064e8da618bb205ad1eea, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 617087090}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
 --- !u!114 &528359250
@@ -2503,7 +2514,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1848990991}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ed71575f6bc064e8da618bb205ad1eea, type: 3}
+  portrait: {fileID: 21300000, guid: acab2e5f1e5825244a0608955e44ca9e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3321,7 +3332,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &528359264
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3334,6 +3345,309 @@ MonoBehaviour:
   scope: 2
   key: PlayerName
   value: 
+--- !u!114 &528359265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -235.43997
+    y: 20.98885
+    width: 133.90242
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 130
+  blockName: ChoiceSurprise
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 528359234}
+  - {fileID: 528359194}
+  suppressAllAutoSelections: 0
+--- !u!114 &528359266
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  storyText: The two of you head to the bar and Natalie starts making you a drink.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 628650918}
+--- !u!114 &528359267
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  storyText: Natalie smiles and motions towards the bar.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 628650918}
+--- !u!114 &528359268
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  storyText: Ever since we gave out those free samples and cleared up that nonsense
+    about this being an ACTUAL Blood Bank...its been busy like crazy.
+  description: 
+  character: {fileID: 1848990991}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &528359269
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1848990991}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c929775910e12154aa3d767279408773, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 596504387}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &528359270
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  storyText: You pass through crowds of people to find Natalie and notice that she
+    also hired a few new workers.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 628650918}
+--- !u!114 &528359271
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  storyText: Alright then, let's see whatcha got.
+  description: 
+  character: {fileID: 1078699137}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &528359272
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  storyText: 'Its been a few minutes since Natalie has served you. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &528359273
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 1078699137}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &528359274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 1078699137}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &528359275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528359174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  storyText: There's no need for a surprise. I want a Bloody Mary.
+  description: 
+  character: {fileID: 1078699137}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &596504386
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +3921,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 628650916}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &628650918 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6731250387993410881, guid: eeb4349ad2c3c864aba6a21cd8aad9f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 628650916}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &794617861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,7 +4296,7 @@ Transform:
   m_LocalScale: {x: 0.380906, y: 0.3937057, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1203521437
 GameObject:
@@ -4028,7 +4354,7 @@ Transform:
   m_Children:
   - {fileID: 851211051}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278174496
 GameObject:
