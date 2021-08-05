@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 1178772016}
   - component: {fileID: 1178772015}
   m_Layer: 0
-  m_Name: BG_Chanon_Bakery
+  m_Name: Bakery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1462,7 +1462,6 @@ GameObject:
   - component: {fileID: 1939595742}
   - component: {fileID: 1939595743}
   - component: {fileID: 1939595744}
-  - component: {fileID: 1939595746}
   - component: {fileID: 1939595685}
   - component: {fileID: 1939595747}
   - component: {fileID: 1939595750}
@@ -1493,7 +1492,7 @@ GameObject:
   - component: {fileID: 1939595770}
   - component: {fileID: 1939595769}
   m_Layer: 0
-  m_Name: Flowchart
+  m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2912,7 +2911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 208.68326
+    x: 211.2149
     y: 26.91917
     width: 91.518974
     height: 40
@@ -2945,7 +2944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 374.28403, y: -568.321}
+  scrollPos: {x: 167.95474, y: 13.957293}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2956,7 +2955,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1939595671}
   selectedCommands: []
   variables:
   - {fileID: 1939595734}
@@ -3342,8 +3342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 362.94864
-    y: 477.79968
+    x: 360.41702
+    y: 479.0655
     width: 80.37974
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3353,7 +3353,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1939595746}
   - {fileID: 1939595695}
   - {fileID: 1939595694}
   - {fileID: 1939595693}
@@ -4913,36 +4912,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1971955808}
---- !u!114 &1939595746
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939595619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 137
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 431847159}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ebc43f381f8ed434f81cf49b734539c9, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1411531460}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &1939595747
 MonoBehaviour:
   m_ObjectHideFlags: 2
