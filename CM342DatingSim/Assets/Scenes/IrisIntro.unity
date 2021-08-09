@@ -349,7 +349,6 @@ GameObject:
   - component: {fileID: 474739298}
   - component: {fileID: 474739297}
   - component: {fileID: 474739301}
-  - component: {fileID: 474739302}
   - component: {fileID: 474739303}
   - component: {fileID: 474739338}
   - component: {fileID: 474739337}
@@ -396,7 +395,6 @@ GameObject:
   - component: {fileID: 474739341}
   - component: {fileID: 474739352}
   - component: {fileID: 474739351}
-  - component: {fileID: 474739350}
   - component: {fileID: 474739349}
   - component: {fileID: 474739348}
   - component: {fileID: 474739353}
@@ -413,6 +411,25 @@ GameObject:
   - component: {fileID: 474739362}
   - component: {fileID: 474739365}
   - component: {fileID: 474739364}
+  - component: {fileID: 474739369}
+  - component: {fileID: 474739368}
+  - component: {fileID: 474739367}
+  - component: {fileID: 474739366}
+  - component: {fileID: 474739302}
+  - component: {fileID: 474739370}
+  - component: {fileID: 474739372}
+  - component: {fileID: 474739371}
+  - component: {fileID: 474739376}
+  - component: {fileID: 474739375}
+  - component: {fileID: 474739374}
+  - component: {fileID: 474739373}
+  - component: {fileID: 474739379}
+  - component: {fileID: 474739378}
+  - component: {fileID: 474739377}
+  - component: {fileID: 474739350}
+  - component: {fileID: 474739381}
+  - component: {fileID: 474739380}
+  - component: {fileID: 474739382}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -463,16 +480,27 @@ MonoBehaviour:
   - {fileID: 474739340}
   - {fileID: 474739353}
   - {fileID: 474739301}
+  - {fileID: 474739369}
+  - {fileID: 474739368}
+  - {fileID: 474739366}
   - {fileID: 474739302}
   - {fileID: 474739303}
+  - {fileID: 474739370}
   - {fileID: 474739339}
   - {fileID: 474739338}
   - {fileID: 474739337}
   - {fileID: 474739336}
+  - {fileID: 474739367}
+  - {fileID: 474739372}
   - {fileID: 474739335}
   - {fileID: 474739334}
   - {fileID: 474739333}
+  - {fileID: 474739371}
+  - {fileID: 474739374}
+  - {fileID: 474739376}
   - {fileID: 474739363}
+  - {fileID: 474739375}
+  - {fileID: 474739373}
   - {fileID: 474739331}
   - {fileID: 474739330}
   - {fileID: 474739328}
@@ -502,17 +530,18 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 474739298}
+  - {fileID: 474739315}
   selectedCommands:
-  - {fileID: 474739363}
+  - {fileID: 474739305}
   variables:
+  - {fileID: 474739362}
   - {fileID: 474739342}
+  - {fileID: 474739381}
   - {fileID: 474739359}
   - {fileID: 474739358}
   - {fileID: 474739360}
   - {fileID: 474739365}
   - {fileID: 474739361}
-  - {fileID: 474739362}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -551,9 +580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: You push open the door to Behold Cosmetics, the packages Rosy had dropped
-    into your hands before zipping off--- something about 'Isaac takes lunch at this
-    hour, sneak some books while he's gone'
+  storyText: You push open the door to Behold Cosmetics.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -568,7 +595,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1616592165}
 --- !u!114 &474739302
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -578,11 +605,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2
+  itemId: 115
   indentLevel: 0
-  storyText: --- extra heavy for this shop.
+  storyText: (Actually, nevermind that, this shop...)
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1320370538}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -592,7 +619,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1616592165}
+  setSayDialog: {fileID: 0}
 --- !u!114 &474739303
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -607,9 +634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Everything is so neat and ordered in here. The glittery cups holding
+  storyText: Everything is so neat and orderly in here. The glittery cups holding
     all the products are in a straight line, nothing you can see is out of place.
-    A pair of footsteps from the back of the shop draws your attention.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -636,7 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: Sure, I guess I'll see you around when i need to drop more boxes off.
+  storyText: Sure, I guess I'll see you around when I need to drop more boxes off.
   description: 
   character: {fileID: 1320370538}
   portrait: {fileID: 0}
@@ -663,7 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: The pretty cyclops looks drained from your interaction.
+  storyText: She looks pretty drained from talking to you.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -675,7 +701,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1616592165}
 --- !u!114 &474739306
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -690,8 +716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Yeah...Look, I'm on my lunch break and I'd really love to get back to
-    my meal. Can you like, i don't know, leave?
+  storyText: Yeah...look, I'm on my lunch break and I'd really love to get back to
+    my meal. Can you like, I don't know, leave?
   description: 
   character: {fileID: 124544747}
   portrait: {fileID: 0}
@@ -718,7 +744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: Oh, cool. Super shiny stuff this is.
+  storyText: Oh, cool. This is some super shiny stuff.
   description: 
   character: {fileID: 1320370538}
   portrait: {fileID: 0}
@@ -802,7 +828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: iris sighs, pinching the bridge of her nose between her thumb and forefinger.
+  storyText: Iris sighs, pinching the bridge of her nose between her thumb and forefinger.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -814,7 +840,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1616592165}
 --- !u!114 &474739311
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -879,8 +905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Name is Iris, you cheeky tart. If you're delivering packages then where
-    is Rosy?
+  storyText: Name's Iris, you cheeky tart.
   description: 
   character: {fileID: 124544747}
   portrait: {fileID: 0}
@@ -935,7 +960,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 72.501976
-    y: 65.40199
+    y: 64.338165
     width: 122.34042
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -945,6 +970,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 474739382}
   - {fileID: 474739310}
   - {fileID: 474739309}
   - {fileID: 474739308}
@@ -973,7 +999,7 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   storyText: Chill out, I'm not interested in your personal anything. My name is
-    [name], by the way, thanks for asking.
+    {$PlayerName}, by the way, thanks for asking.
   description: 
   character: {fileID: 1320370538}
   portrait: {fileID: 0}
@@ -1054,8 +1080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: You take the two containers, the glitter inside sparkling brightly through
-    the clear lid. You're not shocked that Rosy would want this honestly.
+  storyText: You take the two containers with the glitter inside sparkling brightly
+    through the clear lid. You're not shocked that Rosy would want this honestly.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1083,7 +1109,7 @@ MonoBehaviour:
   itemId: 22
   indentLevel: 0
   storyText: Here, this is the new limited edition Horrific Beauty glitter. I know
-    Rosy was dying to try it out, I'll give you one too since you were nice enough
+    Rosy was dying to try it out, so I'll give you one too since you were nice enough
     to deliver all my stuff for her.
   description: 
   character: {fileID: 124544747}
@@ -1196,7 +1222,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   storyText: Oh, that. She dropped all the work on me and went off saying something
-    about "Eyeful Books" and lunch breaks.
+    about "Eyeful Books" and lunch breaks?
   description: 
   character: {fileID: 1320370538}
   portrait: {fileID: 0}
@@ -1279,7 +1305,7 @@ MonoBehaviour:
   itemId: 15
   indentLevel: 0
   storyText: 'I''m {$PlayerName}. I think we might have gotten off on the wrong foot
-    here. i work with Rosy delivering packages, I swear.
+    here. I work with Rosy delivering packages, I swear.
 
 '
   description: 
@@ -1348,6 +1374,9 @@ MonoBehaviour:
   - {fileID: 474739314}
   - {fileID: 474739348}
   - {fileID: 474739313}
+  - {fileID: 474739377}
+  - {fileID: 474739350}
+  - {fileID: 474739378}
   - {fileID: 474739364}
   - {fileID: 474739312}
   - {fileID: 474739311}
@@ -1391,9 +1420,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Ouch, she's a prickly little pear, you think to yourself. You don't
-    know why exactly she's so hostile, but you really need to clear this misunderstanding
-    or you'll get an earful from Rosy later.
+  storyText: You don't know why exactly she's so hostile, but you really need to
+    clear this misunderstanding or you'll get an earful from Rosy later.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1432,22 +1460,23 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 474739327}
+  - {fileID: 474739357}
   - {fileID: 474739326}
   - {fileID: 474739352}
   - {fileID: 474739325}
   - {fileID: 474739324}
   - {fileID: 474739351}
   - {fileID: 474739323}
-  - {fileID: 474739350}
   - {fileID: 474739322}
   - {fileID: 474739321}
   - {fileID: 474739349}
   - {fileID: 474739320}
   - {fileID: 474739319}
   - {fileID: 474739318}
+  - {fileID: 474739379}
   - {fileID: 474739317}
   - {fileID: 474739346}
-  - {fileID: 474739357}
+  - {fileID: 474739380}
   - {fileID: 474739347}
   - {fileID: 474739354}
   - {fileID: 474739345}
@@ -1494,7 +1523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: O-oh! My bad, I'm just here to drop some stuff off really quick and
+  storyText: O-Oh! My bad, I'm just here to drop some stuff off really quick and
     I got distracted.
   description: 
   character: {fileID: 1320370538}
@@ -1549,9 +1578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 'Standing before you, hands on her hips and an exasperated look on her
-    face is a cyclops. Flawless plum skin, a shocking aqua eye, and soft tendrils
-    of magenta hair coiled around her face. '
+  storyText: Standing before you, hands on her hips and an exasperated look on her
+    face is a cyclops.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1578,9 +1606,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Oh no, she's hot.
+  storyText: (Oh wow, she's hot.)
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1320370538}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1590,7 +1618,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1616592165}
+  setSayDialog: {fileID: 0}
 --- !u!114 &474739338
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1638,16 +1666,16 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 8dbd4cca1724735429a1c4bc8fea46e8, type: 3}
   offset: 0
-  fromPosition: {fileID: 1623019094}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 872465347}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &474739340
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2086,9 +2114,9 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 8dbd4cca1724735429a1c4bc8fea46e8, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 872465347}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -2118,7 +2146,7 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -2127,7 +2155,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &474739350
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2137,18 +2165,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 99
+  itemId: 126
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
   character: {fileID: 124544747}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
+  portrait: {fileID: 21300000, guid: d0bec3302a9f8e848ab2888305335aea, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -2178,7 +2206,7 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -2206,9 +2234,9 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: d0bec3302a9f8e848ab2888305335aea, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 872465347}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -2428,7 +2456,7 @@ MonoBehaviour:
   itemId: 103
   indentLevel: 0
   anyVar:
-    variable: {fileID: 474739359}
+    variable: {fileID: 474739381}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -2959,6 +2987,590 @@ MonoBehaviour:
   scope: 2
   key: CheekyTart
   value: 0
+--- !u!114 &474739366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  storyText: (I wonder what that means...)
+  description: 
+  character: {fileID: 1320370538}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &474739367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  storyText: 'Flawless plum skin, a shocking aqua eye, and soft tendrils of magenta
+    hair coiled around her face. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1616592165}
+--- !u!114 &474739368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
+  storyText: (Speaking of Rosy, she said something about "Isaac takes lunch at this
+    hour, sneak a snack while he's gone".)
+  description: 
+  character: {fileID: 1320370538}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1616592165}
+--- !u!114 &474739369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  storyText: The packages Rosy had dropped into your hands before zipping off are
+    surprisingly heavy, considering how small the box is.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1616592165}
+--- !u!114 &474739370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 116
+  indentLevel: 0
+  storyText: A pair of footsteps from the back of the shop draws your attention.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1616592165}
+--- !u!114 &474739371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  storyText: (Ouch, she's a prickly little pear.)
+  description: 
+  character: {fileID: 1320370538}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &474739372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  indentLevel: 0
+  storyText: Um, hello? You there?
+  description: 
+  character: {fileID: 1003677765}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1631134445}
+--- !u!114 &474739373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
+  storyText: R-Right.
+  description: 
+  character: {fileID: 1320370538}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 2064576293}
+--- !u!114 &474739374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1003677765}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d0bec3302a9f8e848ab2888305335aea, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &474739375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  storyText: You received $10.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1616592165}
+--- !u!114 &474739376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  storyText: Oh yeah, this is for the package.
+  description: 
+  character: {fileID: 1003677765}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1631134445}
+--- !u!114 &474739377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  storyText: Y'know, you don't have to be such a-
+  description: 
+  character: {fileID: 124544747}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &474739378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  storyText: Wait, if you're delivering packages then where is Rosy?
+  description: 
+  character: {fileID: 124544747}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &474739379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 124544747}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2deebac7e0809bb47a419bf8af9c7f84, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &474739380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 474739359}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 1
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 2
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &474739381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: IrisAffection
+  value: 0
+--- !u!114 &474739382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474739296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 124544747}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8dbd4cca1724735429a1c4bc8fea46e8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 872465347}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
 --- !u!1 &604947333
 GameObject:
   m_ObjectHideFlags: 0
