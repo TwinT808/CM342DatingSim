@@ -1080,6 +1080,9 @@ GameObject:
   - component: {fileID: 981974379}
   - component: {fileID: 981974364}
   - component: {fileID: 981974380}
+  - component: {fileID: 981974382}
+  - component: {fileID: 981974383}
+  - component: {fileID: 981974384}
   - component: {fileID: 981974381}
   m_Layer: 0
   m_Name: Main
@@ -1114,7 +1117,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 981974293}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 981974381}
   variables:
   - {fileID: 981974361}
   - {fileID: 981974372}
@@ -1181,13 +1185,16 @@ MonoBehaviour:
   - {fileID: 981974339}
   - {fileID: 981974297}
   - {fileID: 981974312}
+  - {fileID: 981974384}
   - {fileID: 981974301}
   - {fileID: 981974299}
   - {fileID: 981974300}
-  - {fileID: 981974381}
   - {fileID: 981974349}
   - {fileID: 981974352}
   - {fileID: 981974304}
+  - {fileID: 981974383}
+  - {fileID: 981974382}
+  - {fileID: 981974381}
   - {fileID: 981974314}
   suppressAllAutoSelections: 0
 --- !u!4 &981974294
@@ -1376,9 +1383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: He was hunched over in a dusty tome, absorbed in the old text rather
-    than the person in front of him.  Then again, you really aren't easy to see are
-    you?
+  storyText: Then again, you really aren't easy to see are you?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2787,7 +2792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
   character: {fileID: 2115823981}
   replacedCharacter: {fileID: 0}
@@ -4587,7 +4592,34 @@ MonoBehaviour:
   value: 0
 --- !u!114 &981974381
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  storyText: You received $10.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 509384618}
+--- !u!114 &981974382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4597,7 +4629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 105
+  itemId: 108
   indentLevel: 0
   anyVar:
     variable: {fileID: 981974380}
@@ -4737,6 +4769,61 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &981974383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  indentLevel: 0
+  storyText: Here's payment for the parcel.
+  description: 
+  character: {fileID: 2115823981}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 183117078}
+--- !u!114 &981974384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  storyText: He was hunched over in a dusty tome, absorbed in the old text rather
+    than the person in front of him.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 509384618}
 --- !u!1 &993830964
 GameObject:
   m_ObjectHideFlags: 0
