@@ -345,8 +345,12 @@ GameObject:
   - component: {fileID: 432833385}
   - component: {fileID: 432833384}
   - component: {fileID: 432833383}
+  - component: {fileID: 432833391}
+  - component: {fileID: 432833390}
+  - component: {fileID: 432833392}
+  - component: {fileID: 432833393}
   m_Layer: 0
-  m_Name: Flowchart
+  m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 688.0504, y: -382.7409}
+  scrollPos: {x: 647.2611, y: -136.68819}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -379,7 +383,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 432833301}
   selectedCommands:
-  - {fileID: 432833313}
+  - {fileID: 432833312}
   variables:
   - {fileID: 432833276}
   - {fileID: 432833275}
@@ -597,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 64.252846
+    x: 66.88442
     y: 43.368427
     width: 78.42106
     height: 40
@@ -611,7 +615,9 @@ MonoBehaviour:
   - {fileID: 432833269}
   - {fileID: 432833270}
   - {fileID: 432833245}
+  - {fileID: 432833391}
   - {fileID: 432833242}
+  - {fileID: 432833390}
   - {fileID: 432833244}
   - {fileID: 432833262}
   - {fileID: 432833266}
@@ -748,8 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: Damn it, that's not right...Ok maybe she used egg whites!  Yeah yeah,
-    egg whites. Now we're cooking!
+  storyText: Dammit, that's not right...
   description: 
   character: {fileID: 37990066}
   portrait: {fileID: 0}
@@ -831,8 +836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: You enter the bakery, hearing Chanon working in the kitchen. The smell
-    of burnt baked goods fill the air as a nearby TV set mutters in the background.
+  storyText: You enter the bakery, hearing Chanon working in the kitchen.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1201,7 +1205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Wow! I love floor cake!
+  storyText: Wow, Chanon! How'd you know I love floor cake?
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -1307,8 +1311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: Smashed product everywhere, a knocked over bag of flour spilling onto
-    an aged TV set, and a few cookbooks caked in what appears to be pie filling.
+  storyText: There's smashed product everywhere, a knocked over bag of flour spilling
+    onto an aged TV set, and a few cookbooks caked in what appears to be pie filling.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1545,7 +1549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  text: Triple Berry Sunny Super what?
+  text: Triple Berry what?
   description: 
   targetBlock: {fileID: 432833282}
   hideIfVisited: 0
@@ -1570,7 +1574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  text: Say the again...but slower.
+  text: Say that again...but slower.
   description: 
   targetBlock: {fileID: 432833279}
   hideIfVisited: 0
@@ -1681,7 +1685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Say the again...but slower.
+  storyText: Say that again...but slower.
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -1709,7 +1713,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 301.17172
-    y: 337.7148
+    y: 336.39902
     width: 90.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1724,6 +1728,7 @@ MonoBehaviour:
   - {fileID: 432833369}
   - {fileID: 432833286}
   - {fileID: 432833287}
+  - {fileID: 432833392}
   - {fileID: 432833368}
   - {fileID: 432833285}
   - {fileID: 432833297}
@@ -1934,7 +1939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: Actually nevemind, I got it. What is this for anyway?
+  storyText: Actually nevemind, I got it.
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -2015,7 +2020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: LIFE OR DEATH?!
+  storyText: L-Life or death?!
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -2404,7 +2409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  text: You're excited over that? No cash prize? Kind of lame Chanon...
+  text: That's it? No cash prize?
   description: 
   targetBlock: {fileID: 432833301}
   hideIfVisited: 0
@@ -2441,6 +2446,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 432833303}
+  - {fileID: 432833393}
   - {fileID: 432833382}
   - {fileID: 432833307}
   - {fileID: 432833312}
@@ -2624,7 +2630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: You're excited over that? No cash prize? Kind of lame Chanon...
+  storyText: You're excited over that? No cash prize?
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -4676,7 +4682,7 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -4704,9 +4710,9 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 4ccd6bc56142b20498ef2715f75bddcc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 463208598}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -4764,9 +4770,9 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 4ccd6bc56142b20498ef2715f75bddcc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 463208598}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -4854,9 +4860,9 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 253770232a0ad2743962919fe3cedfc4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 463208598}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -5154,9 +5160,9 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 253770232a0ad2743962919fe3cedfc4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 463208598}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -5679,6 +5685,115 @@ MonoBehaviour:
   scope: 2
   key: PlayerName
   value: 
+--- !u!114 &432833390
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  storyText: Ok...maybe she used egg whites!  Yeah yeah, egg whites! Now we're cooking--
+  description: 
+  character: {fileID: 37990066}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 563627851}
+--- !u!114 &432833391
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  storyText: The smell of burnt baked goods fill the air as a nearby TV set mutters
+    in the background.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 847085621}
+--- !u!114 &432833392
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  storyText: What is this for anyway?
+  description: 
+  character: {fileID: 671349920}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1539908383}
+--- !u!114 &432833393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  storyText: I feel like there should be, I don't know, more of a payoff?
+  description: 
+  character: {fileID: 671349920}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1539908383}
 --- !u!1 &459920313
 GameObject:
   m_ObjectHideFlags: 0
@@ -6541,7 +6656,7 @@ GameObject:
   - component: {fileID: 1301364426}
   - component: {fileID: 1301364425}
   m_Layer: 0
-  m_Name: BG_Chanon_Bakery
+  m_Name: Bakery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
