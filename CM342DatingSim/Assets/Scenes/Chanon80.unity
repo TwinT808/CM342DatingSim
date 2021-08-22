@@ -220,7 +220,6 @@ GameObject:
   - component: {fileID: 327098496}
   - component: {fileID: 327098495}
   - component: {fileID: 327098494}
-  - component: {fileID: 327098493}
   - component: {fileID: 327098492}
   - component: {fileID: 327098491}
   - component: {fileID: 327098490}
@@ -392,6 +391,14 @@ GameObject:
   - component: {fileID: 327098632}
   - component: {fileID: 327098631}
   - component: {fileID: 327098565}
+  - component: {fileID: 327098633}
+  - component: {fileID: 327098634}
+  - component: {fileID: 327098637}
+  - component: {fileID: 327098636}
+  - component: {fileID: 327098493}
+  - component: {fileID: 327098635}
+  - component: {fileID: 327098638}
+  - component: {fileID: 327098639}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -415,7 +422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 166.87144
     y: 235.29831
-    width: 133.58205
+    width: 133.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -441,7 +448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  text: ' It''s okay, I believe in you. I know you''ll be able to come up with something.'
+  text: ' It''s okay, I believe in you.'
   description: 
   targetBlock: {fileID: 327098483}
   hideIfVisited: 0
@@ -508,9 +515,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 198.39792
+    x: 199.47989
     y: -29.722105
-    width: 76.26865
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -537,11 +544,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 542.589, y: 142.61272}
+  scrollPos: {x: 259.43744, y: 26.50869}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6700003
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -549,8 +556,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 327098575}
-  selectedCommands: []
+  - {fileID: 327098498}
+  selectedCommands:
+  - {fileID: 327098639}
   variables:
   - {fileID: 327098583}
   - {fileID: 327098582}
@@ -650,7 +658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 923.04865
     y: 664.2816
-    width: 138.35817
+    width: 141.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -738,7 +746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 938.71106
     y: 575.42725
-    width: 108.50743
+    width: 106.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -766,7 +774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 519.93915
     y: 573.7835
-    width: 91.79102
+    width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -822,7 +830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 718.0034
     y: 401.26065
-    width: 107.3134
+    width: 106.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -973,7 +981,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -418.7163
     y: 328.4661
-    width: 137.16414
+    width: 134.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1081,7 +1089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: You grab the containers filled with flour and knock it to the floor.
+  storyText: Uh
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1156,7 +1164,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.24069
     y: 434.27448
-    width: 77.46268
+    width: 76.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1184,7 +1192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -226.8678
     y: 327.56934
-    width: 116.86564
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1215,7 +1223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: I guess I am a bit stressed. Could you help me?
+  storyText: Hmm...I guess I am a bit stressed.
   description: 
   character: {fileID: 1054424053}
   portrait: {fileID: 0}
@@ -1242,7 +1250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Are you really getting stressed over some hardened flour?
+  storyText: Are you really getting stressed out over some hardened flour?
   description: 
   character: {fileID: 672890660}
   portrait: {fileID: 0}
@@ -1271,7 +1279,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 715.9117
     y: 234.89325
-    width: 110.89549
+    width: 111.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1302,7 +1310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -32.96734
     y: 234.14594
-    width: 85.82088
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1312,9 +1320,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 327098482}
+  - {fileID: 327098637}
+  - {fileID: 327098633}
+  - {fileID: 327098636}
   - {fileID: 327098627}
   - {fileID: 327098561}
   - {fileID: 327098481}
+  - {fileID: 327098634}
   - {fileID: 327098478}
   suppressAllAutoSelections: 0
 --- !u!114 &327098485
@@ -1356,7 +1368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 0
-  text: Tease Him Again
+  text: I can't, sorry.
   description: 
   targetBlock: {fileID: 327098480}
   hideIfVisited: 0
@@ -1437,7 +1449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 173.28197
     y: 159.47867
-    width: 121.641754
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1533,29 +1545,31 @@ MonoBehaviour:
   setSayDialog: {fileID: 1508655554}
 --- !u!114 &327098493
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327098450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 222
   indentLevel: 0
-  text: Yeah, you got it! What are you doing here so late?
+  storyText: Guess who?
   description: 
-  targetBlock: {fileID: 327098489}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 672890660}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1999213545}
 --- !u!114 &327098494
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1654,8 +1668,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -79.056694
-    y: 50.267784
-    width: 119.2537
+    y: 49.267784
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1665,10 +1679,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 327098496}
+  - {fileID: 327098493}
   - {fileID: 327098495}
   - {fileID: 327098494}
   - {fileID: 327098563}
-  - {fileID: 327098493}
+  - {fileID: 327098638}
+  - {fileID: 327098635}
   suppressAllAutoSelections: 0
 --- !u!114 &327098498
 MonoBehaviour:
@@ -1685,8 +1701,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 425.18716
-    y: 51.716057
-    width: 108.50743
+    y: 50.716057
+    width: 108.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1695,6 +1711,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 327098639}
   - {fileID: 327098499}
   - {fileID: 327098492}
   - {fileID: 327098491}
@@ -1720,16 +1737,16 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: aa9bd8728d50dec4fa1e881aea5472e7, type: 3}
   offset: 0
-  fromPosition: {fileID: 850512044}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 517879664}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &327098500
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1774,7 +1791,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -179.37486
     y: 883.58765
-    width: 101.34326
+    width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1864,7 +1881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -184.51459
     y: 805.2009
-    width: 109.70146
+    width: 109.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1946,7 +1963,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -180.93802
     y: 730.4503
-    width: 103.73132
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2028,7 +2045,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -180.85323
     y: 659.5459
-    width: 102.53729
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2104,7 +2121,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 31.622677
     y: 975.7752
-    width: 81.04476
+    width: 81.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2135,7 +2152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -179.26999
     y: 975.1537
-    width: 101.34326
+    width: 100.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2419,7 +2436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.263672
     y: 695.7583
-    width: 134.77608
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2523,7 +2540,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 368.61496
     y: 697.84766
-    width: 107.3134
+    width: 107.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2637,7 +2654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.94955
     y: 697.5669
-    width: 107.3134
+    width: 107.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2748,7 +2765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -438.90048
     y: 1070.8381
-    width: 132.38803
+    width: 132.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2914,7 +2931,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5.028798
     y: 1072.3269
-    width: 138.35817
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3025,7 +3042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -412.5769
     y: 972.2514
-    width: 73.880585
+    width: 74.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3870,8 +3887,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -56.606846
-    y: 328.31512
-    width: 134.77608
+    y: 326.8226
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3920,7 +3937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 709.3772
     y: 324.8103
-    width: 125.22385
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3946,7 +3963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  text: Guess whooo???
+  text: Guess who?
   description: 
   targetBlock: {fileID: 327098497}
   hideIfVisited: 0
@@ -3971,7 +3988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  text: CHANON! IT'S ME!
+  text: Chanon! It's me!
   description: 
   targetBlock: {fileID: 327098498}
   hideIfVisited: 0
@@ -3998,7 +4015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 162.10666
     y: 52.02112
-    width: 150.29846
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4495,7 +4512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 936.10144
     y: 481.57248
-    width: 109.70146
+    width: 108.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4524,7 +4541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 712.83594
     y: 480.67636
-    width: 121.641754
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4694,7 +4711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 497.58142
     y: 479.65637
-    width: 135.97011
+    width: 136.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4792,7 +4809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196.74605
     y: 605.9872
-    width: 116.86564
+    width: 115.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4820,7 +4837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.20091
     y: 519.98096
-    width: 102.53729
+    width: 101.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6269,8 +6286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 0
-  storyText: Maybe your joke didn't work. You watch as his ears lower and expression
-    turn confused.
+  storyText: You watch as his ears lower and expression turn confused.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6629,6 +6645,189 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &327098633
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  storyText: Huh? But it is.
+  description: 
+  character: {fileID: 1054424053}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1999213545}
+--- !u!114 &327098634
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 219
+  indentLevel: 0
+  storyText: Could you help me out?
+  description: 
+  character: {fileID: 1054424053}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1999213545}
+--- !u!114 &327098635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 223
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 327098489}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &327098636
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 221
+  indentLevel: 0
+  storyText: 'I want '
+  description: 
+  character: {fileID: 1054424053}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1999213545}
+--- !u!114 &327098637
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 220
+  indentLevel: 0
+  storyText: I mean, it's not that big of a deal.
+  description: 
+  character: {fileID: 672890660}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 2107679310}
+--- !u!114 &327098638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 224
+  indentLevel: 0
+  storyText: Yeah, you got it! What are you doing here so late?
+  description: 
+  character: {fileID: 672890660}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1999213545}
+--- !u!114 &327098639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327098450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  storyText: Chanon! It's me!
+  description: 
+  character: {fileID: 672890660}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1999213545}
 --- !u!1 &517879663
 GameObject:
   m_ObjectHideFlags: 0
