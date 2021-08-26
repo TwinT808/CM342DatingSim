@@ -41778,6 +41778,12 @@ GameObject:
   - component: {fileID: 299743938}
   - component: {fileID: 299743939}
   - component: {fileID: 299743775}
+  - component: {fileID: 299743945}
+  - component: {fileID: 299743944}
+  - component: {fileID: 299743943}
+  - component: {fileID: 299743942}
+  - component: {fileID: 299743941}
+  - component: {fileID: 299743940}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -42236,7 +42242,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 284.41336
-    y: -592.80884
+    y: -667.8092
     width: 121.578926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -42269,7 +42275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 451.51382, y: 712.8007}
+  scrollPos: {x: 469.93494, y: 900.9587}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -42281,8 +42287,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 299744194}
-  selectedCommands: []
+  - {fileID: 299743945}
+  selectedCommands:
+  - {fileID: 299743943}
   variables:
   - {fileID: 299744142}
   - {fileID: 299743794}
@@ -50753,6 +50760,170 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &299743940
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 975
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 299744265}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &299743941
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 974
+  indentLevel: 0
+  storyText: Isaac isn't in a good mood...Maybe you should leave...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 512043451}
+--- !u!114 &299743942
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 973
+  indentLevel: 0
+  storyText: Invisible or not, just knowing you're there makes my mood worse...
+  description: 
+  character: {fileID: 1063176168}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 411298489}
+--- !u!114 &299743943
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 972
+  indentLevel: 0
+  storyText: ...Great. It's you. Did you have to darken my doorway when I clearly
+    didn't want to see you today?
+  description: 
+  character: {fileID: 1063176168}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 411298489}
+--- !u!114 &299743944
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 971
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1063176168}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 36ebb38f6a58d1c43ae9df8095a1ec5a, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 9379158}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &299743945
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 278.61108
+    y: -532.77576
+    width: 143.68417
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 976
+  blockName: NegativeGreet2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 299743944}
+  - {fileID: 299743943}
+  - {fileID: 299743942}
+  - {fileID: 299743941}
+  - {fileID: 299743940}
+  suppressAllAutoSelections: 0
 --- !u!114 &299743957
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -53604,8 +53775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67.852036
-    y: -594.3568
+    x: 70.48361
+    y: -668.0414
     width: 78.42104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -68337,13 +68508,13 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 278.348
-    y: -520.9336
-    width: 136.31577
+    y: -593.30237
+    width: 142.63156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 679
-  blockName: NegativeGreet
+  blockName: NegativeGreet1
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -68965,7 +69136,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 21.979778
-    y: -519.6266
+    y: -593.31116
     width: 175.26312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -70500,7 +70671,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 487.5558
-    y: -520.945
+    y: -593.31384
     width: 165.78943
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -70586,7 +70757,7 @@ MonoBehaviour:
   itemId: 716
   indentLevel: 1
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 299744239}
+  targetBlock: {fileID: 299743945}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -85577,7 +85748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 14470575}
+  selectedFlowchart: {fileID: 299743777}
 --- !u!4 &1700533279
 Transform:
   m_ObjectHideFlags: 1
