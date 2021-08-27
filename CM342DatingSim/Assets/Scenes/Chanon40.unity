@@ -430,6 +430,9 @@ GameObject:
   - component: {fileID: 432833390}
   - component: {fileID: 432833392}
   - component: {fileID: 432833393}
+  - component: {fileID: 432833396}
+  - component: {fileID: 432833394}
+  - component: {fileID: 432833395}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -450,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 551.2082, y: 19.89041}
+  scrollPos: {x: 476.2084, y: -85.37288}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -462,7 +465,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 432833246}
+  - {fileID: 432833339}
   selectedCommands: []
   variables:
   - {fileID: 432833276}
@@ -861,8 +864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: I...just wanted to try out a new recipe y'know? Add some variety to
-    the menu.
+  storyText: I just wanted to try out a new recipe y'know? Add some variety to the
+    menu.
   description: 
   character: {fileID: 37990066}
   portrait: {fileID: 0}
@@ -1848,7 +1851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: Triple Berry Sunny Super what?
+  storyText: Triple Berry what?
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -2515,7 +2518,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 301.22675
-    y: 520.1264
+    y: 518.8106
     width: 81.57896
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2531,9 +2534,12 @@ MonoBehaviour:
   - {fileID: 432833307}
   - {fileID: 432833312}
   - {fileID: 432833309}
+  - {fileID: 432833396}
+  - {fileID: 432833395}
+  - {fileID: 432833310}
   - {fileID: 432833381}
   - {fileID: 432833311}
-  - {fileID: 432833310}
+  - {fileID: 432833394}
   - {fileID: 432833315}
   - {fileID: 432833313}
   - {fileID: 432833314}
@@ -2871,8 +2877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: I just don't see the big deal about some chef. Anyone can cook and bake,
-    it's not that hard.
+  storyText: Yeah but, shouldn't there be more? To make your hard work pay off?
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -2899,10 +2904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: Oh, that so? Ha...you know, I don't need your help after all. This eggshell
-    on the ground gives me more support than you right now.
+  storyText: Sorry. It just doesn't sound worth it.
   description: 
-  character: {fileID: 37990066}
+  character: {fileID: 671349920}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2912,7 +2916,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 563627851}
+  setSayDialog: {fileID: 0}
 --- !u!114 &432833311
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3038,7 +3042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: Hey, I'm just being honest with you.
+  storyText: I-I'm just being honest.
   description: 
   character: {fileID: 671349920}
   portrait: {fileID: 0}
@@ -3284,7 +3288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -362.98593
+    x: -359.03854
     y: 625.5872
     width: 87.894745
     height: 40
@@ -3570,7 +3574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -362.29016
+    x: -360.97437
     y: 865.15906
     width: 88.94738
     height: 40
@@ -5212,7 +5216,7 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -5874,6 +5878,88 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1539908383}
+--- !u!114 &432833394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 193
+  indentLevel: 0
+  storyText: Oh, that so? Ha...you know, I don't need your help if you're not gonna
+    be supportive.
+  description: 
+  character: {fileID: 37990066}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 563627851}
+--- !u!114 &432833395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 194
+  indentLevel: 0
+  storyText: Cooking with the best means more than any amount of money.
+  description: 
+  character: {fileID: 37990066}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 563627851}
+--- !u!114 &432833396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432833231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 192
+  indentLevel: 0
+  storyText: Yeah I'm working hard, but this is something that doesn't always happen.
+  description: 
+  character: {fileID: 37990066}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 563627851}
 --- !u!1 &459920313
 GameObject:
   m_ObjectHideFlags: 0
