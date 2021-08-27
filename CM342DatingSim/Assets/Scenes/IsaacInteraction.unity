@@ -41784,6 +41784,7 @@ GameObject:
   - component: {fileID: 299743942}
   - component: {fileID: 299743941}
   - component: {fileID: 299743940}
+  - component: {fileID: 299743946}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -42288,8 +42289,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 299743945}
-  selectedCommands:
-  - {fileID: 299743943}
+  selectedCommands: []
   variables:
   - {fileID: 299744142}
   - {fileID: 299743794}
@@ -50822,7 +50822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 973
   indentLevel: 0
-  storyText: Invisible or not, just knowing you're there makes my mood worse...
+  storyText: All of the posters are up...maybe you noticed.
   description: 
   character: {fileID: 1063176168}
   portrait: {fileID: 0}
@@ -50849,8 +50849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 972
   indentLevel: 0
-  storyText: ...Great. It's you. Did you have to darken my doorway when I clearly
-    didn't want to see you today?
+  storyText: ...
   description: 
   character: {fileID: 1063176168}
   portrait: {fileID: 0}
@@ -50921,9 +50920,38 @@ MonoBehaviour:
   - {fileID: 299743944}
   - {fileID: 299743943}
   - {fileID: 299743942}
+  - {fileID: 299743946}
   - {fileID: 299743941}
   - {fileID: 299743940}
   suppressAllAutoSelections: 0
+--- !u!114 &299743946
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299743773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 977
+  indentLevel: 0
+  storyText: Or maybe you're too busy with social media? I mean, everyone doing it
+    right?
+  description: 
+  character: {fileID: 1063176168}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 411298489}
 --- !u!114 &299743957
 MonoBehaviour:
   m_ObjectHideFlags: 2
