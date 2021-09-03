@@ -1112,6 +1112,9 @@ GameObject:
   - component: {fileID: 568334561}
   - component: {fileID: 568334585}
   - component: {fileID: 568334584}
+  - component: {fileID: 568334586}
+  - component: {fileID: 568334587}
+  - component: {fileID: 568334588}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -1132,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -563.8084, y: -237.59962}
+  scrollPos: {x: -1130.8965, y: -337.59955}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1144,9 +1147,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 568334463}
+  - {fileID: 568334495}
   selectedCommands:
-  - {fileID: 568334462}
+  - {fileID: 568334485}
   variables:
   - {fileID: 568334555}
   - {fileID: 568334500}
@@ -2083,6 +2086,7 @@ MonoBehaviour:
   - {fileID: 568334712}
   - {fileID: 568334717}
   - {fileID: 568334908}
+  - {fileID: 568334586}
   suppressAllAutoSelections: 0
 --- !u!114 &568334435
 MonoBehaviour:
@@ -4044,7 +4048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: "Yeah, you got me,\r Isaac, and whoever else\r you met today."
+  storyText: Yeah. You got me and everyone else.
   description: 
   character: {fileID: 1321969435}
   portrait: {fileID: 0}
@@ -4071,7 +4075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: "(Huh. I guess I still have\r feelings even though I\r can't see it.)"
+  storyText: "(Huh. I guess I still do have\r feelings.)"
   description: 
   character: {fileID: 1768139534}
   portrait: {fileID: 0}
@@ -4218,8 +4222,10 @@ MonoBehaviour:
   - {fileID: 568334845}
   - {fileID: 568334489}
   - {fileID: 568334487}
+  - {fileID: 568334587}
   - {fileID: 568334844}
   - {fileID: 568334486}
+  - {fileID: 568334588}
   - {fileID: 568334469}
   suppressAllAutoSelections: 0
 --- !u!114 &568334493
@@ -4537,7 +4543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1067.433
+    x: 1066.1671
     y: 492.63745
     width: 117.84812
     height: 40
@@ -6567,7 +6573,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &568334561
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6579,7 +6585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 630
   indentLevel: 0
-  storyText: "Do you have\r something you really\r care about {$PlayerName}?"
+  storyText: "Hey. Do you have\r something you really\r care about {$PlayerName}?"
   description: 
   character: {fileID: 1321969435}
   portrait: {fileID: 0}
@@ -7151,7 +7157,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &568334583
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7178,7 +7184,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &568334584
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7205,7 +7211,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &568334585
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7233,6 +7239,74 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
+--- !u!114 &568334586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568334398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 633
+  indentLevel: 0
+--- !u!114 &568334587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568334398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 634
+  indentLevel: 0
+  storyText: "(Even though I\r can't see them...)"
+  description: 
+  character: {fileID: 1768139534}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &568334588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568334398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 635
+  indentLevel: 0
+  storyText: Thanks Rosy.
+  description: 
+  character: {fileID: 1768139534}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &568334601
 MonoBehaviour:
   m_ObjectHideFlags: 2
