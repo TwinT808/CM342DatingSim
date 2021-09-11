@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1657500551}
+  selectedFlowchart: {fileID: 1534990622}
 --- !u!4 &200766000
 Transform:
   m_ObjectHideFlags: 1
@@ -3212,6 +3212,7 @@ GameObject:
   - component: {fileID: 897977692}
   - component: {fileID: 897977687}
   - component: {fileID: 897977688}
+  - component: {fileID: 897977685}
   m_Layer: 0
   m_Name: SyringeShots
   m_TagString: Untagged
@@ -3219,6 +3220,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &897977685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 738
+  indentLevel: 0
+  storyText: Natalie swears it's not made from real blood but her grin tells you
+    otherwise.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!114 &897977686
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4170,7 +4199,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 897977716}
   selectedCommands:
-  - {fileID: 897977720}
+  - {fileID: 897977685}
   variables:
   - {fileID: 897977687}
   description: 
@@ -5123,6 +5152,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 897977720}
+  - {fileID: 897977685}
   - {fileID: 897977704}
   - {fileID: 897977702}
   suppressAllAutoSelections: 0
@@ -5218,8 +5248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 734
   indentLevel: 0
-  storyText: 'Syringe Shot: Natalie swears it''s not made from real blood but her
-    grin tells you otherwise. - $5'
+  storyText: Syringe Shot - $5
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5352,6 +5381,7 @@ GameObject:
   - component: {fileID: 979252740}
   - component: {fileID: 979252739}
   - component: {fileID: 979252738}
+  - component: {fileID: 979252766}
   m_Layer: 0
   m_Name: Whiskey
   m_TagString: Untagged
@@ -5409,8 +5439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 731
   indentLevel: 0
-  storyText: 'Whiskey: Contains a high volume of alcohol. Natalie said if you drink
-    too much, she''s not responsible for what happens afterwards. - $6'
+  storyText: Whiskey - $6
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5500,7 +5529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 730
+  itemId: 734
   indentLevel: 0
   targetFlowchart: {fileID: 2100976026}
   targetBlock: {fileID: 2100976382}
@@ -5844,8 +5873,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 979252769}
-  selectedCommands: []
+  - {fileID: 979252767}
+  selectedCommands:
+  - {fileID: 979252766}
   variables:
   - {fileID: 979252738}
   description: 
@@ -6223,7 +6253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 724
+  itemId: 733
   indentLevel: 1
   storyText: Thank you for your purchase!
   description: 
@@ -6855,6 +6885,34 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1132144711}
+--- !u!114 &979252766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 735
+  indentLevel: 0
+  storyText: Contains a high volume of alcohol. Natalie said if you drink too much,
+    she's not responsible for what happens afterwards.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!114 &979252767
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6881,6 +6939,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 979252740}
+  - {fileID: 979252766}
   - {fileID: 979252765}
   - {fileID: 979252764}
   suppressAllAutoSelections: 0
@@ -7684,6 +7743,7 @@ GameObject:
   - component: {fileID: 1276665396}
   - component: {fileID: 1276665369}
   - component: {fileID: 1276665395}
+  - component: {fileID: 1276665403}
   m_Layer: 0
   m_Name: Cosmopolitan
   m_TagString: Untagged
@@ -7810,7 +7870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 370
+  itemId: 733
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
@@ -8287,8 +8347,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1276665402}
-  selectedCommands: []
+  - {fileID: 1276665399}
+  selectedCommands:
+  - {fileID: 1276665403}
   variables:
   - {fileID: 1276665369}
   description: 
@@ -8410,7 +8471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 724
+  itemId: 734
   indentLevel: 1
   anyVar:
     variable: {fileID: 2100976235}
@@ -9277,8 +9338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 731
   indentLevel: 0
-  storyText: 'Cosmopolitan: Made with vodka, cranberry juice, lime juice, Triple
-    sec, and Natalie''s secret ingredient. - $5'
+  storyText: Cosmopolitan - $5
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9365,6 +9425,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1276665396}
+  - {fileID: 1276665403}
   - {fileID: 1276665398}
   - {fileID: 1276665397}
   suppressAllAutoSelections: 0
@@ -9446,6 +9507,34 @@ MonoBehaviour:
   - {fileID: 1276665401}
   - {fileID: 1276665400}
   suppressAllAutoSelections: 0
+--- !u!114 &1276665403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 735
+  indentLevel: 0
+  storyText: Made with vodka, cranberry juice, lime juice, Triple sec, and Natalie's
+    secret ingredient.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &1288105044
 GameObject:
   m_ObjectHideFlags: 0
@@ -50289,6 +50378,9 @@ GameObject:
   - component: {fileID: 1534990610}
   - component: {fileID: 1534990608}
   - component: {fileID: 1534990609}
+  - component: {fileID: 1534990643}
+  - component: {fileID: 1534990636}
+  - component: {fileID: 1534990644}
   m_Layer: 0
   m_Name: Martini
   m_TagString: Untagged
@@ -50346,8 +50438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 731
   indentLevel: 0
-  storyText: 'Martini: You can have it dry, wet, dirty, or perfect. Natalie likes
-    it dirty... - $5'
+  storyText: Martini - $5
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -50437,7 +50528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 730
+  itemId: 734
   indentLevel: 0
   targetFlowchart: {fileID: 2100976026}
   targetBlock: {fileID: 2100976382}
@@ -50939,10 +51030,13 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1534990633}
-  selectedCommands: []
+  - {fileID: 1534990637}
+  selectedCommands:
+  - {fileID: 1534990644}
   variables:
   - {fileID: 1534990608}
+  - {fileID: 1534990643}
+  - {fileID: 1534990636}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -51318,7 +51412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 724
+  itemId: 733
   indentLevel: 1
   storyText: Thank you for your purchase!
   description: 
@@ -51950,6 +52044,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1132144711}
+--- !u!114 &1534990636
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: NatalieRoute1
+  value: 0
 --- !u!114 &1534990637
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -51976,6 +52085,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1534990610}
+  - {fileID: 1534990644}
   - {fileID: 1534990635}
   - {fileID: 1534990634}
   suppressAllAutoSelections: 0
@@ -52105,6 +52215,49 @@ MonoBehaviour:
   - {fileID: 1534990641}
   - {fileID: 1534990640}
   suppressAllAutoSelections: 0
+--- !u!114 &1534990643
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: NatalieRoute
+  value: 0
+--- !u!114 &1534990644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 735
+  indentLevel: 0
+  storyText: You can have it dry, wet, dirty, or perfect. Apparently Natalie likes
+    it dirty...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &1615848438
 GameObject:
   m_ObjectHideFlags: 0
@@ -56236,6 +56389,8 @@ GameObject:
   - component: {fileID: 2100976121}
   - component: {fileID: 2100976122}
   - component: {fileID: 2100976125}
+  - component: {fileID: 2100976126}
+  - component: {fileID: 2100976058}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -56286,6 +56441,7 @@ MonoBehaviour:
   - {fileID: 2100976246}
   - {fileID: 2100976036}
   - {fileID: 2100976308}
+  - {fileID: 2100976126}
   - {fileID: 2100976035}
   suppressAllAutoSelections: 0
 --- !u!114 &2100976026
@@ -56301,7 +56457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1173.0549, y: -527.44366}
+  scrollPos: {x: 429.4771, y: 182.683}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -56313,10 +56469,11 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2100976208}
-  - {fileID: 2100976196}
-  selectedCommands: []
+  - {fileID: 2100976025}
+  selectedCommands:
+  - {fileID: 2100976126}
   variables:
+  - {fileID: 2100976058}
   - {fileID: 2100976043}
   - {fileID: 2100976042}
   - {fileID: 2100976041}
@@ -57797,6 +57954,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &2100976058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100976023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Money
+  value: 0
 --- !u!114 &2100976059
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -63539,6 +63711,158 @@ MonoBehaviour:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
   setOperator: 3
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &2100976126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100976023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1169
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 2100976058}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 60
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -78277,6 +78601,7 @@ GameObject:
   - component: {fileID: 2123522341}
   - component: {fileID: 2123522340}
   - component: {fileID: 2123522339}
+  - component: {fileID: 2123522367}
   m_Layer: 0
   m_Name: RedWine
   m_TagString: Untagged
@@ -78313,8 +78638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 732
   indentLevel: 0
-  storyText: 'Red Wine: Also comes in White Wine but Natalie seems to only have red.
-    - $7'
+  storyText: Red Wine - $7
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -78425,7 +78749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 730
+  itemId: 734
   indentLevel: 0
   targetFlowchart: {fileID: 2100976026}
   targetBlock: {fileID: 2100976382}
@@ -79069,8 +79393,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2123522352}
-  selectedCommands: []
+  - {fileID: 2123522368}
+  selectedCommands:
+  - {fileID: 2123522367}
   variables:
   - {fileID: 2123522339}
   description: 
@@ -79448,7 +79773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 724
+  itemId: 733
   indentLevel: 1
   storyText: Thank you for your purchase!
   description: 
@@ -80080,6 +80405,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1132144711}
+--- !u!114 &2123522367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 735
+  indentLevel: 0
+  storyText: Also comes in White Wine, but Natalie seems to only have red.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!114 &2123522368
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -80106,6 +80458,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2123522340}
+  - {fileID: 2123522367}
   - {fileID: 2123522366}
   - {fileID: 2123522365}
   suppressAllAutoSelections: 0
