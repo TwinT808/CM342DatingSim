@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1534990622}
+  selectedFlowchart: {fileID: 897977699}
 --- !u!4 &200766000
 Transform:
   m_ObjectHideFlags: 1
@@ -3310,6 +3310,12 @@ GameObject:
   - component: {fileID: 897977730}
   - component: {fileID: 897977726}
   - component: {fileID: 897977735}
+  - component: {fileID: 897977738}
+  - component: {fileID: 897977737}
+  - component: {fileID: 897977736}
+  - component: {fileID: 897977740}
+  - component: {fileID: 897977741}
+  - component: {fileID: 897977739}
   m_Layer: 0
   m_Name: SyringeShots
   m_TagString: Untagged
@@ -4282,7 +4288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 476.6233, y: -177.25438}
+  scrollPos: {x: 449.6233, y: -78.254395}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4295,7 +4301,9 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 897977724}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 897977737}
+  - {fileID: 897977739}
   variables:
   - {fileID: 897977687}
   - {fileID: 897977722}
@@ -5678,10 +5686,16 @@ MonoBehaviour:
   - {fileID: 897977734}
   - {fileID: 897977733}
   - {fileID: 897977732}
+  - {fileID: 897977738}
+  - {fileID: 897977741}
   - {fileID: 897977731}
   - {fileID: 897977730}
+  - {fileID: 897977736}
+  - {fileID: 897977740}
   - {fileID: 897977729}
   - {fileID: 897977726}
+  - {fileID: 897977737}
+  - {fileID: 897977739}
   - {fileID: 897977728}
   - {fileID: 897977727}
   - {fileID: 897977735}
@@ -6937,7 +6951,7 @@ MonoBehaviour:
     integerVal: 4
 --- !u!114 &897977735
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6956,6 +6970,170 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &897977736
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 755
+  indentLevel: 2
+  storyText: You feelin' lucky? Or just drunk? Let's find out...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &897977737
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 2
+  storyText: For some reason all the shop keepers decided to hold a sale tomorrow.
+    Crazy!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &897977738
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 753
+  indentLevel: 2
+  storyText: You feel a bit more confident. Maybe others will be more attracted to
+    you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &897977739
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 2
+  storyText: Shop prices will be reduced for the next day.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &897977740
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 756
+  indentLevel: 2
+  storyText: Your Luck has been increased.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &897977741
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897977684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 757
+  indentLevel: 2
+  storyText: Affection points has been raised.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &970048230
 GameObject:
   m_ObjectHideFlags: 0
@@ -7077,18 +7255,28 @@ GameObject:
   - component: {fileID: 979252739}
   - component: {fileID: 979252738}
   - component: {fileID: 979252766}
+  - component: {fileID: 979252776}
+  - component: {fileID: 979252775}
+  - component: {fileID: 979252774}
+  - component: {fileID: 979252773}
+  - component: {fileID: 979252778}
+  - component: {fileID: 979252788}
+  - component: {fileID: 979252777}
+  - component: {fileID: 979252787}
+  - component: {fileID: 979252786}
+  - component: {fileID: 979252785}
   - component: {fileID: 979252784}
   - component: {fileID: 979252783}
   - component: {fileID: 979252782}
   - component: {fileID: 979252781}
   - component: {fileID: 979252780}
   - component: {fileID: 979252779}
-  - component: {fileID: 979252778}
-  - component: {fileID: 979252777}
-  - component: {fileID: 979252776}
-  - component: {fileID: 979252775}
-  - component: {fileID: 979252774}
-  - component: {fileID: 979252773}
+  - component: {fileID: 979252794}
+  - component: {fileID: 979252793}
+  - component: {fileID: 979252792}
+  - component: {fileID: 979252791}
+  - component: {fileID: 979252790}
+  - component: {fileID: 979252789}
   m_Layer: 0
   m_Name: Whiskey
   m_TagString: Untagged
@@ -7259,8 +7447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 58.54921
-    y: 415.50876
+    x: 59.54921
+    y: 502.50876
     width: 101.2
     height: 40
   tint: {r: 0, g: 1, b: 0.9254902, a: 1}
@@ -7568,7 +7756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 442.89148, y: -32.75438}
+  scrollPos: {x: 455.39148, y: -76.254395}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -7580,10 +7768,15 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 979252784}
-  selectedCommands: []
+  - {fileID: 979252778}
+  selectedCommands:
+  - {fileID: 979252782}
   variables:
   - {fileID: 979252738}
+  - {fileID: 979252776}
+  - {fileID: 979252775}
+  - {fileID: 979252774}
+  - {fileID: 979252773}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -7637,7 +7830,7 @@ MonoBehaviour:
   itemId: 727
   indentLevel: 1
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 979252745}
+  targetBlock: {fileID: 979252778}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8784,19 +8977,143 @@ MonoBehaviour:
   m_GameObject: {fileID: 979252737}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Discount
+  value: 0
+--- !u!114 &979252774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: DrinkLuck
+  value: 0
+--- !u!114 &979252775
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: AffectionBoost
+  value: 0
+--- !u!114 &979252776
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: RandomBuff
+  value: 0
+--- !u!114 &979252777
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af5dac98b0624702b476c1eac319eab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 738
+  indentLevel: 1
+  variable: {fileID: 979252776}
+  minValue:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  maxValue:
+    integerRef: {fileID: 0}
+    integerVal: 4
+--- !u!114 &979252778
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 68.64044
+    y: 416.7544
+    width: 79.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 740
+  blockName: Buffs
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 979252788}
+  - {fileID: 979252777}
+  - {fileID: 979252787}
+  - {fileID: 979252786}
+  - {fileID: 979252794}
+  - {fileID: 979252793}
+  - {fileID: 979252785}
+  - {fileID: 979252784}
+  - {fileID: 979252792}
+  - {fileID: 979252791}
+  - {fileID: 979252783}
+  - {fileID: 979252782}
+  - {fileID: 979252790}
+  - {fileID: 979252789}
+  - {fileID: 979252781}
+  - {fileID: 979252780}
+  - {fileID: 979252779}
+  suppressAllAutoSelections: 0
+--- !u!114 &979252779
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 747
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 897977706}
+  targetBlock: {fileID: 979252745}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &979252774
+--- !u!114 &979252780
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8810,7 +9127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 746
   indentLevel: 0
---- !u!114 &979252775
+--- !u!114 &979252781
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8824,7 +9141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 745
   indentLevel: 1
---- !u!114 &979252776
+--- !u!114 &979252782
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8839,7 +9156,7 @@ MonoBehaviour:
   itemId: 744
   indentLevel: 2
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 979252773}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -8976,7 +9293,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252777
+--- !u!114 &979252783
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8994,7 +9311,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 979252776}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -9219,7 +9536,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252778
+--- !u!114 &979252784
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9234,7 +9551,7 @@ MonoBehaviour:
   itemId: 742
   indentLevel: 2
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 979252774}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -9371,7 +9688,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252779
+--- !u!114 &979252785
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9389,7 +9706,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 979252776}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -9614,7 +9931,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252780
+--- !u!114 &979252786
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9626,10 +9943,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 740
+  itemId: 748
   indentLevel: 2
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 979252775}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -9766,7 +10083,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252781
+--- !u!114 &979252787
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9784,7 +10101,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 979252776}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -10009,28 +10326,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252782
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979252737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af5dac98b0624702b476c1eac319eab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 738
-  indentLevel: 1
-  variable: {fileID: 0}
-  minValue:
-    integerRef: {fileID: 0}
-    integerVal: 1
-  maxValue:
-    integerRef: {fileID: 0}
-    integerVal: 4
---- !u!114 &979252783
+--- !u!114 &979252788
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10273,7 +10569,7 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &979252784
+--- !u!114 &979252789
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10282,34 +10578,161 @@ MonoBehaviour:
   m_GameObject: {fileID: 979252737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 182.30853
-    y: 322.7544
-    width: 121.2
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 740
-  blockName: Buffs (Copy)
+  itemId: 762
+  indentLevel: 2
+  storyText: Shop prices will be reduced for the next day.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 979252783}
-  - {fileID: 979252782}
-  - {fileID: 979252781}
-  - {fileID: 979252780}
-  - {fileID: 979252779}
-  - {fileID: 979252778}
-  - {fileID: 979252777}
-  - {fileID: 979252776}
-  - {fileID: 979252775}
-  - {fileID: 979252774}
-  - {fileID: 979252773}
-  suppressAllAutoSelections: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &979252790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  indentLevel: 2
+  storyText: For some reason all the shop keepers decided to hold a sale tomorrow.
+    Crazy!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &979252791
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  indentLevel: 2
+  storyText: Your Luck has been increased.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &979252792
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 759
+  indentLevel: 2
+  storyText: You feelin' lucky? Or just drunk? Let's find out...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &979252793
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 2
+  storyText: Affection points has been raised.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &979252794
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979252737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 2
+  storyText: You feel a bit more confident. Maybe others will be more attracted to
+    you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &1036057541
 GameObject:
   m_ObjectHideFlags: 0
@@ -10986,8 +11409,6 @@ GameObject:
   - component: {fileID: 1276665395}
   - component: {fileID: 1276665403}
   - component: {fileID: 1276665404}
-  - component: {fileID: 1276665406}
-  - component: {fileID: 1276665405}
   - component: {fileID: 1276665418}
   - component: {fileID: 1276665417}
   - component: {fileID: 1276665416}
@@ -10999,7 +11420,16 @@ GameObject:
   - component: {fileID: 1276665410}
   - component: {fileID: 1276665409}
   - component: {fileID: 1276665408}
+  - component: {fileID: 1276665419}
   - component: {fileID: 1276665407}
+  - component: {fileID: 1276665406}
+  - component: {fileID: 1276665405}
+  - component: {fileID: 1276665425}
+  - component: {fileID: 1276665424}
+  - component: {fileID: 1276665423}
+  - component: {fileID: 1276665422}
+  - component: {fileID: 1276665421}
+  - component: {fileID: 1276665420}
   m_Layer: 0
   m_Name: Cosmopolitan
   m_TagString: Untagged
@@ -11591,7 +12021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 468.56805, y: -23.052242}
+  scrollPos: {x: 485.9085, y: -61.881954}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -11604,12 +12034,14 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1276665418}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1276665410}
   variables:
   - {fileID: 1276665369}
-  - {fileID: 1276665405}
-  - {fileID: 1276665406}
+  - {fileID: 1276665419}
   - {fileID: 1276665404}
+  - {fileID: 1276665407}
+  - {fileID: 1276665406}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -11663,7 +12095,7 @@ MonoBehaviour:
   itemId: 725
   indentLevel: 1
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1276665387}
+  targetBlock: {fileID: 1276665418}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -11683,8 +12115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 59.78327
-    y: 426.18958
+    x: 58.71943
+    y: 502.78516
     width: 98.510635
     height: 40
   tint: {r: 0, g: 1, b: 0.9254902, a: 1}
@@ -12806,7 +13238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: Luck
+  key: AffectionBoost
   value: 0
 --- !u!114 &1276665405
 MonoBehaviour:
@@ -12817,12 +13249,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1276665368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Money2
-  value: 0
+  itemId: 749
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1276665387}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1276665406
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12832,36 +13270,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1276665368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Money1
+  scope: 2
+  key: Discount
   value: 0
 --- !u!114 &1276665407
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276665368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 747
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 897977706}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  scope: 2
+  key: DrinkLuck
+  value: 0
 --- !u!114 &1276665408
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12875,7 +13307,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1276665409
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12889,7 +13321,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &1276665410
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12902,7 +13334,7 @@ MonoBehaviour:
   itemId: 744
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977721}
+    variable: {fileID: 1276665406}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -13041,7 +13473,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665411
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13057,7 +13489,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 1276665419}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -13284,7 +13716,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665412
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13297,7 +13729,7 @@ MonoBehaviour:
   itemId: 742
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977725}
+    variable: {fileID: 1276665407}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -13436,7 +13868,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665413
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13452,7 +13884,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 1276665419}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -13679,7 +14111,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665414
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13689,10 +14121,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 740
+  itemId: 748
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977703}
+    variable: {fileID: 1276665404}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -13831,7 +14263,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665415
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13847,7 +14279,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 1276665419}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -14074,7 +14506,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665416
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14086,7 +14518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 738
   indentLevel: 1
-  variable: {fileID: 897977722}
+  variable: {fileID: 1276665419}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -14095,7 +14527,7 @@ MonoBehaviour:
     integerVal: 4
 --- !u!114 &1276665417
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14338,7 +14770,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1276665418
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14350,14 +14782,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 211.84473
-    y: 349.86078
-    width: 120.63829
+    x: 68.227684
+    y: 424.32928
+    width: 78.93617
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 740
-  blockName: Buffs (Copy)
+  blockName: Buffs
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -14365,14 +14797,199 @@ MonoBehaviour:
   - {fileID: 1276665416}
   - {fileID: 1276665415}
   - {fileID: 1276665414}
+  - {fileID: 1276665425}
+  - {fileID: 1276665424}
   - {fileID: 1276665413}
   - {fileID: 1276665412}
+  - {fileID: 1276665423}
+  - {fileID: 1276665422}
   - {fileID: 1276665411}
   - {fileID: 1276665410}
+  - {fileID: 1276665421}
+  - {fileID: 1276665420}
   - {fileID: 1276665409}
   - {fileID: 1276665408}
-  - {fileID: 1276665407}
+  - {fileID: 1276665405}
   suppressAllAutoSelections: 0
+--- !u!114 &1276665419
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: RandomBuff
+  value: 0
+--- !u!114 &1276665420
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 762
+  indentLevel: 2
+  storyText: Shop prices will be reduced for the next day.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1276665421
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  indentLevel: 2
+  storyText: For some reason all the shop keepers decided to hold a sale tomorrow.
+    Crazy!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1276665422
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  indentLevel: 2
+  storyText: Your Luck has been increased.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1276665423
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 759
+  indentLevel: 2
+  storyText: You feelin' lucky? Or just drunk? Let's find out...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1276665424
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 2
+  storyText: Affection points has been raised.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1276665425
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276665368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 2
+  storyText: You feel a bit more confident. Maybe others will be more attracted to
+    you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &1288105044
 GameObject:
   m_ObjectHideFlags: 0
@@ -55230,6 +55847,15 @@ GameObject:
   - component: {fileID: 1534990647}
   - component: {fileID: 1534990646}
   - component: {fileID: 1534990645}
+  - component: {fileID: 1534990658}
+  - component: {fileID: 1534990657}
+  - component: {fileID: 1534990656}
+  - component: {fileID: 1534990664}
+  - component: {fileID: 1534990663}
+  - component: {fileID: 1534990662}
+  - component: {fileID: 1534990661}
+  - component: {fileID: 1534990660}
+  - component: {fileID: 1534990659}
   m_Layer: 0
   m_Name: Martini
   m_TagString: Untagged
@@ -55401,7 +56027,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 58.549194
-    y: 415.50876
+    y: 498.50876
     width: 101.2
     height: 40
   tint: {r: 0, g: 1, b: 0.9254902, a: 1}
@@ -55867,7 +56493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 442.89148, y: -32.25438}
+  scrollPos: {x: 455.39148, y: -73.754395}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -55880,10 +56506,14 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1534990643}
+  - {fileID: 1534990615}
   selectedCommands: []
   variables:
   - {fileID: 1534990608}
+  - {fileID: 1534990658}
   - {fileID: 1534990636}
+  - {fileID: 1534990656}
+  - {fileID: 1534990657}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -55937,7 +56567,7 @@ MonoBehaviour:
   itemId: 727
   indentLevel: 1
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1534990615}
+  targetBlock: {fileID: 1534990643}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -56904,7 +57534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: Luck
+  key: AffectionBoost
   value: 0
 --- !u!114 &1534990637
 MonoBehaviour:
@@ -57064,7 +57694,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1534990643
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57076,14 +57706,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 189.30853
-    y: 319.2544
-    width: 121.2
+    x: 68.30853
+    y: 416.2544
+    width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 740
-  blockName: Buffs (Copy)
+  blockName: Buffs
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -57091,10 +57721,16 @@ MonoBehaviour:
   - {fileID: 1534990654}
   - {fileID: 1534990653}
   - {fileID: 1534990652}
+  - {fileID: 1534990664}
+  - {fileID: 1534990663}
   - {fileID: 1534990651}
   - {fileID: 1534990650}
+  - {fileID: 1534990662}
+  - {fileID: 1534990661}
   - {fileID: 1534990649}
   - {fileID: 1534990648}
+  - {fileID: 1534990660}
+  - {fileID: 1534990659}
   - {fileID: 1534990647}
   - {fileID: 1534990646}
   - {fileID: 1534990645}
@@ -57129,7 +57765,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1132144711}
 --- !u!114 &1534990645
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57142,7 +57778,7 @@ MonoBehaviour:
   itemId: 747
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 897977706}
+  targetBlock: {fileID: 1534990615}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -57150,7 +57786,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1534990646
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57164,7 +57800,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1534990647
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57178,7 +57814,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &1534990648
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57191,7 +57827,7 @@ MonoBehaviour:
   itemId: 744
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977721}
+    variable: {fileID: 1534990657}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -57330,7 +57966,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1534990649
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57346,7 +57982,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 1534990658}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -57573,7 +58209,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1534990650
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57586,7 +58222,7 @@ MonoBehaviour:
   itemId: 742
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977725}
+    variable: {fileID: 1534990656}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -57725,7 +58361,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1534990651
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57741,7 +58377,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 1534990658}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -57968,7 +58604,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1534990652
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57978,10 +58614,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 740
+  itemId: 748
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977703}
+    variable: {fileID: 1534990636}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -58120,7 +58756,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1534990653
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -58136,7 +58772,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 1534990658}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -58363,7 +58999,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1534990654
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -58375,7 +59011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 738
   indentLevel: 1
-  variable: {fileID: 897977722}
+  variable: {fileID: 1534990658}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -58384,7 +59020,7 @@ MonoBehaviour:
     integerVal: 4
 --- !u!114 &1534990655
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -58625,6 +59261,215 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1534990656
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: DrinkLuck
+  value: 0
+--- !u!114 &1534990657
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Discount
+  value: 0
+--- !u!114 &1534990658
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: RandomBuff
+  value: 0
+--- !u!114 &1534990659
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 762
+  indentLevel: 2
+  storyText: Shop prices will be reduced for the next day.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1534990660
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  indentLevel: 2
+  storyText: For some reason all the shop keepers decided to hold a sale tomorrow.
+    Crazy!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1534990661
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  indentLevel: 2
+  storyText: Your Luck has been increased.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1534990662
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 759
+  indentLevel: 2
+  storyText: You feelin' lucky? Or just drunk? Let's find out...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1534990663
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 2
+  storyText: Affection points has been raised.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &1534990664
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534990607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 2
+  storyText: You feel a bit more confident. Maybe others will be more attracted to
+    you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &1615848438
 GameObject:
   m_ObjectHideFlags: 0
@@ -62889,9 +63734,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2100976247}
+  - {fileID: 2100976208}
   selectedCommands:
-  - {fileID: 2100976305}
+  - {fileID: 2100976207}
   variables:
   - {fileID: 2100976058}
   - {fileID: 2100976043}
@@ -86984,6 +87829,15 @@ GameObject:
   - component: {fileID: 2123522378}
   - component: {fileID: 2123522377}
   - component: {fileID: 2123522376}
+  - component: {fileID: 2123522390}
+  - component: {fileID: 2123522389}
+  - component: {fileID: 2123522388}
+  - component: {fileID: 2123522396}
+  - component: {fileID: 2123522395}
+  - component: {fileID: 2123522394}
+  - component: {fileID: 2123522393}
+  - component: {fileID: 2123522392}
+  - component: {fileID: 2123522391}
   m_Layer: 0
   m_Name: RedWine
   m_TagString: Untagged
@@ -87154,8 +88008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 58.549194
-    y: 418.50876
+    x: 57.549194
+    y: 505.50876
     width: 101.2
     height: 40
   tint: {r: 0, g: 1, b: 0.9254902, a: 1}
@@ -87763,7 +88617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 441.89148, y: -34.25438}
+  scrollPos: {x: 454.39148, y: -77.254395}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -87776,10 +88630,14 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2123522387}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2123522379}
   variables:
   - {fileID: 2123522339}
+  - {fileID: 2123522390}
   - {fileID: 2123522374}
+  - {fileID: 2123522389}
+  - {fileID: 2123522388}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -87833,7 +88691,7 @@ MonoBehaviour:
   itemId: 727
   indentLevel: 1
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 2123522346}
+  targetBlock: {fileID: 2123522387}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -88718,8 +89576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 45.406876
-    y: 334.44366
+    x: 44.406876
+    y: 332.44366
     width: 127.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -89140,7 +89998,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522376
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89153,7 +90011,7 @@ MonoBehaviour:
   itemId: 748
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 897977706}
+  targetBlock: {fileID: 2123522346}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -89161,7 +90019,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &2123522377
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89175,7 +90033,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &2123522378
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89189,7 +90047,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &2123522379
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89202,7 +90060,7 @@ MonoBehaviour:
   itemId: 745
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977721}
+    variable: {fileID: 2123522388}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -89341,7 +90199,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522380
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89357,7 +90215,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 2123522390}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -89584,7 +90442,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522381
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89597,7 +90455,7 @@ MonoBehaviour:
   itemId: 743
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977725}
+    variable: {fileID: 2123522389}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -89736,7 +90594,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522382
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89752,7 +90610,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 2123522390}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -89979,7 +90837,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522383
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -89992,7 +90850,7 @@ MonoBehaviour:
   itemId: 741
   indentLevel: 2
   anyVar:
-    variable: {fileID: 897977703}
+    variable: {fileID: 2123522374}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -90131,7 +90989,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522384
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -90141,13 +90999,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 740
+  itemId: 749
   indentLevel: 1
   anyOrAllConditions: 0
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 897977722}
+      variable: {fileID: 2123522390}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -90374,7 +91232,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522385
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -90386,7 +91244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 739
   indentLevel: 1
-  variable: {fileID: 897977722}
+  variable: {fileID: 2123522390}
   minValue:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -90395,7 +91253,7 @@ MonoBehaviour:
     integerVal: 4
 --- !u!114 &2123522386
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -90638,7 +91496,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &2123522387
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -90650,14 +91508,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 195.30853
-    y: 337.2544
-    width: 121.2
+    x: 69.30853
+    y: 418.2544
+    width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 740
-  blockName: Buffs (Copy)
+  blockName: Buffs
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -90665,14 +91523,229 @@ MonoBehaviour:
   - {fileID: 2123522385}
   - {fileID: 2123522384}
   - {fileID: 2123522383}
+  - {fileID: 2123522396}
+  - {fileID: 2123522395}
   - {fileID: 2123522382}
   - {fileID: 2123522381}
+  - {fileID: 2123522394}
+  - {fileID: 2123522393}
   - {fileID: 2123522380}
   - {fileID: 2123522379}
+  - {fileID: 2123522392}
+  - {fileID: 2123522391}
   - {fileID: 2123522378}
   - {fileID: 2123522377}
   - {fileID: 2123522376}
   suppressAllAutoSelections: 0
+--- !u!114 &2123522388
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Discount
+  value: 0
+--- !u!114 &2123522389
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: DrinkLuck
+  value: 0
+--- !u!114 &2123522390
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: RandomBuff
+  value: 0
+--- !u!114 &2123522391
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 762
+  indentLevel: 2
+  storyText: Shop prices will be reduced for the next day.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &2123522392
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  indentLevel: 2
+  storyText: For some reason all the shop keepers decided to hold a sale tomorrow.
+    Crazy!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &2123522393
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  indentLevel: 2
+  storyText: Your Luck has been increased.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &2123522394
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 759
+  indentLevel: 2
+  storyText: You feelin' lucky? Or just drunk? Let's find out...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &2123522395
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 2
+  storyText: Affection points has been raised.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
+--- !u!114 &2123522396
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123522338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 2
+  storyText: You feel a bit more confident. Maybe others will be more attracted to
+    you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1132144711}
 --- !u!1 &2135054767
 GameObject:
   m_ObjectHideFlags: 0
