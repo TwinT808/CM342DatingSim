@@ -3638,6 +3638,8 @@ GameObject:
   - component: {fileID: 503870117}
   - component: {fileID: 503870092}
   - component: {fileID: 503870118}
+  - component: {fileID: 503870120}
+  - component: {fileID: 503870119}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -3724,7 +3726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 583.06683, y: -49.14712}
+  scrollPos: {x: 876.81683, y: -117.89705}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 397
@@ -3736,8 +3738,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 503869964}
-  selectedCommands: []
+  - {fileID: 503870018}
+  selectedCommands:
+  - {fileID: 503870119}
   variables:
   - {fileID: 503870063}
   - {fileID: 503870082}
@@ -6743,7 +6746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: "I like spending time\r with you."
+  storyText: "I just like spending time\r with you."
   description: 
   character: {fileID: 1111909853}
   portrait: {fileID: 0}
@@ -6826,7 +6829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: "I want to dedicate\r all my time to you Rosy."
+  storyText: Well, like I said before, I like spending time with you Rosy.
   description: 
   character: {fileID: 1111909853}
   portrait: {fileID: 0}
@@ -6908,8 +6911,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: "That's very sweet\r {$PlayerName} but now you've just\r wasted your
-    whole day\r sitting in this dingy\r post-office with me."
+  storyText: "That's very sweet\r {$PlayerName} but youdon't have to waste your whole
+    day\r sitting in this dingy\r post-office with me."
   description: 
   character: {fileID: 1873898030}
   portrait: {fileID: 0}
@@ -7053,6 +7056,8 @@ MonoBehaviour:
   - {fileID: 503870058}
   - {fileID: 503870015}
   - {fileID: 503870017}
+  - {fileID: 503870120}
+  - {fileID: 503870119}
   - {fileID: 503870080}
   - {fileID: 503870055}
   suppressAllAutoSelections: 0
@@ -13526,6 +13531,61 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
+--- !u!114 &503870119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503869948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2174
+  indentLevel: 0
+  storyText: No buts! If you come again and not do anything here, I WILL throw you
+    out!
+  description: 
+  character: {fileID: 1873898030}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &503870120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503869948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2173
+  indentLevel: 0
+  storyText: Huh? But-
+  description: 
+  character: {fileID: 1111909853}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &507819881
 GameObject:
   m_ObjectHideFlags: 0
@@ -17984,7 +18044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1613021921}
+  selectedFlowchart: {fileID: 503869952}
 --- !u!4 &1209634518
 Transform:
   m_ObjectHideFlags: 1
