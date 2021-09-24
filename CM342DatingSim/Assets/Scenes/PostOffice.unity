@@ -3640,6 +3640,9 @@ GameObject:
   - component: {fileID: 503870118}
   - component: {fileID: 503870120}
   - component: {fileID: 503870119}
+  - component: {fileID: 503870123}
+  - component: {fileID: 503870122}
+  - component: {fileID: 503870121}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -3738,9 +3741,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 503870018}
+  - {fileID: 503870077}
   selectedCommands:
-  - {fileID: 503870119}
+  - {fileID: 503870121}
   variables:
   - {fileID: 503870063}
   - {fileID: 503870082}
@@ -11228,7 +11231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  storyText: '{$PlayerName}, I told you. Now leave.'
+  storyText: ...
   description: 
   character: {fileID: 1873898030}
   portrait: {fileID: 0}
@@ -11285,8 +11288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -514.35876
-    y: 573.88666
+    x: -515.92126
+    y: 569.19916
     width: 121.24996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -11298,6 +11301,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 503870076}
   - {fileID: 503870075}
+  - {fileID: 503870123}
+  - {fileID: 503870122}
+  - {fileID: 503870121}
   - {fileID: 503870081}
   - {fileID: 503870084}
   - {fileID: 503870074}
@@ -13533,7 +13539,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &503870119
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13561,7 +13567,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &503870120
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13576,6 +13582,87 @@ MonoBehaviour:
   storyText: Huh? But-
   description: 
   character: {fileID: 1111909853}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &503870121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503869948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2177
+  indentLevel: 0
+  storyText: Damn. Even though she's small, she's pretty strong.
+  description: 
+  character: {fileID: 1111909853}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &503870122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503869948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2176
+  indentLevel: 0
+  storyText: Rosy throws you out of the post office. Literally.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 697794881}
+--- !u!114 &503870123
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503869948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2175
+  indentLevel: 0
+  storyText: '{$PlayerName}, I told you. Now leave.'
+  description: 
+  character: {fileID: 1873898030}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
