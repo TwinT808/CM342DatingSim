@@ -1190,7 +1190,8 @@ MonoBehaviour:
   nameText: ???
   nameColor: {r: 0.6792453, g: 0.27436185, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 13d4cc8e6b55ac949b5efa66580a5c31, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 922888062}
   description: 
@@ -1758,6 +1759,8 @@ GameObject:
   - component: {fileID: 2038244735}
   - component: {fileID: 2038244736}
   - component: {fileID: 2038244737}
+  - component: {fileID: 2038244739}
+  - component: {fileID: 2038244738}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -1931,7 +1934,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 1900059896}
+  character: {fileID: 1864316908}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 13d4cc8e6b55ac949b5efa66580a5c31, type: 3}
   offset: 0
@@ -2311,6 +2314,8 @@ MonoBehaviour:
   - {fileID: 2038244559}
   - {fileID: 2038244558}
   - {fileID: 2038244551}
+  - {fileID: 2038244739}
+  - {fileID: 2038244738}
   - {fileID: 2038244709}
   suppressAllAutoSelections: 0
 --- !u!114 &2038244565
@@ -2326,7 +2331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 358.26587, y: 62.78497}
+  scrollPos: {x: 7.129596, y: 353.694}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 394
@@ -2337,8 +2342,12 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2038244549}
+  selectedCommands:
+  - {fileID: 2038244548}
+  - {fileID: 2038244547}
+  - {fileID: 2038244574}
   variables:
   - {fileID: 2038244683}
   - {fileID: 2038244649}
@@ -9044,6 +9053,60 @@ MonoBehaviour:
   storyText: Wow! This is really good!
   description: 
   character: {fileID: 2108244573}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2038244738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038244545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  storyText: (He's got animal ears...)
+  description: 
+  character: {fileID: 2108244573}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2038244739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038244545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  storyText: Owww....
+  description: 
+  character: {fileID: 1864316908}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

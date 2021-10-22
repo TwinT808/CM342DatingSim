@@ -1010,6 +1010,17 @@ GameObject:
   - component: {fileID: 981974385}
   - component: {fileID: 981974390}
   - component: {fileID: 981974391}
+  - component: {fileID: 981974392}
+  - component: {fileID: 981974397}
+  - component: {fileID: 981974396}
+  - component: {fileID: 981974395}
+  - component: {fileID: 981974394}
+  - component: {fileID: 981974393}
+  - component: {fileID: 981974400}
+  - component: {fileID: 981974399}
+  - component: {fileID: 981974398}
+  - component: {fileID: 981974402}
+  - component: {fileID: 981974401}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -1042,9 +1053,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 981974293}
+  - {fileID: 981974320}
   selectedCommands:
-  - {fileID: 981974301}
+  - {fileID: 981974401}
   variables:
   - {fileID: 981974361}
   - {fileID: 981974372}
@@ -1858,17 +1869,28 @@ MonoBehaviour:
   - {fileID: 981974344}
   - {fileID: 981974326}
   - {fileID: 981974370}
+  - {fileID: 981974397}
   - {fileID: 981974354}
   - {fileID: 981974333}
+  - {fileID: 981974392}
+  - {fileID: 981974396}
+  - {fileID: 981974395}
+  - {fileID: 981974394}
+  - {fileID: 981974393}
   - {fileID: 981974336}
   - {fileID: 981974343}
   - {fileID: 981974335}
+  - {fileID: 981974400}
+  - {fileID: 981974399}
   - {fileID: 981974386}
   - {fileID: 981974353}
   - {fileID: 981974342}
   - {fileID: 981974334}
+  - {fileID: 981974398}
   - {fileID: 981974340}
   - {fileID: 981974341}
+  - {fileID: 981974402}
+  - {fileID: 981974401}
   - {fileID: 981974360}
   - {fileID: 981974362}
   - {fileID: 981974367}
@@ -2225,16 +2247,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: If you like that I haveafewtomesIreallylikethinkyouwillenjoyorifyou'reintohistoryofmathorevenhistoryofhistoryIcanrecommendanautobiographyandanotherone-
+  storyText: 'if you like that I '
   description: 
   character: {fileID: 2115823981}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 183117078}
@@ -2280,7 +2302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: Oh..it seems I went off on a tangent, ahaha...sorry about that.
+  storyText: maybe I should grab that one for you-ah.
   description: 
   character: {fileID: 2115823981}
   portrait: {fileID: 0}
@@ -2454,8 +2476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: Whatever you did, thanks. I could use a snack after a long day. Let's
-    go before he notices.
+  storyText: Well whatever you did, thanks. I could use a snack after a long day.
   description: 
   character: {fileID: 1912788421}
   portrait: {fileID: 0}
@@ -2491,11 +2512,11 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 993830965}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 2
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
 --- !u!114 &981974343
@@ -2812,20 +2833,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
   character: {fileID: 2115823981}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c835f119979d85b48a112eb308d4134c, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1354885642}
+  toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 0
+  useDefaultSettings: 1
   fadeDuration: 0
   moveDuration: 2
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
 --- !u!114 &981974354
@@ -2842,8 +2863,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: -and there's this fascinating twelve part series about banshees and
-    succubi that I've just got in-
+  storyText: 'and there''s this fascinating twelve part series about banshees and
+    succubi that I''ve just got in '
   description: 
   character: {fileID: 2115823981}
   portrait: {fileID: 0}
@@ -3810,9 +3831,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: Ok so there's this book about witches brew that has origins of wolfsbane
-    that's fascinating or even this other book about how to find your perfect shade
-    of blue to go with your horoscope-
+  storyText: 'Ok so there''s this book about witches brew that has origins of wolfsbane
+    that''s fascinating or even this other book about how to find your perfect shade
+    of blue to go with your horoscope '
   description: 
   character: {fileID: 2115823981}
   portrait: {fileID: 0}
@@ -3821,7 +3842,7 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
+  waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 183117078}
@@ -4795,7 +4816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: Anyway, I'll let you go, Ishould probably close up for the day. Stop
+  storyText: Anyway, I'll let you go, I should probably close up for the day. Stop
     by anytime for a chat.
   description: 
   character: {fileID: 2115823981}
@@ -4920,6 +4941,289 @@ MonoBehaviour:
   itemId: 118
   indentLevel: 0
   storyText: By the way did you do something? Isaac looked annoyed.
+  description: 
+  character: {fileID: 1912788421}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 455870335}
+--- !u!114 &981974392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  storyText: haveafewtomesIreallylikethinkyouwillenjoyorifyou'reintohistoryofmathorevenhistoryofhistoryIcanrecommendanautobiographyandanotherone
+  description: 
+  character: {fileID: 2115823981}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 183117078}
+--- !u!114 &981974393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &981974394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &981974395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
+  storyText: (I'm gonna be here a while...)
+  description: 
+  character: {fileID: 1570987609}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 299649572}
+--- !u!114 &981974396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 1570987609}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 299649572}
+--- !u!114 &981974397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  storyText: Uhh...
+  description: 
+  character: {fileID: 1570987609}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 299649572}
+--- !u!114 &981974398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  storyText: Uh, um...
+  description: 
+  character: {fileID: 1570987609}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 299649572}
+--- !u!114 &981974399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  storyText: (You're telling me...)
+  description: 
+  character: {fileID: 1570987609}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 299649572}
+--- !u!114 &981974400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  storyText: It seems I went off on a tangent, ahaha...sorry about that.
+  description: 
+  character: {fileID: 2115823981}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 183117078}
+--- !u!114 &981974401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  storyText: Oh, right.
+  description: 
+  character: {fileID: 1570987609}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 299649572}
+--- !u!114 &981974402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981974290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  storyText: Let's go before he notices.
   description: 
   character: {fileID: 1912788421}
   portrait: {fileID: 0}
